@@ -20,7 +20,7 @@
                 ? reminder.image
                 : require('../../assets/icons/' +
                     (reminder.imageAlt || reminder.role) +
-                    '.png')
+                    '.svg')
             })`
           }"
         ></span>

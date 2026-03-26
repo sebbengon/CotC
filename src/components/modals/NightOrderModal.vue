@@ -46,7 +46,7 @@
                   ? role.image
                   : require('../../assets/icons/' +
                       (role.imageAlt || role.id) +
-                      '.svg')
+                      '.png')
               })`
             }"
           ></span>
@@ -71,7 +71,7 @@
                   ? role.image
                   : require('../../assets/icons/' +
                       (role.imageAlt || role.id) +
-                      '.svg')
+                      '.png')
               })`
             }"
           ></span>
