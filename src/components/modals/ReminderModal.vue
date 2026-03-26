@@ -20,7 +20,7 @@
                 ? reminder.image
                 : require('../../assets/icons/' +
                     (reminder.imageAlt || reminder.role) +
-                    '.svg')
+                    '.png')
             })`
           }"
         ></span>
@@ -83,7 +83,7 @@ export default {
       });
 
       reminders.push({ role: "good", name: "Lojal" });
-      reminders.push({ role: "evil", name: "Inkräktare" });
+      reminders.push({ role: "evil", name: "Bedragare" });
       reminders.push({ role: "custom", name: "Egen anteckning" });
       return reminders;
     },

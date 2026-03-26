@@ -45,8 +45,7 @@
                 role.image && grimoire.isImageOptIn
                   ? role.image
                   : require('../../assets/icons/' +
-                      (role.imageAlt || role.id) +
-                      '.png')
+                      (role.imageAlt || role.id) + '.png')
               })`
             }"
           ></span>
