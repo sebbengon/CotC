@@ -37,7 +37,7 @@
     <div class="bluffs" v-if="players.length" ref="bluffs" :class="{ closed: !isBluffsOpen }">
       <h3>
         <span v-if="session.isSpectator">Andra karaktärer</span>
-        <span v-else>Troninkräktarens bluffar</span>
+        <span v-else>Bluffar</span>
         <font-awesome-icon icon="times-circle" @click.stop="toggleBluffs" />
         <font-awesome-icon icon="plus-circle" @click.stop="toggleBluffs" />
       </h3>

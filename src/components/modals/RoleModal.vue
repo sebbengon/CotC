@@ -19,7 +19,7 @@
         >Utgåvans roller</span
       >
       <span class="button" :class="{ townsfolk: tab === 'otherTravelers' }" @click="tab = 'otherTravelers'"
-        >Andra Gäster</span
+        >Resenärer</span
       >
     </div>
   </Modal>

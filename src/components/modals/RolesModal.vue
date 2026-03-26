@@ -32,7 +32,7 @@
       <font-awesome-icon icon="exclamation-triangle" />
       <span>
         Varning: det finns utvalda karaktärer som ändrar speluppsättningen!
-        Slumpgeneratorn tar inte hänsyn till dessa markörer.
+        Slumpgeneratorn tar inte hänsyn till dessa karaktärer.
       </span>
     </div>
     <label class="multiple" :class="{ checked: allowMultiple }">
