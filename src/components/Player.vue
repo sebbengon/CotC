@@ -184,7 +184,7 @@
                 ? reminder.image
                 : require('../assets/icons/' +
                     (reminder.imageAlt || reminder.role) +
-                    '.svg')
+                    '.png')
             })`
           }"
         ></span>
