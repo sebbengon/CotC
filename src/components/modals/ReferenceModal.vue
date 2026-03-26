@@ -12,13 +12,13 @@
         <h4>
           {{
             team === 'townsfolk'
-              ? 'Adeln'
+              ? 'Stadsbo'
               : team === 'outsider'
-              ? 'Tjänare'
+              ? 'Lantbo'
               : team === 'minion'
-              ? 'Hantlangare'
+              ? 'Kumpan'
               : team === 'demon'
-              ? 'Troninkräktare'
+              ? 'HF'
               : ''
           }}
         </h4>
@@ -32,7 +32,7 @@
               backgroundImage: `url(${
                 role.image && grimoire.isImageOptIn
                   ? role.image
-                  : require('../../assets/icons/' + (role.imageAlt || role.id) + '.svg')
+                  : require('../../assets/icons/' + (role.imageAlt || role.id) + '.png')
               })`,
             }"
           ></span>
@@ -58,13 +58,13 @@
           <span
             class="icon"
             :style="{
-              backgroundImage: `url(${require('../../assets/icons/' + jinx.first.id + '.svg')})`,
+              backgroundImage: `url(${require('../../assets/icons/' + jinx.first.id + '.png')})`,
             }"
           ></span>
           <span
             class="icon"
             :style="{
-              backgroundImage: `url(${require('../../assets/icons/' + jinx.second.id + '.svg')})`,
+              backgroundImage: `url(${require('../../assets/icons/' + jinx.second.id + '.png')})`,
             }"
           ></span>
           <div class="role">
