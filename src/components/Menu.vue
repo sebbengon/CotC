@@ -59,7 +59,7 @@
 
         <template v-if="tab === 'grimoire'">
           <!-- Grimoire -->
-          <li class="headline">Hemlig bok</li>
+          <li class="headline">Rådets Kodex</li>
           <li @click="toggleGrimoire" v-if="players.length">
             <template v-if="!grimoire.isPublic">Göm</template>
             <template v-if="grimoire.isPublic">Visa</template>
@@ -187,7 +187,7 @@
           <!-- Characters -->
           <li class="headline">Karaktärer</li>
           <li v-if="!session.isSpectator" @click="toggleModal('edition')">
-            Välj Utgåva
+            Välj Manus
             <em>[E]</em>
           </li>
           <li
