@@ -51,19 +51,20 @@
     "setup": false,
     "ability": "En gång per spel, under dagen, välj en spelare offentligt: om de är Troninkräktaren kastas de ut från hovet."
   },
-  {
-    "id": "washerwoman",
-    "name": "Kammarmästare",
+{
+  "id": "washerwoman",
+    "name": "Pigan",
     "edition": "tb",
     "team": "townsfolk",
-    "firstNight": 48,
-    "firstNightReminder": "Visa karaktärsmarkören för en roll i Adeln i spel. Peka på två spelare, varav en är den karaktären.",
+    "firstNight": 33,
+    "firstNightReminder": "Visa Stadsbons karaktärskort. Peka på spelarna märkta STADSBO och FELAKTIG.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Adel", "Fel"],
+    "reminders": ["stadsbo",
+        "Felaktig"],
     "setup": false,
-    "ability": "Du börjar spelet med informationen att 1 av 2 spelare är en roll i Adeln."
-  },
+    "ability": "Första natten får du veta att 1 av 2 spelare är en viss Stadsbo"
+},
   {
     "id": "fortuneteller",
     "name": "Kansler",
