@@ -11,8 +11,8 @@
       <br />
       <em class="blue"> {{ voters.length }} röst{{ voters.length !== 1 ? 'er' : '' }} </em>
       för
-      <em v-if="nominee.role.team !== 'traveler'"> (majoritet är {{ Math.floor(alive / 2) + 1 }}) </em>
-      <em v-else>(majoritet är {{ Math.floor(players.length / 2) + 1 }})</em>
+      <em v-if="nominee.role.team !== 'traveler'"> (majoritet är {{ Math.floor(alive / 2) }}) </em>
+      <em v-else>(majoritet är {{ Math.floor(players.length / 2) }})</em>
 
       <template v-if="!session.isSpectator">
         <div v-if="!session.isVoteInProgress && session.lockedVote < 1">
