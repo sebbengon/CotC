@@ -820,7 +820,8 @@
     "firstNightReminder": "Filosofen kanske väljer en karaktär. Byt eventuellt ut karaktärsbrickan.",
     "otherNight": 2,
     "otherNightReminder": "Filosofen kanske väljer en karaktär. Byt eventuellt ut karaktärsbrickan.",
-    "reminders": ["Berusad",
+    "reminders": [],
+    "remindersGlobal": ["Berusad",
         "Är Filosofen"],
     "setup": false,
     "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk."
