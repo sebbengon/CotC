@@ -4,7 +4,7 @@
     v-if="modals.roles && nonTravelers >= 5"
     @close="toggleModal('roles')"
   >
-    <h3>Välj karaktär för {{ nonTravelers }} spelaren:</h3>
+    <h3>Välj karaktär för {{ nonTravelers }} spelare:</h3>
     <ul class="tokens" v-for="(teamRoles, team) in roleSelection" :key="team">
       <li class="count" :class="[team]">
         {{ teamRoles.reduce((a, { selected }) => a + selected, 0) }} /
