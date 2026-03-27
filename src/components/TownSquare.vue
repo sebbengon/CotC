@@ -10,7 +10,7 @@
   >
     <transition name="blur">
       <span id="fanfare-icon" v-if="session.isPlayFanfare">
-        <font-awesome-icon icon="crown" />
+        <font-awesome-icon icon="users" />
       </span>
     </transition>
     <ul class="circle" :class="['size-' + players.length]">
@@ -50,7 +50,7 @@
 
     <div class="fabled" :class="{ closed: !isFabledOpen }" v-if="fabled.length">
       <h3>
-        <span>Legender</span>
+        <span>Legendarer</span>
         <font-awesome-icon icon="times-circle" @click.stop="toggleFabled" />
         <font-awesome-icon icon="plus-circle" @click.stop="toggleFabled" />
       </h3>

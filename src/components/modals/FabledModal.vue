@@ -1,7 +1,7 @@
 <template>
   <Modal v-if="modals.fabled && fabled.length" @close="toggleModal('fabled')">
     <h3>
-      Välj Legender karaktärer att lägga till i spelet
+      Välj Legendarer att lägga till i spelet
     </h3>
     <ul class="tokens">
       <li v-for="role in fabled" :key="role.id" @click="setFabled(role)">

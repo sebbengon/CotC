@@ -32,11 +32,11 @@
       <a href="https://script.bloodontheclocktower.com/" target="_blank">Script Tool</a>
       och ladda upp det genererade "custom-list.json" direkt här eller via URL till en JSON fil.<br />
       <br />
-      To play with custom characters, please read
+      För att spela med custom karaktärer, läs
       <a href="https://github.com/bra1n/townsquare#custom-characters" target="_blank">the documentation</a>
-      on how to write a custom character definition file.
-      <b>Only load custom JSON files from sources that you trust!</b>
-      <h3>Some popular custom scripts:</h3>
+      om hur man skriver en custom karaktärs definitionsfil.
+      <b>Only ladda endast upp JSON filer från tillförlitliga källor!</b>
+      <h3>Några populära manus:</h3>
       <ul class="scripts">
         <li v-for="(script, index) in scripts" :key="index" @click="handleURL(script[1])">
           {{ script[0] }}

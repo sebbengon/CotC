@@ -703,7 +703,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You start knowing how many steps from the Demon to its nearest Minion."
+    "ability": "Första natten får du veta hur många steg det är från Högförädaren till närmsta Kumpan"
   },
   {
     "id": "dreamer",
@@ -711,9 +711,9 @@
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 42,
-    "firstNightReminder": "Drömmaren pekar på en spelare. Visa karaktärskortet av en Lojal och en Bedragare, varav den ena är den valda spelarens karaktär.",
+    "firstNightReminder": "Båtsmannen pekar på en spelare. Visa karaktärskortet av en Lojal och en Bedragare, varav den ena är den valda spelarens karaktär.",
     "otherNight": 56,
-    "otherNightReminder": "Drömmaren pekar på en spelare. Visa karaktärskortet av en Lojal och en Bedragare, varav den ena är den valda spelarens karaktär.",
+    "otherNightReminder": "Båtsmannen pekar på en spelare. Visa karaktärskortet av en Lojal och en Bedragare, varav den ena är den valda spelarens karaktär.",
     "reminders": [],
     "setup": false,
     "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct."

@@ -2,9 +2,9 @@
   {
     "id": "nobels",
     "alignment": "loyal",
-    "headline": "Adeln",
+    "headline": "Stadsbo",
     "paragraphs": [
-      "Dessa roller tillhör de Lojala laget. Har förmågor som hjälper de lojala med att antingen utföra saker eller få information."
+      "Dessa roller tillhör det Lojala laget. Har förmågor som hjälper de lojala med att antingen utföra saker eller få information."
     ]
   },
   {
@@ -45,19 +45,19 @@
   {
     "id": "confused",
     "alignment": "neutral",
-    "headline": "Förvirrad",
+    "headline": "Berusad",
     "paragraphs": [
-      "En spelare kan antingen vara förvirrad från början eller bli tillfälligt förvirrad på grund av sin eller någon annan rolls förmåga.",
-      "Är en spelare förvirrad så fungerar inte deras rolls förmåga, vad de försöker göra kommer inte att gå. Samt den informationen de får kan vara falsk, den behöver inte vara falsk men kommer oftast vara det.",
-      "Men spelaren kommer inte att få reda på att denne är förvirrad utan måste klura ut det själv. Så spelledaren kommer att agera som om spelaren inte var förvirrad men informationen den får är mest troligen falsk eller det den gör kommer inte fungera."
+      "En spelare kan antingen vara berusad från början eller bli tillfälligt förvirrad på grund av sin eller någon annan rolls förmåga.",
+      "Är en spelare berusad så fungerar inte deras rolls förmåga, vad de försöker göra kommer inte att gå. Samt den informationen de får kan vara falsk, den behöver inte vara falsk men kommer oftast vara det.",
+      "Men spelaren kommer inte att få reda på att denne är berusad utan måste klura ut det själv. Så spelledaren kommer att agera som om spelaren inte nykter men informationen den får är mest troligen falsk eller det den gör kommer inte fungera."
     ]
   },
   {
     "id": "banished",
     "alignment": "intruder",
-    "headline": "Förvisad från hovet",
+    "headline": "Förvisad",
     "paragraphs": [
-      "Förvisning sker endast på natten och görs av Troninkräktaren. En förvisad spelare är inte längre någon del av hovet."
+      "Förvisning sker på natten av Högförrädaren eller någon annan karaktär eller på dagen ut utröstning eller på grund av en karaktärs förmåga. En förvisad spelare är inte längre någon del av rådet."
     ]
   },
   {
@@ -66,21 +66,21 @@
     "headline": "Galen",
     "paragraphs": [
       "En spelare kan bli galen på grund av någon annan rolls förmåga.",
-      "En galen spelare är alltid galen över något specifikt och försöker då genuint övertyga gruppen om att det de är galen över är sant, även om det i verkligheten inte är sant. Om de inte försöker övertyga gruppen om det de är galna över så händer något dåligt deras lag."
+      "En galen spelare är alltid galen över något specifikt och försöker då genuint övertyga gruppen om att det de är galen över är sant, även om det i verkligheten inte är sant. Om de inte försöker övertyga gruppen om det de är galna över så händer något dåligt för deras lag."
     ]
   },
   {
     "id": "neighbor",
     "alignment": "neutral",
-    "headline": "Granne",
+    "headline": "Grannar/Granne i rådet",
     "paragraphs": [
-      "En spelares grannar är de två närmaste spelarna som sitter till höger och till vänster om spelaren och fortfarande är kvar i hovet. Så skulle spelaren direkt till höger vara utkastad ur hovet blir grannen spelaren där efter som är kvar i hovet."
+      "En spelares grannar är de två närmaste spelarna som sitter till höger och till vänster om spelaren. Grannar i rådet är de närmsta spelarna till höger och vänster som fortfarande är kvar i rådet. Så skulle spelaren direkt till höger vara förvisad blir grannen den spelare där efter som är kvar i rådet."
     ]
   },
   {
     "id": "guests",
     "alignment": "guest",
-    "headline": "Gäster",
+    "headline": "Resenärer",
     "paragraphs": [
       "Gästroller är för spelare som av någon anledning inte kan vara med under hela spelomgången, de antingen måste lämna innan spelet är slut eller kommer efter det har börjat. De kan komma och gå när som helst. De har ofta starka förmågor men får lite information.",
       "En gäst kan tillhöra vilket som av de båda lagen. Alla vet vilken roll de är, men bara spelaren själv vet vilket lag de tillhör. Om de är en del av inkräktarna så får de endast veta vem troninkräktaren är, inte hantlangarna."

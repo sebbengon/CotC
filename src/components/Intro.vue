@@ -3,15 +3,14 @@
     <img src="../assets/sitt-logo.svg" alt="" class="logo" />
     <div>
       Välkommen till den virtuella
-      <b>Tronsalen och de Kungliga Hemligheternas Bok</b> för Struggle in the
-      Tower! Lägg till fler spelare genom
+      <b>Övre salen och Klocktornets Kodex</b> för Council of the Clocktower! Lägg till fler spelare genom
       <span class="button" @click="toggleMenu">
         <font-awesome-icon icon="cog" /> Meny
       </span>
       uppe till höger eller genom att trycka <b>[A]</b>. Du kan också gå med i
       en spelsession genom att trycka på <b>[J]</b>.<br />
       <div class="footer">
-        Det här projektet är gratis och med öppen källkod samt en ny version med
+        Det här projektet är gratis och har öppen källkod samt en ny variant med
         nytt tema av spelet Blood on the Clocktower. Huvudrepo finns på
         <a href="https://github.com/bra1n/townsquare" target="_blank">GitHub</a
         >. Det är inte kopplat till Pandemonium Institute. "Blood on the
