@@ -1,7 +1,7 @@
 module.exports = store => {
   const updatePagetitle = isPublic =>
-    (document.title = `Struggle in the Tower ${
-      isPublic ? "Tronsal" : "Kungliga Hemligheternas Bok"
+    (document.title = `Council of the Clocktower ${
+      isPublic ? "Övre sal" : "Klockrådets Kodex"
     }`);
 
   // initialize data
