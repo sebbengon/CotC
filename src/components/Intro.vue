@@ -1,6 +1,6 @@
 <template>
   <div class="intro">
-    <img src="../assets/sitt-logo.svg" alt="" class="logo" />
+    <img src="../assets/cotc-logo.png" alt="" class="logo" />
     <div>
       Välkommen till den virtuella
       <b>Övre salen och Klocktornets Kodex</b> för Council of the Clocktower! Lägg till fler spelare genom
