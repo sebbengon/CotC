@@ -594,7 +594,7 @@
     "reminders": ["Förvisades idag",
         "Förvisad"],
     "setup": true,
-    "ability": "I början vet du vilka Lantbor som är i spel. Om en avsattes idag väljer du en spelare i natt som förvisas. [−1 eller +1 Lantbo]"
+    "ability": "Första natten får du veta vilka Lantbor som är i spel. Om en Lantbo avsattes och förvisades idag väljer du en spelare i natt som förvisas. [−1 eller +1 Lantbo]"
   },
   {
     "id": "devilsadvocate",
@@ -686,7 +686,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 28,
-    "otherNightReminder": "Jägmästaren får välja en spelare. Om Jägmästaren är märkt FÖRVISA 3X så väljer Po tre spelare.",
+    "otherNightReminder": "Jägmästaren får välja en spelare. Om Jägmästaren är märkt FÖRVISA 3X så väljer Jägmästaren tre spelare.",
     "reminders": ["Förvisad",
         "Förvisa 3X"],
     "setup": false,
@@ -716,7 +716,7 @@
     "otherNightReminder": "Båtsmannen pekar på en spelare. Visa karaktärskortet av en Lojal och en Bedragare, varav den ena är den valda spelarens karaktär.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct."
+    "ability": "Varje natt väljer du en spelare (inte dig själv eller Resenärer); du får veta en roll för en Lojal och en Bedragare som den kan vara."
   },
   {
     "id": "snakecharmer",
@@ -729,7 +729,7 @@
     "otherNightReminder": "Ormtjusaren väljer en spelare. Om den spelaren är Högförrädaren: Visa kortet DU ÄR och Högförrädarens karaktärskort. Visa tummen ner. Byt plats på Ormtjusarens och Högförrädarens karaktärsbrickor. Söv den före detta Ormtjusaren. Väck den före detta Högförrädaren. Visa kortet DU ÄR och Ormtjusarens karaktärskort. Visa tummen upp.",
     "reminders": ["Förgiftad"],
     "setup": false,
-    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned."
+    "ability": "Varje natt väljer du en spelare i rådet; en vald Högförrädare byter roll och tillhörighet med dig och blir förgiftad."
   },
   {
     "id": "mathematician",
@@ -742,7 +742,7 @@
     "otherNightReminder": "Visa fingersignal",
     "reminders": ["Onormal"],
     "setup": false,
-    "ability": "Each night, you learn how many players\u2019 abilities worked abnormally (since dawn) due to another character's ability."
+    "ability": "Varje natt får du veta hur många spelares förmågor som fungerat onormalt sedan gryningen p.g.a. andra spelares förmågor."
   },
   {
     "id": "flowergirl",
@@ -756,7 +756,7 @@
     "reminders": ["HF Röstade",
         "HF Röstade ej"],
     "setup": false,
-    "ability": "Each night*, you learn if a Demon voted today."
+    "ability": "Varje natt* får du veta om en Högförrädare röstade idag."
   },
   {
     "id": "towncrier",
@@ -770,7 +770,7 @@
     "reminders": ["Kumpan nominerade ej",
         "Kumpan Nominerade"],
     "setup": false,
-    "ability": "Each night*, you learn if a Minion nominated today."
+    "ability": "Varje natt* får du veta om en Kumpan nominerade idag."
   },
   {
     "id": "oracle",
@@ -783,7 +783,7 @@
     "otherNightReminder": "Visa fingersignal",
     "reminders": [],
     "setup": false,
-    "ability": "Each night*, you learn how many dead players are evil."
+    "ability": "Varje natt* får du veta hur många spelare i rådet som är Bedragare."
   },
   {
     "id": "savant",
@@ -796,7 +796,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false."
+    "ability": "Varje dag får du prata med berättaren privat och få två påståenden: ett sant och ett falskt."
   },
   {
     "id": "seamstress",
@@ -809,7 +809,7 @@
     "otherNightReminder": "Sömmerskan kanske väljer två spelare. Nicka eller skaka på huvudet.",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment."
+    "ability": "En gång per spel, på natten, kan du välja två spelare (inte dig själv); du får veta om de har samma tillhörighet."
   },
   {
     "id": "philosopher",
@@ -824,7 +824,7 @@
     "remindersGlobal": ["Berusad",
         "Är Filosofen"],
     "setup": false,
-    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk."
+    "ability": "En gång per spel, på natten, kan du välja en lojal roll; du får dess förmåga. Om rollen är i spel blir spelaren med den rollen berusad."
   },
   {
     "id": "artist",
@@ -837,7 +837,7 @@
     "otherNightReminder": "",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question."
+    "ability": "En gång per spel, på dagen, kan du privat ställa en ja/nej-fråga till berättaren."
   },
   {
     "id": "juggler",
@@ -850,7 +850,7 @@
     "otherNightReminder": "Visa fingersignal",
     "reminders": ["Korrekt"],
     "setup": false,
-    "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct."
+    "ability": "Din första dag kan du öppet gissa upp till 5 spelares roller. Den natten får du veta hur många rätt du hade."
   },
   {
     "id": "sage",
@@ -863,7 +863,7 @@
     "otherNightReminder": "Om Högförrädaren förvisade Upplysaren, väck Upplysaren och peka på två spelare varav den ena är Högförrädaren.",
     "reminders": [],
     "setup": false,
-    "ability": "If the Demon kills you, you learn that it is 1 of 2 players."
+    "ability": "Om Högförrädaren förvisar dig får du veta att Högförrädaren är en av två spelare."
   },
   {
     "id": "mutant",
@@ -876,7 +876,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If you are \u201Cmad\u201D about being an Outsider, you might be executed."
+    "ability": "Om du är \u201Cgalen\u201D över att du är en Lantbo kanske du blir förvisad."
   },
   {
     "id": "sweetheart",
@@ -889,7 +889,7 @@
     "otherNightReminder": "Om Bruden förvisades blev en spelare berusad direkt. Om du inte har markerat någon spelare än så gör det nu.",
     "reminders": ["Berusad"],
     "setup": false,
-    "ability": "When you die, 1 player is drunk from now on."
+    "ability": "När du blir förvisad blir en spelare berusad för resten av spelet."
   },
   {
     "id": "barber",
@@ -900,9 +900,9 @@
     "firstNightReminder": "",
     "otherNight": 40,
     "otherNightReminder": "Om Bildhuggaren förvisades idag eller inatt, visa Högförrädaren kortet DU VALDES AV och Bildhuggarens karaktärskort. Om Högförrädaren väljer två spelare, väck dem en i taget. Visa kortet DU ÄR och deras nya karaktärskort.",
-    "reminders": ["Bild Färdigställd"],
+    "reminders": ["Avbild"],
     "setup": false,
-    "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters."
+    "ability": "Om du förvisades idag eller i natt får Högförrädaren välja två spelare (inte en annan Högförrädare) som byter roll med varandra."
   },
   {
     "id": "klutz",
@@ -915,7 +915,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses."
+    "ability": "När du får veta att du förvisats väljer du öppet en spelare i rådet; om den är Bedragare förlorar ditt lag."
   },
   {
     "id": "eviltwin",
@@ -928,7 +928,7 @@
     "otherNightReminder": "",
     "reminders": ["Tvilling"],
     "setup": false,
-    "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live."
+    "ability": "Du och en motspelare vet om varandra. Om den Lojala avsätts och förvisas vinner Bedragarna. De Lojala kan inte vinna med båda kvar i rådet."
   },
   {
     "id": "witch",
@@ -936,12 +936,12 @@
     "edition": "snv",
     "team": "minion",
     "firstNight": 24,
-    "firstNightReminder": "Baronessan väljer en spelare. ",
+    "firstNightReminder": "Baronessan väljer en spelare.",
     "otherNight": 14,
-    "otherNightReminder": "If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "otherNightReminder": "Baronessan väljer en spelare.",
     "reminders": ["Hållhake"],
     "setup": false,
-    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability."
+    "ability": "Varje natt väljer du en spelare; om den nominerar imorgon förvisas den. Med bara tre spelare i rådet förlorar du denna förmåga"
   },
   {
     "id": "cerenovus",
@@ -949,12 +949,12 @@
     "edition": "snv",
     "team": "minion",
     "firstNight": 25,
-    "firstNightReminder": "Konspiratören väljer en spelare och en karaktär. Söv Konspiratören. Väck den valda spelaren. Visa kortet DU VALDES AV, Konspiratörens karaktärskort och sedan den valda rollens karaktärskort.",
+    "firstNightReminder": "Konspiratören väljer en spelare och en karaktär. Söv Konspiratören. Väck den valda spelaren. Visa kortet DU VALDES AV, Konspiratörens karaktärskort och sedan den valda karaktärskortet.",
     "otherNight": 15,
-    "otherNightReminder": "Konspiratören väljer en spelare och en karaktär. Söv Konspiratören. Väck den valda spelaren. Visa kortet DU VALDES AV, Konspiratörens karaktärskort och sedan den valda rollens karaktärskort.",
+    "otherNightReminder": "Konspiratören väljer en spelare och en karaktär. Söv Konspiratören. Väck den valda spelaren. Visa kortet DU VALDES AV, Konspiratörens karaktärskort och sedan den valda karaktärskortet.",
     "reminders": ["Galen"],
     "setup": false,
-    "ability": "Each night, choose a player & a good character: they are \u201Cmad\u201D they are this character tomorrow, or might be executed."
+    "ability": "Varje natt väljer du en spelare och en Lojal karaktär; den är \u201Cgalen\u201D om att den är den karaktären imorgon, annars kanske den avsätts."
   },
   {
     "id": "pithag",
@@ -964,10 +964,10 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 16,
-    "otherNightReminder": "Trollpackan väljer en spelare och en roll. Söv Trollpackan. Om den valda rollen inte är i spel: Väck den valda spelaren. Visa kortet DU ÄR och den nya rollbrickan.",
+    "otherNightReminder": "Omröraren väljer en spelare och en roll. Söv Omröraren. Om den valda karaktären inte är i spel: Väck den valda spelaren. Visa kortet DU ÄR och det nya karaktärskortet.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary."
+    "ability": "Varje natt* väljer du en spelare och en karaktär som den spelaren blir (om den inte är i spel). Om en Högförrädare väljs förvisas en spelare."
   },
   {
     "id": "fanggu",
@@ -981,7 +981,7 @@
     "reminders": ["Förvisad",
         "En gång"],
     "setup": true,
-    "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]"
+    "ability": "Varje natt* väljer du en spelare som förvisas. Första Lantbon som förvisas ersätter dig som Kammarherren. Du förvisas. [+1 Lantbo]"
   },
   {
     "id": "vigormortis",
@@ -996,7 +996,7 @@
         "Har Förmåga",
         "Förgiftad"],
     "setup": true,
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [\u22121 Outsider]"
+    "ability": "Varje natt* väljer du en spelare som förvisas. Kumpaner du förvisar behåller sin förmåga och förgiftar en Stadsbogranne. [−1 Lantbo]"
   },
   {
     "id": "nodashii",
@@ -1010,7 +1010,7 @@
     "reminders": ["Förvisad",
         "Förgiftad"],
     "setup": false,
-    "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned."
+    "ability": "Varje natt* väljer du en spelare som förvisas. Dina två Stadsbogrannar är förgiftade."
   },
   {
     "id": "vortox",
@@ -1023,7 +1023,7 @@
     "otherNightReminder": "Baronen väljer en spelare",
     "reminders": ["Förvisad"],
     "setup": false,
-    "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins."
+    "ability": "Varje natt* väljer du en spelare som förvisas. Stadsbors förmågor ger falsk info. Om ingen avsätts under en dag vinner troninkräktarna."
   },
   {
     "id": "highpriestess",

@@ -286,7 +286,7 @@ export default {
 .arrows {
   position: absolute;
   display: flex;
-  height: 150%;
+  height: 180%;
   width: 25%;
   pointer-events: none;
   span {
