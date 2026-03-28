@@ -4,7 +4,7 @@
     "alignment": "loyal",
     "headline": "Stadsbo",
     "paragraphs": [
-      "Dessa roller tillhör det Lojala laget. Har förmågor som hjälper de lojala med att antingen utföra saker eller få information."
+      "Dessa karaktärer tillhör det Lojala laget. Har förmågor som hjälper de lojala. Det finns karaktärer som vet något, som lär sig något och som gör något."
     ]
   },
   {
@@ -12,7 +12,7 @@
     "alignment": "neutral",
     "headline": "Berättare",
     "paragraphs": [
-      "Personen som leder spelet. Denne är ingen spelare utan helt neutral när det kommer till lagen Lojala och Inkräktare. Har då ett helt eget mål under spelets gång och det är att få spelet jämnt, roligt och spännande för spelarna.",
+      "Personen som leder spelet. Denne är ingen spelare utan helt neutral när det kommer till lagen Lojala och Bedragare. Har då ett helt eget mål under spelets gång och det är att få spelet jämnt, roligt och spännande för spelarna.",
       "Det är berättaren som sätter upp och förbereder spelet samt bestämmer när dagar slutar och nomineringar kan göras. Den delar ut information under natten samt tar beslut när och vad för falsk information som ges. Falsk information ges av berättaren med tanken att hjälpa det laget som då har det svårast."
     ]
   },
@@ -31,8 +31,8 @@
     "alignment": "neutral",
     "headline": "Förgiftad",
     "paragraphs": [
-      "Flera olika rollers förmågor kan göra en spelare förgiftad. Oftast håller en förgiftning i endast en natt och efterföljande dag.",
-      "Är en spelare förgiftad så fungerar inte deras rolls förmåga, vad de försöker göra kommer inte att gå. Samt den informationen de får kan vara falsk, den behöver inte vara falsk men kommer oftast vara det.",
+      "Flera olika karaktärers förmågor kan göra en spelare förgiftad. Oftast håller en förgiftning i endast en natt och efterföljande dag.",
+      "Är en spelare förgiftad så fungerar inte deras karaktärs förmåga, vad de försöker göra kommer inte att gå. Samt den informationen de får kan vara falsk, den behöver inte vara falsk men kommer oftast vara det.",
       "Men spelaren kommer inte att få reda på att denne är förgiftad utan måste klura ut det själv. Så spelledaren kommer att agera som om spelaren inte var förgiftad men informationen den får är mest troligen falsk eller det den gör kommer inte fungera."
     ]
   },
