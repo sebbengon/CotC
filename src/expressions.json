@@ -80,7 +80,7 @@
   {
     "id": "guests",
     "alignment": "guest",
-    "headline": "Resenärer",
+    "headline": "Resenär",
     "paragraphs": [
       "Gästroller är för spelare som av någon anledning inte kan vara med under hela spelomgången, de antingen måste lämna innan spelet är slut eller kommer efter det har börjat. De kan komma och gå när som helst. De har ofta starka förmågor men får lite information.",
       "En gäst kan tillhöra vilket som av de båda lagen. Alla vet vilken roll de är, men bara spelaren själv vet vilket lag de tillhör. Om de är en del av inkräktarna så får de endast veta vem troninkräktaren är, inte hantlangarna."
@@ -89,7 +89,7 @@
   {
     "id": "minions",
     "alignment": "intruder",
-    "headline": "Hantlangare",
+    "headline": "Kumpan",
     "paragraphs": [
       "Dessa roller tillhör laget inkräktarna. De börjar spelet med att få veta vem deras Troninkräktare är. De har förmågor som antingen hjälper troninkräktaren eller gör det svårare för de lojala."
     ]
@@ -97,7 +97,7 @@
   {
     "id": "court",
     "alignment": "neutral",
-    "headline": "Hovet",
+    "headline": "Rådet/Klockrådet",
     "paragraphs": [
       "En grupp av spelare. En spelare kan antingen:",
       "Tillhöra hovet och är då kvar i hovet. Vilket betyder att spelaren kan",
@@ -115,7 +115,7 @@
   {
     "id": "intruders",
     "alignment": "intruder",
-    "headline": "Inkräktare",
+    "headline": "Bedragare",
     "paragraphs": [
       "Laget som försöker ta över makten från den nuvarande kungen. Dessa är färre än de Lojala men vet vilka varandra är.",
       "Det finns två kategorier av inkräktarroller, Troninkräktaren och Hantlangare.",
@@ -125,7 +125,7 @@
   {
     "id": "book",
     "alignment": "neutral",
-    "headline": "Kungliga hemligheternas bok",
+    "headline": "Klockrådets Kodex",
     "paragraphs": [
       "Den bok/webbsida/surfplatta som innehåller berättarens alla hemligheter. Den är hemlig och förbjuden för alla spelare att se, om inte deras roll tillåter det."
     ]
@@ -133,7 +133,7 @@
   {
     "id": "legend",
     "alignment": "legend",
-    "headline": "Legend",
+    "headline": "Legendar",
     "paragraphs": [
       "Legender är till för berättaren. Var och en ändrar spelets villkor något och är vanligtvis med från början av spelet. Alla spelare får reda på att en Legend är i spel.",
       "Syftet med en Legend är att tillåta spelare att delta i spelet när de annars inte skulle kunna, eller att tillåta ett spel att fungera smidigt när det annars skulle vara ett problem i verkligheten. Legender fixar problem som ligger utanför de vanliga spelparametrarna."
@@ -178,7 +178,7 @@
   {
     "id": "role",
     "alignment": "neutral",
-    "headline": "Roll/Karaktär",
+    "headline": "Karaktär",
     "paragraphs": [
       "Varje spelare får en unik roll och varje roll har en förmåga. Det kan bara finnas en av varje roll i spel.",
       "Rollen tillhör en av de två lagen. Är färgen röd eller ljusröd så tillhör spelaren med rollen laget inkräktarna. Medans är färgen blå eller ljusblå så tillhör spelaren de lojala l laget."
@@ -203,7 +203,7 @@
   {
     "id": "servant",
     "alignment": "loyal",
-    "headline": "Tjänare",
+    "headline": "Lantbo",
     "paragraphs": [
       "Dessa roller tillhör de Lojala laget. Men har förmågor som kommer att leda till utmaningar och försvåra de lojalas uppgift i att utvisa troninkräktaren."
     ]
@@ -211,7 +211,7 @@
   {
     "id": "usurper",
     "alignment": "intruder",
-    "headline": "Troninkräktaren",
+    "headline": "Högförrädaren",
     "paragraphs": [
       "Denna roll tillhör inkräktarna. Troninkräktaren får reda på vilka dess hantlangare är när spelet börjar. Det kan bara finnas en troninkräktare per spelomgång. ",
       "Dess förmåga leder oftast till att de kan förvisa en spelare per natt. Är troninkräktaren en av två kvarvarande spelare i hovet så vinner Inkräktarna. "
@@ -220,7 +220,7 @@
   {
     "id": "thrownOut",
     "alignment": "neutral",
-    "headline": "Utkastad från hovet",
+    "headline": "Förvisad",
     "paragraphs": [
       "En spelare kan bli utkastad från hovet genom förvisning, utröstning eller andra förmågor. Utkastning leder till att spelaren inte längre är en del av hovet."
     ]
@@ -228,7 +228,7 @@
   {
     "id": "votedOut",
     "alignment": "neutral",
-    "headline": "Utröstad från hovet",
+    "headline": "Avsatt",
     "paragraphs": [
       "Utröstning görs av hovet under dagen genom en lyckad nominering. En utröstad spelare kastas ut och är då inte längre någon del av hovet."
     ]
