@@ -227,12 +227,12 @@
             <em><font-awesome-icon icon="file-code"/></em>
           </li>
           <li>
-            <a href="https://discord.gg/HgDhw6wUP" target="_blank">
-              Gå med i Discord
+            <a href="https://sebbengon.github.io/HowToPlay/" target="_blank">
+              How To Play
             </a>
             <em>
-              <a href="https://discord.gg/HgDhw6wUP" target="_blank">
-                <font-awesome-icon :icon="['fab', 'discord']" />
+              <a href="https://sebbengon.github.io/HowToPlay/" target="_blank">
+                <font-awesome-icon :icon="['book-open']" />
               </a>
             </em>
           </li>
