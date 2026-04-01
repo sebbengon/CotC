@@ -1052,7 +1052,7 @@
     "ability": "Varje dag kan du öppet gissa vilka spelare som är Kumpan(er) och Högförrädaren. Om du har rätt vinner de lojala."
   },
 {
-    "id": "svärmodern",
+    "id": "banshee",
     "name": "Svärmodern",
     "edition": "",
     "team": "townsfolk",
@@ -1222,7 +1222,7 @@
     "ability": "Each night, if the dead outnumber the living, you learn 1 alive character. The Demon knows who you are."
   },
   {
-    "id": "ballonist",
+    "id": "balloonist",
     "name": "Ballongfararen",
     "edition": "",
     "team": "townsfolk",
@@ -1426,7 +1426,7 @@
     "id": "snitch",
     "name": "Tjallaren",
     "edition": "",
-    "team": "townsfolk",
+    "team": "outsider",
     "firstNight": 7,
     "firstNightReminder": "After Minion info wake each Minion and show them three not-in-play character tokens. These may be the same or different to each other and the ones shown to the Demon.",
     "otherNight": 0,
@@ -1446,7 +1446,7 @@
     "otherNightReminder": "",
     "reminders": ["1", "2", "3"],
     "setup": false,
-    "ability": ""
+    "ability": "OK"
   },
 {
     "id": "ogre",
@@ -1459,7 +1459,7 @@
     "otherNightReminder": "",
     "reminders": ["Vän"],
     "setup": false,
-    "ability": ""
+    "ability": "ok"
   },
 {
     "id": "plaugedoctor",
@@ -1472,7 +1472,7 @@
     "otherNightReminder": "",
     "reminders": ["Berättaren har Förmåga"],
     "setup": false,
-    "ability": ""
+    "ability": "ok"
   },
 {
     "id": "hatter",
@@ -1485,7 +1485,7 @@
     "otherNightReminder": "",
     "reminders": [""],
     "setup": false,
-    "ability": ""
+    "ability": "ok"
   },
 {
     "id": "zealot",
@@ -1498,7 +1498,7 @@
     "otherNightReminder": "",
     "reminders": [""],
     "setup": false,
-    "ability": ""
+    "ability": "ok"
   },
   {
     "id": "puzzlemaster",
@@ -1578,7 +1578,7 @@
     "reminders": [""],
     "remindersGlobal": [""],
     "setup": false,
-    "ability": ""
+    "ability": "ok"
   },
 {
     "id": "wizard",
@@ -1592,7 +1592,7 @@
     "reminders": [""],
     "remindersGlobal": [""],
     "setup": false,
-    "ability": ""
+    "ability": "ok"
   },
 {
     "id": "xaan",
@@ -1606,7 +1606,7 @@
     "reminders": [""],
     "remindersGlobal": [""],
     "setup": false,
-    "ability": ""
+    "ability": "ok"
   },
 {
     "id": "wraith",
@@ -1620,7 +1620,7 @@
     "reminders": [""],
     "remindersGlobal": [""],
     "setup": false,
-    "ability": ""
+    "ability": "ok"
   },
 {
     "id": "summoner",
@@ -1634,7 +1634,7 @@
     "reminders": [""],
     "remindersGlobal": [""],
     "setup": false,
-    "ability": ""
+    "ability": "ok"
   },
 {
     "id": "vizier",
@@ -1648,7 +1648,7 @@
     "reminders": [""],
     "remindersGlobal": [""],
     "setup": false,
-    "ability": ""
+    "ability": "ok"
   },
 {
     "id": "organgrinder",
@@ -1662,7 +1662,7 @@
     "reminders": [""],
     "remindersGlobal": [""],
     "setup": false,
-    "ability": ""
+    "ability": "ok"
   },
 {
     "id": "boffin",
@@ -1676,7 +1676,7 @@
     "reminders": [""],
     "remindersGlobal": [""],
     "setup": false,
-    "ability": ""
+    "ability": "ok"
   },
   {
     "id": "widow",
@@ -1784,7 +1784,7 @@
     "reminders": ["Förvisad"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": ""
+    "ability": "test"
   },
  {
     "id": "ojo",
@@ -1798,7 +1798,7 @@
     "reminders": ["Förvisad"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": ""
+    "ability": "test"
   },
  {
     "id": "kazali",
@@ -1812,7 +1812,7 @@
     "reminders": ["Förvisad"],
     "remindersGlobal": [],
     "setup": true,
-    "ability": ""
+    "ability": "test"
   },
  {
     "id": "lordoftyphon",
@@ -1826,7 +1826,7 @@
     "reminders": ["Förvisad"],
     "remindersGlobal": [],
     "setup": true,
-    "ability": ""
+    "ability": "test"
   },
   {
     "id": "lilmonstra",
