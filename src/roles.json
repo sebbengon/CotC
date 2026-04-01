@@ -1065,7 +1065,7 @@
     "ability": "Om Högförrädaren förvisar dig får alla veta det. Därefter får du nominera två gånger per dag och rösta två gånger per nominering."
   },
 {
-    "id": "munken",
+    "id": "highpriestess",
     "name": "Munken",
     "edition": "",
     "team": "townsfolk",
@@ -1196,8 +1196,8 @@
     "ability": "Each night, you learn which alignment the Storyteller believes is winning: good, evil, or neither."
   },
   {
-    "id": "highpriestess",
-    "name": "Prästen",
+    "id": "_highpriestess",
+    "name": "_Munken",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 14,
