@@ -1829,7 +1829,7 @@
     "ability": "test"
   },
   {
-    "id": "lilmonstra",
+    "id": "lilmonsta",
     "name": "Lillprinsen",
     "edition": "",
     "team": "demon",
@@ -1858,7 +1858,7 @@
     "ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if & only if they die."
   },
   {
-    "id": "alhadikia",
+    "id": "alhadikhia",
     "name": "Rådgivaren",
     "edition": "",
     "team": "demon",
@@ -1887,7 +1887,7 @@
     "ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]"
   },
   {
-    "id": "leviatan",
+    "id": "leviathan",
     "name": "Gränsfursten",
     "edition": "",
     "team": "demon",
