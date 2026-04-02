@@ -2152,7 +2152,7 @@
     "firstNightReminder": "väljer en spelare",
     "otherNight": 40,
     "otherNightReminder": "väljer en spelare",
-    "reminders": [Röst -1],
+    "reminders": ["Röst -1"],
     "remindersGlobal": [],
     "setup": false,
     "ability": "Varje natt, välj en spelare. Deras röst räknas negativt"
