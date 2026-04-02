@@ -1106,7 +1106,7 @@
         "Högförrädare",
         "Resenär"],
     "setup": true,
-    "ability": "Varje natt får du veta en spelare med en annan rolltyp än igår. [+0 eller +1 Lantbo]"
+    "ability": "Varje natt får du veta en spelare med en annan rolltyp än igår. [+0 eller +1 Lantbo]"
   },
 {
     "id": "banshee",
@@ -1133,7 +1133,7 @@
     "otherNightReminder": "Om spelaren märkt KÄND förvisades idag eller inatt, peka på en ny spelare markerad KÄND.",
     "reminders": ["Känd"],
     "setup": true,
-    "ability": "I början vet du 1 spelare som är Bedragare.  Om den förvisas får du veta en annan Bedragare inatt. [1 Bybo är Bedragare]"
+    "ability": "I början vet du 1 spelare som är Bedragare.  Om den förvisas får du veta en annan Bedragare inatt. [1 Bybo är Bedragare]"
   },
 {
     "id": "cannibal",
@@ -1329,7 +1329,7 @@
     "otherNightReminder": "",
     "reminders": ["Känd"],
     "setup": false,
-    "ability": "I början vet du 3 spelare, varav exakt 1 är Bedragare."
+    "ability": "I början vet du 3 spelare, varav exakt 1 är Bedragare."
   },
 {
     "id": "pixie",
@@ -1343,7 +1343,7 @@
     "reminders": ["Galen",
         "Har Förmåga"],
     "setup": false,
-    "ability": "I början vet du 1 Bybo som är i spel. Om du är galen om att du är den karaktären får du dess förmåga när den förvisas."
+    "ability": "I början vet du 1 Bybo som är i spel. Om du är galen om att du är den karaktären får du dess förmåga när den förvisas."
   },
 {
     "id": "poppygrower",
@@ -1486,7 +1486,7 @@
     "otherNightReminder": "",
     "reminders": ["1", "2", "3"],
     "setup": true,
-    "ability": "Du har alla Lantbors förmågor. [−0 eller −1 Lantbo]"
+    "ability": "Du har alla Lantbors förmågor. [-0 eller -1 Lantbo]"
   },
 {
     "id": "ogre",
@@ -1552,7 +1552,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Varje Kumpan får 3 bluffar."
+    "ability": "Varje Kumpan får 3 bluffar."
   },
 {
     "id": "zealot",
@@ -1565,7 +1565,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Om det finns minst 5 spelare i rådet måste du alltid rösta för avsättning."
+    "ability": "Om det finns minst 5 spelare i rådet måste du alltid rösta för avsättning."
   },
 {
     "id": "boffin",
@@ -1592,7 +1592,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Om du avsätts och förvisas, förvisas alla utom 3 spelare. Efter en nedräkning från 10 till 1förvisas den spelare som flest pekar på."
+    "ability": "Om du avsätts och förvisas, förvisas alla utom 3 spelare. Efter en nedräkning från 10 till 1förvisas den spelare som flest pekar på."
   },
  {
     "id": "fearmonger",
@@ -1632,7 +1632,7 @@
     "reminders": ["Galen", "Den andra"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Varje natt väljer du 2 spelare; imorgon är den första galen om att den andra är Bedragare, annars kanske en eller båda förvisas."
+    "ability": "Varje natt väljer du 2 spelare; imorgon är den första galen om att den andra är Bedragare, annars kanske en eller båda förvisas."
   },
 {
     "id": "marionette",
@@ -1702,7 +1702,7 @@
     "reminders": ["Natt 1", "Natt 2", "Natt 3"],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "Du får 3 bluffar. Natt 3 väljer du en spelare; den blir Högförrädaren som du väljer. [Ingen Högförrädare]"
+    "ability": "Du får 3 bluffar. Natt 3 väljer du en spelare; den blir Högförrädaren som du väljer. [Ingen Högförrädare]"
   },
 {
     "id": "vizier",
@@ -1730,7 +1730,7 @@
     "reminders": ["Förgiftad"],
     "remindersGlobal": ["Känd"],
     "setup": false,
-    "ability": "Din första natt ser du Klockrådets Kodex och väljer en spelare; den är förgiftad. 1 Lojal spelare vet att Svarta Änkan är i spel."
+    "ability": "Din första natt ser du Klockrådets Kodex och väljer en spelare; den är förgiftad. 1 Lojal spelare vet att Svarta Änkan är i spel."
   },
 {
     "id": "wizard",
@@ -1741,7 +1741,7 @@
     "firstNightReminder": "Gör det som krävs för Profetens förmåga",
     "otherNight": 0,
     "otherNightReminder": "Gör det som krävs för Profetens förmåga",
-    "reminders": ["Ingen förmåga],
+    "reminders": ["Ingen förmåga"],
     "remindersGlobal": [],
     "setup": false,
     "ability": "En gång under spel får du önska dig något. Om önskan uppfylls kanske den får en kostnad och ger en ledtråd om sin natur."
@@ -1769,7 +1769,7 @@
     "firstNightReminder": "Om X är 1, märk Förpestaren med påminnelsen X.",
     "otherNight": 12,
     "otherNightReminder": "Byt ut Förpestarens påminnelse till den aktuella natten. Om det är natt X, märk istället Förpestaren med påminnelsen X",
-    "reminders": ["Natt 1", "Natt 2", "Natt 3", "Natt 4" "X"],
+    "reminders": ["Natt 1", "Natt 2", "Natt 3", "Natt 4" ,"X"],
     "remindersGlobal": [""],
     "setup": false,
     "ability": "På natt X är alla Bybor förgiftade till skymningen. [X Utbölingar]"
@@ -1787,7 +1787,7 @@
         "Förvisning",
         "I Rådet"],
     "setup": false,
-    "ability": "Varje natt* får du välja 3 spelare (alla spelare vet vilka); de väljer tyst att vara i rådet eller förvisas, men om alla väljer att vara i rådet förvisas alla tre."
+    "ability": "Varje natt* får du välja 3 spelare (alla spelare vet vilka); de väljer tyst att vara i rådet eller förvisas, men om alla väljer att vara i rådet förvisas alla tre."
   },
 {
     "id": "kazali",
@@ -1876,7 +1876,7 @@
     "reminders": ["Förvisad"],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "Varje natt* väljer du en spelare; den Förvisas. [Bedragarna sitter på rad; du är inte ytterst. +1 Kumpan. ±? Utbölingar]"
+    "ability": "Varje natt* väljer du en spelare; den Förvisas. [Bedragarna sitter på rad; du är inte ytterst. +1 Kumpan. ±? Utbölingar]"
   },
  {
     "id": "ojo",
@@ -1921,7 +1921,7 @@
   },
   {
     "id": "apprentice",
-    "name": "Namn",
+    "name": "Namn1",
     "edition": "",
     "team": "traveller",
     "firstNight":0,
@@ -1935,21 +1935,7 @@
   },
 {
     "id": "barista",
-    "name": "Namn",
-    "edition": "",
-    "team": "traveller",
-    "firstNight":0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "remindersGlobal": [],
-    "setup": false,
-    "ability": "Någontin händer här"
-  },
-{
-    "id": "beggar",
-    "name": "Namn",
+    "name": "Namn2",
     "edition": "",
     "team": "traveller",
     "firstNight":0,
@@ -1963,7 +1949,7 @@
   },
 {
     "id": "bishop",
-    "name": "Namn",
+    "name": "Namn4",
     "edition": "",
     "team": "traveller",
     "firstNight":0,
@@ -1977,21 +1963,7 @@
   },
 {
     "id": "bonecollector",
-    "name": "Namn",
-    "edition": "",
-    "team": "traveller",
-    "firstNight":0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "remindersGlobal": [],
-    "setup": false,
-    "ability": "Någontin händer här"
-  },
-{
-    "id": "bureaucrat",
-    "name": "Namn",
+    "name": "Namn5",
     "edition": "",
     "team": "traveller",
     "firstNight":0,
@@ -2005,7 +1977,7 @@
   },
 {
     "id": "butcher",
-    "name": "Namn",
+    "name": "Namn7",
     "edition": "",
     "team": "traveller",
     "firstNight":0,
@@ -2019,7 +1991,7 @@
   },
 {
     "id": "cacklejack",
-    "name": "Namn",
+    "name": "Namn8",
     "edition": "",
     "team": "traveller",
     "firstNight":0,
@@ -2033,7 +2005,7 @@
   },
 {
     "id": "deviant",
-    "name": "Namn",
+    "name": "Namn9",
     "edition": "",
     "team": "traveller",
     "firstNight":0,
@@ -2047,7 +2019,7 @@
   },
 {
     "id": "gangster",
-    "name": "Namn",
+    "name": "Namn0",
     "edition": "",
     "team": "traveller",
     "firstNight":0,
@@ -2061,21 +2033,7 @@
   },
 {
     "id": "gnome",
-    "name": "Namn",
-    "edition": "",
-    "team": "traveller",
-    "firstNight":0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "remindersGlobal": [],
-    "setup": false,
-    "ability": "Någontin händer här"
-  },
-{
-    "id": "gunslinger",
-    "name": "Namn",
+    "name": "Namn12",
     "edition": "",
     "team": "traveller",
     "firstNight":0,
@@ -2089,7 +2047,7 @@
   },
 {
     "id": "harlot",
-    "name": "Namn",
+    "name": "Namn14",
     "edition": "",
     "team": "traveller",
     "firstNight":8,
@@ -2130,36 +2088,8 @@
     "ability": "Varje dag får du välja upp till 3 par spelare som byter plats med varandra. Spelare får inte lämna sina platser för privata samtal."
   },
 {
-    "id": "scapegoat",
-    "name": "Syndabocken",
-    "edition": "",
-    "team": "traveller",
-    "firstNight":0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "remindersGlobal": [],
-    "setup": false,
-    "ability": "Om en spelare med samma tillhörighet som du blir avsatt och förvisad kanske du blir förvisad istället"
-  },
-{
-    "id": "thief",
-    "name": "Tjuven",
-    "edition": "",
-    "team": "traveller",
-    "firstNight":20,
-    "firstNightReminder": "väljer en spelare",
-    "otherNight": 40,
-    "otherNightReminder": "väljer en spelare",
-    "reminders": ["Röst -1"],
-    "remindersGlobal": [],
-    "setup": false,
-    "ability": "Varje natt, välj en spelare. Deras röst räknas negativt"
-  },
-{
     "id": "voudon",
-    "name": "Namn",
+    "name": "Namn15",
     "edition": "",
     "team": "traveller",
     "firstNight":0,
