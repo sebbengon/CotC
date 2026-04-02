@@ -1512,7 +1512,7 @@
     "otherNightReminder": "",
     "reminders": ["Berättaren har Förmåga"],
     "setup": false,
-    "ability": "ok"
+    "ability": "När du förvisas får Berättaren en Kumpanförmåga."
   },
   {
     "id": "politician",
@@ -1573,13 +1573,13 @@
     "edition": "",
     "team": "minion",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": "Väck Förfalskaren och Högförrädaren. Visa dem DU VALDES AV och Förfalskarens karaktärskort, sedan den Lojala käraltärens kort.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [""],
     "remindersGlobal": [""],
     "setup": false,
-    "ability": "ok"
+    "ability": "Högförrädaren (även om den är berusad/förgiftad) har en Lojal karaktärs förmåga (som inte  är i spel). Ni vet båda vilken."
   },
 {
     "id": "boomdandy",
@@ -1592,7 +1592,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If you are executed, all but 3 players die. 1 minute later, the player with the most players pointing at them dies."
+    "ability": "Om du avsätts och förvisas, förvisas alla utom 3 spelare. Efter en nedräkning från 10 till 1förvisas den spelare som flest pekar på."
   },
  {
     "id": "fearmonger",
@@ -1600,12 +1600,12 @@
     "edition": "",
     "team": "minion",
     "firstNight": 26,
-    "firstNightReminder": "The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
+    "firstNightReminder": "Orosstiftaren väljer en spelare.  Meddela att Orosstiftaren har valt en spelare.",
     "otherNight": 17,
-    "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
+    "otherNightReminder": "Orosstiftaren väljer en spelare.  Om den valda spelaren är en annan än igår så meddela att Orosstftaren har valt en spelare.",
     "reminders": ["Fear"],
     "setup": false,
-    "ability": "Each night, choose a player. If you nominate & execute them, their team loses. All players know if you choose a new player."
+    "ability": "Varje natt väljer du en spelare; om du nominerar och avsätter den så förlorar spelarens lag. Alla vet om du väljer en ny spelare."
   },
 {
     "id": "goblin",
@@ -1616,23 +1616,23 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Claimed"],
+    "reminders": ["Upplyst"],
     "setup": false,
-    "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins."
+    "ability": "Om du öppet säger att du är Oäktingen när du nomineras, och därefter avsätts och förvisas, så vinner ditt lag."
   },
   {
     "id": "harpy",
     "name": "Förtalaren",
     "edition": "",
     "team": "minion",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [""],
-    "remindersGlobal": [""],
+    "firstNight": 25,
+    "firstNightReminder": "Förtalaren väljer två spelare.   Söv Förtalaren. Väck den första spelaren. Visa kortet DU VALDES AV och Förtalarens karaktärskort, och peka sedan på den andra spelaren.",
+    "otherNight": 18,
+    "otherNightReminder": "Förtalaren väljer två spelare.   Söv Förtalaren. Väck den första spelaren. Visa kortet DU VALDES AV och Förtalarens karaktärskort, och peka sedan på den andra spelaren.",
+    "reminders": ["Galen", "Den andra"],
+    "remindersGlobal": [],
     "setup": false,
-    "ability": "ok"
+    "ability": "Varje natt väljer du 2 spelare; imorgon är den första galen om att den andra är Bedragare, annars kanske en eller båda förvisas."
   },
 {
     "id": "marionette",
@@ -1640,13 +1640,13 @@
     "edition": "",
     "team": "minion",
     "firstNight": 12,
-    "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
+    "firstNightReminder": "Väck Högförrädaren. Visa kortet DEN HÄR SPELAREN ÄR och Marionettens rollbricka. Peka på Marionetten.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": ["Is the Marionette"],
     "setup": true,
-    "ability": "You think you are a good character but you are not. The Demon knows who you are. [You neighbour the Demon]"
+    "ability": "Du tror att du är en Lojal karaktär, men det är du inte. Högförrädaren vet vem du är. [Granne med Högförrädaren]"
   },
  {
     "id": "mezepheles",
@@ -1654,27 +1654,28 @@
     "edition": "",
     "team": "minion",
     "firstNight": 27,
-    "firstNightReminder": "Show the Mephit their secret word.",
+    "firstNightReminder": "Visa det hemliga ordet.",
     "otherNight": 18,
-    "otherNightReminder": "Wake the 1st good player that said the Mephit's secret word and show them the 'You are' card and the thumbs down evil signal.",
-    "reminders": ["Turns evil",
-        "No ability"],
+    "otherNightReminder": "Om en Lojal spelare sa det hemliga ordet, väck den spelaren. Visa kortet DU ÄR och ge tummen ner.",
+    "reminders": ["Blir Bedragare",
+        "Ingen förmåga"],
     "setup": false,
-    "ability": "You start knowing a secret word. The 1st good player to say this word becomes evil that night."
+    "ability": "Första natten får du veta ett hemligt ord. Den första Lojala spelaren som säger ordet blir Bedragare den natten."
   },
 {
     "id": "organgrinder",
     "name": "Förblindaren",
     "edition": "",
     "team": "minion",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [""],
-    "remindersGlobal": [""],
+    "firstNight": 25,
+    "firstNightReminder": "Förblindaren nickar för att vara berusad, eller skakar på huvudet för att vara nykter.",
+    "otherNight": 16,
+    "otherNightReminder": "Förblindaren nickar för att vara berusad, eller skakar på huvudet för att vara nykter.",
+    "reminders": ["Berusad"],
+    "remindersGlobal": [],
+    "blindvote": true,
     "setup": false,
-    "ability": "ok"
+    "ability": "Alla spelare blundar vid röstning och resultatet är hemligt. Varje natt väljer du om du ska vara berusad till skymningen."
   },
 {
     "id": "psychopath",
@@ -1687,35 +1688,35 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo."
+    "ability": "Varje dag innan nomineringar får du öppet välja en spelare; den Förvisas. Om du avsätts förvisas du bara om du förlorar sten-sax-påse."
   },
 {
     "id": "summoner",
     "name": "Rekryteraren",
     "edition": "",
     "team": "minion",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [""],
-    "remindersGlobal": [""],
-    "setup": false,
-    "ability": "ok"
+    "firstNight": 6,
+    "firstNightReminder": "Visa kortet DE HÄR ROLLERNA ÄR INTE I SPEL. Visa 3 Lojala karaktärskort som inte är i spel.",
+    "otherNight": 25,
+    "otherNightReminder": "Byt ut Rekryterarens påminnelse till den aktuella natten.  Om det är natt 3 så väljer Rekryteraren en spelare och en Högförrädare. Söv Rekryteraren. Väck den valda spelaren. Visa kortet DU ÄR, tummen ner och den valda Högförrädarens karaktärskort.",
+    "reminders": ["Natt 1", "Natt 2", "Natt 3"],
+    "remindersGlobal": [],
+    "setup": true,
+    "ability": "Du får 3 bluffar. Natt 3 väljer du en spelare; den blir Högförrädaren som du väljer. [Ingen Högförrädare]"
   },
 {
     "id": "vizier",
     "name": "Inkvisitorn",
     "edition": "",
     "team": "minion",
-    "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNight": 54,
+    "firstNightReminder": "Meddela vem som är Inkvisitorn",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [""],
-    "remindersGlobal": [""],
+    "reminders": [],
+    "remindersGlobal": [],
     "setup": false,
-    "ability": "ok"
+    "ability": "Alla vet att du är Inkvisitorn. Du kan inte förvisas på dagen. Om någon Lojal röstade får du välja att avsätta någon direkt."
   },
   {
     "id": "widow",
@@ -1723,55 +1724,55 @@
     "edition": "",
     "team": "minion",
     "firstNight": 18,
-    "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
+    "firstNightReminder": "Visa Klockrådets Kodex så länge Svarta Änkan behöver. Svarta Änkan väljer en spelare.  Söv Svarta Änkan. Väck spelaren märkt KÄND och visa Svarta Änkans karaktärskort. ",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Poisoned"],
-    "remindersGlobal": ["Knows"],
+    "reminders": ["Förgiftad"],
+    "remindersGlobal": ["Känd"],
     "setup": false,
-    "ability": "On your 1st night, look at the Grimoire and choose a player: they are poisoned. 1 good player knows a Widow is in play."
+    "ability": "Din första natt ser du Klockrådets Kodex och väljer en spelare; den är förgiftad. 1 Lojal spelare vet att Svarta Änkan är i spel."
   },
 {
     "id": "wizard",
     "name": "Profeten",
     "edition": "",
     "team": "minion",
-    "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNight": 18,
+    "firstNightReminder": "Gör det som krävs för Profetens förmåga",
     "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [""],
-    "remindersGlobal": [""],
+    "otherNightReminder": "Gör det som krävs för Profetens förmåga",
+    "reminders": ["Ingen förmåga],
+    "remindersGlobal": [],
     "setup": false,
-    "ability": "ok"
+    "ability": "En gång under spel får du önska dig något. Om önskan uppfylls kanske den får en kostnad och ger en ledtråd om sin natur."
   },
 {
     "id": "wraith",
     "name": "Myglaren",
     "edition": "",
     "team": "minion",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
+    "firstNight": 3,
+    "firstNightReminder": "Väck myglaren med andra bedragare",
+    "otherNight": 3,
+    "otherNightReminder": "Väck myglaren med andra bedragare",
     "reminders": [""],
     "remindersGlobal": [""],
     "setup": false,
-    "ability": "ok"
+    "ability": "Du får öppna ögonen på natten. Du vaknar med andra Bedragare."
   },
 {
     "id": "xaan",
     "name": "Förpestaren",
     "edition": "",
     "team": "minion",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [""],
+    "firstNight": 18,
+    "firstNightReminder": "Om X är 1, märk Förpestaren med påminnelsen X.",
+    "otherNight": 12,
+    "otherNightReminder": "Byt ut Förpestarens påminnelse till den aktuella natten. Om det är natt X, märk istället Förpestaren med påminnelsen X",
+    "reminders": ["Natt 1", "Natt 2", "Natt 3", "Natt 4" "X"],
     "remindersGlobal": [""],
     "setup": false,
-    "ability": "ok"
+    "ability": "På natt X är alla Bybor förgiftade till skymningen. [X Utbölingar]"
   },
 {
     "id": "alhadikhia",
