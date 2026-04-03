@@ -1347,7 +1347,7 @@
   },
 {
     "id": "poppygrower",
-    "name": "Odalaren",
+    "name": "Odlaren",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 4,
@@ -1503,7 +1503,7 @@
   },
 {
     "id": "plaguedoctor",
-    "name": "Pästläkaren",
+    "name": "Pestläkaren",
     "edition": "",
     "team": "outsider",
     "firstNight": 0,
