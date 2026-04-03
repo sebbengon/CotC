@@ -1895,7 +1895,7 @@
   },
   {
     "id": "beggar",
-    "name": "Tiggaren",
+    "name": "Drängen",
     "edition": "",
     "team": "traveler",
     "firstNight": 0,
@@ -1935,7 +1935,7 @@
   },
 {
     "id": "barista",
-    "name": "Namn2",
+    "name": "Servitrisen",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
@@ -1949,7 +1949,7 @@
   },
 {
     "id": "bishop",
-    "name": "Herden",
+    "name": "Föreståndaren",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
@@ -1991,7 +1991,7 @@
   },
 {
     "id": "cacklejack",
-    "name": "Namn8",
+    "name": "Teknologen",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
@@ -2005,7 +2005,7 @@
   },
 {
     "id": "deviant",
-    "name": "Namn9",
+    "name": "Skojaren",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
@@ -2019,7 +2019,7 @@
   },
 {
     "id": "gangster",
-    "name": "Namn0",
+    "name": "Landstrykaren",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
@@ -2047,7 +2047,7 @@
   },
 {
     "id": "harlot",
-    "name": "Namn14",
+    "name": "Sångerskan",
     "edition": "",
     "team": "traveler",
     "firstNight":8,
@@ -2075,7 +2075,7 @@
   },
 {
     "id": "matron",
-    "name": "Föreståndarinnan",
+    "name": "Magistern",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
@@ -2089,7 +2089,7 @@
   },
 {
     "id": "voudon",
-    "name": "Namn15",
+    "name": "Förmyndaren",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
