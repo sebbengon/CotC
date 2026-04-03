@@ -1856,7 +1856,7 @@
   },
 {
     "id": "bureaucrat",
-    "name": "Byråkrat",
+    "name": "Byråkraten",
     "edition": "",
     "team": "traveler",
     "firstNight": 8,
@@ -1869,7 +1869,7 @@
   },
   {
     "id": "gunslinger",
-    "name": "Medborgargarde",
+    "name": "Väktaren",
     "edition": "",
     "team": "traveler",
     "firstNight": 0,
@@ -1882,7 +1882,7 @@
   },
   {
     "id": "scapegoat",
-    "name": "Syndabock",
+    "name": "Syndabocken",
     "edition": "",
     "team": "traveler",
     "firstNight": 0,
@@ -1895,7 +1895,7 @@
   },
   {
     "id": "beggar",
-    "name": "Tiggare",
+    "name": "Tiggaren",
     "edition": "",
     "team": "traveler",
     "firstNight": 0,
@@ -1908,7 +1908,7 @@
   },
   {
     "id": "thief",
-    "name": "Tjuv",
+    "name": "Tjuven",
     "edition": "",
     "team": "traveler",
     "firstNight": 9,
@@ -1921,7 +1921,7 @@
   },
   {
     "id": "apprentice",
-    "name": "Namn1",
+    "name": "Lärlingen",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
@@ -1949,7 +1949,7 @@
   },
 {
     "id": "bishop",
-    "name": "Namn4",
+    "name": "Herden",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
@@ -1963,7 +1963,7 @@
   },
 {
     "id": "bonecollector",
-    "name": "Namn5",
+    "name": "Arkiologen",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
