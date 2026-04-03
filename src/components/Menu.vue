@@ -142,6 +142,10 @@
               Spela fanfar
               <em><font-awesome-icon icon="theater-masks"/></em>
             </li>
+            <li v-if="!session.isSpectator" @click="poke">
+              Peka
+              <em><font-awesome-icon icon="hand-point-up"/></em>
+              </li>
             <li v-if="session.ping">
               Fördröj till {{ session.isSpectator ? "värden" : "spelarna" }}
               <em>{{ session.ping }}ms</em>
@@ -317,6 +321,8 @@ export default {
       //   audio.volume = 0.2
       //   audio.play()
       // }
+    },
+    poke() {
     },
     imageOptIn() {
       const popup =
