@@ -231,14 +231,9 @@
             <em><font-awesome-icon icon="file-code"/></em>
           </li>
           <li>
-            <a href="https://sebbengon.github.io/HowToPlay/" target="_blank">
+            <a href="https://sebbengon.github.io/HowToPlay/" target="_blank"></a>
               How To Play
-            </a>
-            <em>
-              <a href="https://sebbengon.github.io/HowToPlay/" target="_blank">
-                <font-awesome-icon :icon="bookopen" />
-              </a>
-            </em>
+            <em><font-awesome-icon icon="book-open"/></em>
           </li>
           <li>
             <span>Version 1.1.0</span>
