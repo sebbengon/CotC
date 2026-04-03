@@ -233,8 +233,8 @@
           <li>
             <a href="https://sebbengon.github.io/HowToPlay/" target="_blank">
               How To Play
-            <em><font-awesome-icon icon="book-open"/></em>
-            </a>
+           </a>
+            <em><font-awesome-icon icon="book-open"/></em>           
           </li>
           <li>
             <span>Version 1.1.0</span>
