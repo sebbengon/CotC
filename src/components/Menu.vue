@@ -144,7 +144,7 @@
             </li>
             <li v-if="!session.isSpectator" @click="poke">
               Peka
-              <em><font-awesome-icon icon="hand-point-up"/></em>
+              <em><font-awesome-icon icon="hand-point-right"/></em>
               </li>
             <li v-if="session.ping">
               Fördröj till {{ session.isSpectator ? "värden" : "spelarna" }}
