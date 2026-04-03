@@ -232,7 +232,7 @@
             </a>
             <em>
               <a href="https://sebbengon.github.io/HowToPlay/" target="_blank">
-                <font-awesome-icon :icon="book-open" />
+                <font-awesome-icon :icon="bookopen" />
               </a>
             </em>
           </li>
