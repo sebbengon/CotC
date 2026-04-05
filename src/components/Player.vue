@@ -143,6 +143,10 @@
               <font-awesome-icon icon="chair" />
               Tom plats
             </li>
+            <li v-if="player.role && player.role.menueopt && player.role.menueopt.includes('spying')">
+            <font-awesome-icon icon="cog" />
+            Visa Kodex
+            </li>
             <template v-if="!session.nomination">
               <li @click="nominatePlayer()">
                 <font-awesome-icon icon="hand-point-right" />
