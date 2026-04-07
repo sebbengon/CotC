@@ -1,6 +1,7 @@
-# Council the Clocktower Storybook & Clockroom
+# Council of the Clocktower Storybook & Clockroom
+(Blood on the Clocktower variant)
 
-This is an unofficial online tool to run Council the Clocktower games through Discord or other digital means.
+This is an online tool to run Council the Clocktower  games through Discord or other digital means.
 It is supposed to aid storytellers and players by allowing them to quickly set up games, run votes and much more.
 
 ### Custom Script Support
