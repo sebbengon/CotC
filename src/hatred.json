@@ -1,362 +1,646 @@
 [
   {
-    "id": "Chambermaid",
+    "id": "alchemist",
     "hatred": [
       {
-        "id": "Mathematician",
-        "reason": "The Chambermaid learns if the Mathematician wakes tonight or not, even though the Chambermaid wakes first."
+        "id": "boffin",
+        "reason": "Om Alkemisten har Förfalskarens förmåga så får Alkemisten inte veta vilken förmåga Högförrädaren har."
+      },
+ {
+        "id": "marionette",
+        "reason": "En Alkemist-Marionett har inte Marionettens förmåga och Marionetten är i spel."
+      },
+ {
+        "id": "mastermind",
+        "reason": "En Alkemist-Konspiratör har inte Konspiratörens förmåga och Konspiratören är inte i spel."
+      },
+ {
+        "id": "organgrinder",
+        "reason": "Om Alkemisten har Förblindarens förmåga så är Förblindaren i spel, och om båda är nyktra så är båda berusade."
+      },
+ {
+        "id": "spy",
+        "reason": "En Alkemist-Spion har inte Spionens förmåga och Spionen är i spel. Efter varje avsättning får Alkemist-Spionen öppet gissa vilken spelare i rådet som är Spionen. Om den gissar rätt måste Högförrädaren förvisa/välja Spionen inatt."
+      },
+ {
+        "id": "summoner",
+        "reason": "En Alkemist-Rekryterare får inga bluffar, och väljer Högförrädare men inte spelare. Om den förvisas innan det händer så vinner Bedragarns. [Ingen Högförrädare]"
+      },
+ {
+        "id": "wraith",
+        "reason": "Efter varje avsättning får den levande Alkemist-Myglare öppet gissa vilken spelare i rådet som är Myglaren. Om den gissar rätt måste Högförrädaren förvisa/välja Myglaren inatt."
+      },
+ {
+        "id": "widow",
+        "reason": "En Alkemist-Svarta Änka har inte Svarta Änkans förmåga och Svarta Änkan är i spel. Efter varje avsättning får Alkemist-Svarta Änkan öppet gissa vilken levande spelare som är Änkan. Om hen gissar rätt måste Högförrädaren förvisa/välja Svarta Änkan inatt."
       }
     ]
   },
-  {
-    "id": "Butler",
+{
+    "id": "bountyhunter",
     "hatred": [
       {
-        "id": "Cannibal",
-        "reason": "If the Cannibal gains the Butler ability, the Cannibal learns this."
+        "id":"kazali",
+        "reason": "Om Hovmästaren gör Slaktaren till en Kumpan så blir ingen Stadsbo bedragare av Slaktarens förmåga."
+      },
+{
+        "id":"philosopher",
+        "reason": "Om Filosofen får Slaktarens förmåga så kanske en Stadsbo blir Bedragare."
       }
     ]
   },
-  {
-    "id": "Lunatic",
+{
+    "id": "cannibal",
     "hatred": [
       {
-        "id": "Mathematician",
-        "reason": "The Mathematician learns if the Lunatic attacks a different player(s) than the real Demon attacked."
+        "id": "butler",
+        "reason": "Om Andrafiolen får Betjäntens förmåga så får Andrafiolen veta det."
+      },
+{
+        "id": "juggler",
+        "reason": "Om Gycklaren gissar på första dagen och blir avsatt och förvisas så får Andrafiolen inatt veta hur många rätt Gycklaren hade."
+      },
+{
+        "id": "princess",
+        "reason": "Om Andrafiolen nominerade, avsättade och förvisade Prinsessan idag så kan Högförrädaren inte förvisa inatt."
+      },
+{
+        "id": "zealot",
+        "reason": "Om Andrafiolen får Eldsjälens förmåga så får Andrafiolen veta det."
       }
     ]
   },
-  {
-    "id": "Pit-Hag",
+{
+    "id": "mathemtician",
     "hatred": [
       {
-        "id": "Heretic",
-        "reason": "A Pit-Hag can not create a Heretic. "
+        "id": "chambermaid",
+        "reason": "Hushållerskan får veta om Matematikern kommer att vakna inatt."
       },
-      {
-        "id": "Damsel",
-        "reason": "If a Pit-Hag creates a Damsel, the Storyteller chooses which player it is."
+{
+        "id": "drunk",
+        "reason": "Matematikern kanske får veta om Byfånens förmåga gav falsk info eller inte fungerade korrekt."
       },
-      {
-        "id": "Politician",
-        "reason": "A Pit-hag can not create an evil Politician."
+{
+        "id": "lunatic",
+        "reason": "Matematikern kanske får veta om Galningen väljer någon annan än Högförrädaren väljer."
+      },
+{
+        "id": "marionette",
+        "reason": "Matematikern kanske får veta om Marionettens förmåga gav falsk info eller inte fungerade korrekt."
       }
     ]
   },
-  {
-    "id": "Cerenovus",
+{
+    "id": "magician",
     "hatred": [
       {
-        "id": "Goblin",
-        "reason": "The Cerenovus may choose to make a player mad that they are the Goblin."
+        "id": "legion",
+        "reason": "Infiltratören vaknar med Pöbelhopen och kanske registreras som Bedragare. Pöbelhopen vet ifall Infiltratören är i spel, men inte vilken spelare det är."
+      },
+{
+        "id": "marionette",
+        "reason": "Om Infiltratören är i rådet så får Högförrädaren inte veta vilken granne som är Marionetten."
+      },
+{
+        "id": "spy",
+        "reason": "När Spionen ser Klocktornets Kodex så är Högförrädarens och Infiltratörens karaktärsbrickor borttagna."
+      },
+{
+        "id": "vizier",
+        "reason": "Om Inkvisitorn är i spel så har Infiltratören ingen förmåga men är immun mot Inkvisitorns förmåga."
+      },
+{
+        "id": "widow",
+        "reason": "När Svarta Änkan ser Klocktornets Kodex så är Högförrädarens och Infiltratörens karaktärsbrickor borttagna."
+      },
+{
+        "id": "wraith",
+        "reason": "Efter varje avsättning får Infiltratören öppet gissa vilken spelare i rådet som är Myglaren. Om den gissar rätt måste Högförrädaren förvisa/välja Myglaren inatt."
       }
     ]
   },
-  {
-    "id": "Leviathan",
+
+{
+    "id": "buttler",
     "hatred": [
       {
-        "id": "Soldier",
-        "reason": "If Leviathan nominates and executes the Soldier, the Soldier does not die."
+        "id": "organgrinder",
+        "reason": "Om Förblindaren gör att alla blundar när de röstar så får Betjänten rösta, men rösten räknas bara om Herren också röstade."
+}
+     ]
+   },
+{
+     "id": "heretic",
+     "hatred": [
+{
+        "id": "baron",
+        "reason": "Endast 1 av rollerna får vara i spel."
       },
-      {
-        "id": "Monk",
-        "reason": "If Leviathan nominates and executes the player the Monk chose, that player does not die."
+{
+        "id": "godfather",
+        "reason": "Endast 1 av rollerna får vara i spel."
       },
-      {
-        "id": "Innkeeper",
-        "reason": "If Leviathan nominates and executes a player the Innkeeper chose, that player does not die."
+{
+        "id": "lleech",
+        "reason": "Endast 1 av rollerna får vara i spel."
       },
-      {
-        "id": "Ravenkeeper",
-        "reason": "If Leviathan is in play & the Ravenkeeper dies by execution, they wake that night to use their ability."
+{
+        "id": "pithag",
+        "reason": "Endast 1 av rollerna får vara i spel."
       },
-      {
-        "id": "Sage",
-        "reason": "If Leviathan is in play & the Sage dies by execution, they wake that night to use their ability."
+{
+        "id": "spy",
+        "reason": "Endast 1 av rollerna får vara i spel."
       },
-      {
-        "id": "Farmer",
-        "reason": "If Leviathan is in play & a Farmer dies by execution, a good player becomes a Farmer that night."
-      },
-      {
-        "id": "Mayor",
-        "reason": "If Leviathan is in play & no execution occurs on day 5, good wins."
+{
+        "id": "widow",
+        "reason": "Endast 1 av rollerna får vara i spel."
       }
     ]
   },
-  {
-    "id": "Al-Hadikhia",
-    "hatred": [
-      {
-        "id": "Scarlet Woman",
-        "reason": "If there are two living Al-Hadikhias, the Scarlet Woman Al-Hadikhia becomes the Scarlet Woman again."
+{
+     "id": "plaguedoctor",
+     "hatred": [
+{
+        "id": "baron",
+        "reason": "Om berättaren skulle få Hovdamens förmåga så blir upp till två spelare Lantbor"
       },
-      {
-        "id": "Mastermind",
-        "reason": "Only 1 jinxed character can be in play. Evil players start knowing which player and character it is."
+{
+        "id": "boomdandy",
+        "reason": "Om berättaren skulle få Hämnarens förmåga så blir en spelare Hämnaren"
+      },
+{
+        "id": "eviltwin",
+        "reason": "Om berättaren skulle få Usla Tvillingens förmåga så blir en spelare Usla Tvillingen."
+      },
+{
+        "id": "fearmonger",
+        "reason": "Om berättaren skulle få Orosstiftarens förmåga så får en Kumpan förmågan, och får veta detta."
+      },
+{
+        "id": "goblin",
+        "reason": "Om berättaren skulle få Oäktingens förmåga så får en Kumpan förmågan, och får veta detta."
+      },
+{
+        "id": "marionette",
+        "reason": "Om berättaren skulle få Marionettens förmåga så blir en av Högförrädarens Lojala grannar Marionetten."
+      },
+{
+        "id": "scarlet Woman",
+        "reason": "Om berättaren skulle få Hertiginnans förmåga så får en Kumpan förmågan, och får veta detta."
+      },
+{
+        "id": "spy",
+        "reason": "Om berättaren skulle få Spionens förmåga så får en Kumpan förmågan, och får veta detta."
+      },
+{
+        "id": "wraith",
+        "reason": "Om berättaren skulle få Myglarens förmåga så får en Kumpan förmågan, och får veta detta."
       }
     ]
   },
-  {
-    "id": "Lil' Monsta",
+{
+    "id": "recluse",
     "hatred": [
       {
-        "id": "Poppy Grower",
-        "reason": "If the Poppy Grower is in play, Minions don't wake together. They are woken one by one, until one of them chooses to take the Lil' Monsta token."
+        "id": "ogre",
+        "reason": "Om Eremiten registreras som Bedragare för Bondlurken får Bondlurken veta att den är Bedragare."
+},
+{
+        "id": "sage",
+        "reason": "Eremiten kanske registreras som Högförrädaren för Upplysaren."
+}
+     ]
+   },
+{
+     "id": "buffin",
+     "hatred": [
+{
+        "id": "cult Leader",
+        "reason": "Om Högförrädaren har Reseledarens förmåga så kan den inte bli Lojal av den förmågan."
       },
-      {
-        "id": "Magician",
-        "reason": "Only 1 jinxed character can be in play. "
+{
+        "id": "drunk",
+        "reason": "Högförrädaren kan inte ha Byfånens förmåga."
       },
+{
+        "id": "goon",
+        "reason": "Om Högförrädaren har Töntens förmåga så kan den inte bli Lojal av den förmågan."
+      },
+{
+        "id": "heretic",
+        "reason": "Högförrädaren kan inte ha Hycklarens förmåga."
+      },
+{
+        "id": "ogre",
+        "reason": "Högförrädaren kan inte ha Bondlurkens förmåga."
+      },
+{
+        "id": "politcian",
+        "reason": "Högförrädaren kan inte ha Fanbärarens förmåga."
+      },
+{
+        "id": "vilageidiot",
+        "reason": "Om det finns en ledig bricka så kan Förfalskaren ge Högförrädaren Lösdrivarens förmåga."
+      }
+
+    ]
+  },
+{
+    "id": "cerenovus",
+    "hatred": [
       {
-        "id": "Scarlet Woman",
-        "reason": "Om det är 5 eller fler spelare vid liv och spelaren som vaktar Lill Prinsen-token blir utkastad, får Hertigens Representant Lill Prinsen-markören den här natten."
+        "id": "goblin",
+        "reason": "Konspiratören får välja att en spelare ska vara galen att den är Oäktingen."
+}
+     ]
+   },
+{
+     "id": "marionette",
+     "hatred": [
+{
+        "id": "baloonist",
+        "reason": "Om Marionetten tror sig vara Ballongfararen så kanske 1 extra Lantbo har lagts till."
+      },
+{
+        "id": "huntsman",
+        "reason": "Om Marionetten tror sig vara Jägaren så har Damen lagts till."
+      },
+{
+        "id": "kazali",
+        "reason": "Om det skulle vara en Marionett i spel så läggs den till efter Högförrädaren och måste börja som Högförrädarens granne."
+      },
+{
+        "id": "lilmonsta",
+        "reason": "Om det skulle vara en Marionett i spel så läggs den till efter Högförrädaren och måste börja som Högförrädarens granne."
+      },
+{
+        "id": "summoner",
+        "reason": "Om det skulle vara en Marionett i spel så läggs den till efter Högförrädaren och måste börja som Högförrädarens granne."
       }
     ]
   },
-  {
-    "id": "Lycanthrope",
-    "hatred": [
-      {
-        "id": "Gambler",
-        "reason": "If the Lycanthrope is alive and the Gambler kills themself at night, no other players can die tonight."
+{
+     "id": "mastermind",
+     "hatred": [
+{
+        "id": "vigormortis",
+        "reason": "En Skuggmästaren som har sin förmåga behåller förmågan om Skattmästaren förvisas."
+      }
+]
+},
+{
+     "id": "pithag",
+     "hatred": [
+{
+        "id": "cultleader",
+        "reason": "Om Omröraren gör en Bedragare till Reseledaren så kan den spelaren inte bli Lojal av sin egen förmåga."
+      },
+{
+        "id": "damsel",
+        "reason": "Om Omröraren skapar Damen så bestämmer berättaren vilken spelare det blir."
+      },
+{
+        "id": "goon",
+        "reason": "Om Omröraren gör en Bedragare till Tönten så kan den spelaren inte bli Lojal av sin egen förmåga."
+      },
+{
+        "id": "ogre",
+        "reason": "Om Omröraren gör en Bedragare till Bondlurken så kan den spelaren inte bli Lojal av sin egen förmåga."
+      },
+{
+        "id": "politician",
+        "reason": "Om Omröraren gör en Bedragare till Fanbäraren så kan den spelaren inte bli Lojal av sin egen förmåga."
+      },
+{
+        "id": "village Idiot",
+        "reason": "Omröraren skapa en extra Lösdrivare. Detta kanske ändrar vilken av Lösdrivarns som är berusad."
       }
     ]
   },
-  {
-    "id": "Legion",
-    "hatred": [
-      {
-        "id": "Engineer",
-        "reason": "Legion and the Engineer can not both be in play at the start of the game. If the Engineer creates Legion, most players (including all evil players) become evil Legion."
+{
+     "id": "scarletwoman",
+     "hatred": [
+{
+        "id": "alhidikhia",
+        "reason": "Om det skulle finnas två Högförrädare varav en skulle vara Hertiginnan så blir Hertiginnan inte en Högförrädare."
       },
-      {
-        "id": "Preacher",
-        "reason": "Only 1 jinxed character can be in play."
+{
+        "id": "fanggu",
+        "reason": "Om det skulle finnas två Högförrädare varav en skulle vara Hertiginnan så blir Hertiginnan inte en Högförrädare."
       }
     ]
   },
-  {
-    "id": "Fang Gu",
-    "hatred": [
-      {
-        "id": "Scarlet Woman",
-        "reason": "If the Fang Gu chooses an Outsider and dies, the Scarlet Woman does not become the Fang Gu."
+{
+     "id": "summoner",
+     "hatred": [
+{
+        "id": "clockmaker",
+        "reason": "Rekryteraren registreras som Högförrädaren för Urmakaren."
+      },
+{
+        "id": "courtier",
+        "reason": "Om den Rekryteraren är i rådet men inte har någon förmåga så har berättaren Rekryterarens förmåga."
+      },
+{
+        "id": "engineer",
+        "reason": "Om Rekryteraren är i rådet men tas ur spel så får berättaren Rekryterarens förmåga."
+      },
+{
+        "id": "hatter",
+        "reason": "Om Rekryteraren skapar en andra Högförrädare i rådet så förvisas spelare av berättaren inatt."
+      },
+{
+        "id": "lordoftyphon",
+        "reason": "Om Rekryteraren skapar Storprinsen så måste Storprinsen sitta granne med en Kumpan, och den andra grannen blir Bedragare och Kumpan."
+      },
+{
+        "id": "pithag",
+        "reason": "Om Rekryteraren skapar en andra Högförrädare så förvisas spelare av berättaren inatt."
+      },
+{
+        "id": "poppygrower",
+        "reason": "Om Odlaren lever den tredje natten så väljer Rekryteraren Högförrädare men inte spelare."
+      },
+{
+        "id": "preacher",
+        "reason": "Om den Rekryteraren är i rådet men inte har någon förmåga så har berättaren Rekryterarens förmåga."
+      },
+{
+        "id": "pukka",
+        "reason": "Rekryteraren får skapa en Friherre den andra natten istället för den tredje."
+      },
+{
+        "id": "zombuul",
+        "reason": "Om Rekryteraren gör en förvisad spelare till Ärkebiskopen så har den Ärkebiskopen redan ”förvisats en gång”."
+      },
+{
+        "id": "kazali",
+        "reason": "Om Rekryteraren skapar en andra Högförrädare i rådet så förvisas spelare av berättaren inatt."
       }
     ]
   },
-  {
-    "id": "Spy",
-    "hatred": [
-      {
-        "id": "Magician",
-        "reason": "When the Spy sees the Grimoire, the Demon and Magician's character tokens are removed."
+{
+     "id": "vizier",
+     "hatred": [
+{
+        "id": "alsaahir",
+        "reason": "Berättaren meddelar inte att Inkvisitorn är i spel."
       },
-      {
-        "id": "Alchemist",
-        "reason": "The Alchemist can not have the Spy ability."
+{
+        "id": "courtier",
+        "reason": "Om Inkvisitorn förlorar sin förmåga så får den veta det och kan inte förvisas på dagen."
       },
-      {
-        "id": "Poppy Grower",
-        "reason": "If the Poppy Grower is in play, the Spy does not see the Grimoire until the Poppy Grower dies."
+{
+        "id": "fearmonger",
+        "reason": "Inkvisitorn vaknar med Orosstiftaren, får veta vem Orosstiftaren väljer och får inte välja att avsätta den spelaren."
       },
-      {
-        "id": "Damsel",
-        "reason": "Only 1 jinxed character can be in play. "
+{
+        "id": "investigator",
+        "reason": "Berättaren meddelar inte att Inkvisitorn är i spel."
       },
-      {
-        "id": "Heretic",
-        "reason": "Only 1 jinxed character can be in play."
+{
+        "id": "politician",
+        "reason": "Fanbäraren kanske registreras som Bedragare för Inkvisitorn."
+      },
+{
+        "id": "preacher",
+        "reason": "Om Inkvisitorn förlorar sin förmåga så får den veta det och kan inte förvisas på dagen."
+      },
+{
+        "id": "zealot",
+        "reason": "Eldsjälen kanske registreras som ond för Inkvisitorn."
       }
     ]
   },
-  {
-    "id": "Widow",
-    "hatred": [
-      {
-        "id": "Magician",
-        "reason": "When the Widow sees the Grimoire, the Demon and Magician's character tokens are removed."
+{
+     "id": "widow",
+     "hatred": [
+{
+        "id": "damsel",
+        "reason": "Om Svarta Änkan är (eller har varit) i spel så är Damen förgiftad."
       },
-      {
-        "id": "Poppy Grower",
-        "reason": "If the Poppy Grower is in play, the Widow does not see the Grimoire until the Poppy Grower dies."
-      },
-      {
-        "id": "Alchemist",
-        "reason": "The Alchemist can not have the Widow ability."
-      },
-      {
-        "id": "Damsel",
-        "reason": "Only 1 jinxed character can be in play."
-      },
-      {
-        "id": "Heretic",
-        "reason": "Only 1 jinxed character can be in play."
+{
+        "id": "poppygrower",
+        "reason": "Om Odlaren har sin förmåga så får Svarta Änkan inte se Klocktornets Kodex."
       }
     ]
   },
-  {
-    "id": "Godfather",
-    "hatred": [
-      {
-        "id": "Heretic",
-        "reason": "Only 1 jinxed character can be in play."
+{
+     "id": "alhidikhia",
+     "hatred": [
+{
+        "id": "prinsess",
+        "reason": "Om Prinsessan nominerade och avsatte en spelare på sin första dag så förvisas ingen av Rådgivarens förmåga inatt."
+      },
+{
+        "id": "mastermind",
+        "reason": "Om Rådgivaren avsätts och förvisas och Skuggmästaren är i rådet så väljer Rådgivaren 3 Lojala spelare inatt; om alla 3 väljer i rådet så vinner Bedragarna, annars vinner de Lojala."
       }
     ]
   },
-  {
-    "id": "Marionette",
-    "hatred": [
-      {
-        "id": "Lil' Monsta",
-        "reason": "The Marionette neighbors a Minion, not the Demon. The Marionette is not woken to choose who takes the Lil' Monsta token."
+{
+     "id": "legion",
+     "hatred": [
+{
+        "id": "engineer",
+        "reason": "Om Pöbelhopen skapas så blir alla Bedragare till Pöbelhopen. Om Pöbelhopen är i spel så vet Ingenjören om det men har ingen förmåga."
       },
-      {
-        "id": "Poppy Grower",
-        "reason": "When the Poppy Grower dies, the Demon learns the Marionette but the Marionette learns nothing."
+{
+        "id": "hatter",
+        "reason": "Om Pöbelhopen skapas så blir alla Bedragare till Pöbelhopen. Om Pöbelhopen är i spel så har Hattmakaren ingen förmåga."
       },
-      {
-        "id": "Snitch",
-        "reason": "The Marionette does not learn 3 not in-play characters. The Demon learns an extra 3 instead."
+{
+        "id": "minstrel",
+        "reason": "Om Pöbelhopen avsattes och förvisades idag så behåller Pöbelhopen sin förmåga, men Trubaduren kanske får veta att den är Legionen."
       },
-      {
-        "id": "Balloonist",
-        "reason": "If the Marionette thinks that they are the Balloonist, +1 Outsider was added."
+{
+        "id": "politician",
+        "reason": "Fanbäraren kanske registreras som Bedragare för Pöbelhopen."
       },
-      {
-        "id": "Damsel",
-        "reason": "The Marionette does not learn that a Damsel is in play."
+{
+        "id": "preacher",
+        "reason": "Om Prästen väljer Pöbelhopen så får Pöbelhopen behålla sin förmåga, men Predikanten kanske får veta att den är Legionen."
       },
-      {
-        "id": "Huntsman",
-        "reason": "If the Marionette thinks that they are the Huntsman, the Damsel was added."
+{
+        "id": "summoner",
+        "reason": "Om Pöbelhopen skapas så blir alla Bedragare till Pöbelhopen."
+      },
+{
+        "id": "zealot",
+        "reason": "Elsdsjälen kanske registreras som Bedragare för Pöbelhopen."
       }
     ]
   },
-  {
-    "id": "Riot",
-    "hatred": [
-      {
-        "id": "Engineer",
-        "reason": "Riot and the Engineer can not both be in play at the start of the game. \nIf the Engineer creates Riot, the evil players become Riot."
+{
+     "id": "leviathan",
+     "hatred": [
+{
+        "id": "banshee",
+        "reason": "Varje natt* väljer Gränsfursten en Lojal spelare i rådet (en ny varje natt); blir Svärmodern vald förvisas den och får sin förmåga."
       },
-      {
-        "id": "Golem",
-        "reason": "If The Golem nominates Riot, the Riot player does not die."
+{
+        "id": "farmer",
+        "reason": "Varje natt* väljer Gränsfursten en Lojal spelare i rådet (en ny varje natt); Blir Storonde vald använder sin förmåga men förvisas inte."
       },
-      {
-        "id": "Snitch",
-        "reason": "If the Snitch is in play, each Riot player gets an extra 3 bluffs."
+{
+        "id": "grandmother",
+        "reason": "Om Gränsfursten är i spel och barnbarnet avsätts och förvisas så vinner Bedragarna."
       },
-      {
-        "id": "Saint",
-        "reason": "Om en lojal spelare nominerar och kastar ut barnet, förlorar barnets lag."
+{
+        "id": "hatter",
+        "reason": "Gränsfursten kan inte skapas efter dag 5."
       },
-      {
-        "id": "Butler",
-        "reason": "Förste betjänten kan inte nominera sin mästare (spelaren de valt)."
+{
+        "id": "innkeeper",
+        "reason": "Om Gränsfursten nominerar och avsätter en spelare skyddad av Gästgivaren så vinner de Lojala."
       },
-      {
-        "id": "Pit-Hag",
-        "reason": "If the Pit-Hag creates Riot, all evil players become Riot. \nIf the Pit-Hag creates Riot after day 3, the game continues for one more day."
+{
+        "id": "king",
+        "reason": "Om Gränsfursten är i spel och minst 1 spelare är förvisad så får Kungen veta om en karaktär i rådet varje natt."
       },
-      {
-        "id": "Mayor",
-        "reason": "Om den 3:e dagen börjar med bara tre spelare i hovet, kan spelarna välja (som grupp) att inte nominera alls. Om så är fallet (och en prins är kvar i hovet) vinner prinsens lag."
+{
+        "id": "mayor",
+        "reason": "Om Gränsfursten och Lagmannen är i rådet dag 5 och ingen avsätts så vinner de Lojala."
       },
-      {
-        "id": "Monk",
-        "reason": "Om en Revolution-spelare nominerar och kastar ut den apotekarskyddade spelaren, kastas inte den skyddade spelaren ut."
+{
+        "id": "monk",
+        "reason": "Om Gränsfursten nominerar och avsätter en speelare skyddad av  Apotekaren så vinner de Lojala."
       },
-      {
-        "id": "Farmer",
-        "reason": "If a Riot player nominates and kills a Farmer, the Farmer uses their ability tonight."
+{
+        "id": "pithag",
+        "reason": "Gränsfursten kan inte skapas efter dag 5."
       },
-      {
-        "id": "Innkeeper",
-        "reason": "If a Riot player nominates an Innkeeper-protected-player, the Innkeeper-protected-player does not die."
+{
+        "id": "ravenkeeper",
+        "reason": "Varje natt* väljer Gränsfursten en spelare i rådet (en ny varje natt); blir Fågeltämjare vald använder den sin förmåga men förvisas inte."
       },
-      {
-        "id": "Sage",
-        "reason": "If a Riot player nominates and kills a Sage, the Sage uses their ability tonight."
+{
+        "id": "sage",
+        "reason": "Varje natt* väljer Gränsfursten en spelare i rådet (en ny varje natt); blir Upplysaren vald använder den sin förmåga men förvisas inte."
       },
-      {
-        "id": "Ravenkeeper",
-        "reason": "Om en Revolution-spelare nominerar och kastar ut Marskalken, använder Marskalken sin förmåga i kväll."
+{
+        "id": "soldier",
+        "reason": "Om Gränsfursten nominerar och avsätter Väpnaren så vinner de Lojala."
       },
-      {
-        "id": "Soldier",
-        "reason": "Om en Revolution-spelare nominerar skattmästaren kastas inte skattmästaren ut."
-      },
-      {
-        "id": "Grandmother",
-        "reason": "If a Riot player nominates and kills the Grandchild, the Grandmother dies too."
-      },
-      {
-        "id": "King",
-        "reason": "If a Riot player nominates and kills the King and the Choirboy is alive, the Choirboy uses their ability tonight."
-      },
-      {
-        "id": "Exorcist",
-        "reason": "Only 1 jinxed character can be in play."
-      },
-      {
-        "id": "Minstrel",
-        "reason": "Only 1 jinxed character can be in play."
-      },
-      {
-        "id": "Flowergirl",
-        "reason": "Only 1 jinxed character can be in play."
-      },
-      {
-        "id": "Undertaker",
-        "reason": "Spelare som kastas ut genom nominering registreras som utkastade för konstapeln."
-      },
-      {
-        "id": "Cannibal",
-        "reason": "Players that die by nomination register as being executed to the Cannibal."
-      },
-      {
-        "id": "Pacifist",
-        "reason": "Players that die by nomination register as being executed to the Pacifist."
-      },
-      {
-        "id": "Devil's Advocate",
-        "reason": "Players that die by nomination register as being executed to the Devil's Advocate."
-      },
-      {
-        "id": "Investigator",
-        "reason": "Revolution registreras som en Hantlangare för konstapeln."
-      },
-      {
-        "id": "Clockmaker",
-        "reason": "Riot registers as a Minion to the Clockmaker."
-      },
-      {
-        "id": "Town Crier",
-        "reason": "Riot registers as a Minion to the Town Crier."
-      },
-      {
-        "id": "Damsel",
-        "reason": "Riot registers as a Minion to the Damsel."
-      },
-      {
-        "id": "Preacher",
-        "reason": "Riot registers as a Minion to the Preacher."
+{
+        "id": "exorcist",
+        "reason": "Om Gränsfursten nominerar och avsätter en spelare vald av Läkaren så vinner de Lojala."
       }
     ]
   },
-  {
-    "id": "Lleech",
-    "hatred": [
-      {
-        "id": "Mastermind",
-        "reason": "Om skuggmästaren är kvar i hovet och Friherrens värd blir utröstad, är Friherren kvar men förlorar sin förmåga. "
+{
+     "id": "lilmonstra",
+     "hatred": [
+{
+        "id": "hatter",
+        "reason": "Om Hattmakaren förvisas och Högförrädaren väljer Lillprinsen så väljer den också en Kumpan att bli."
       },
-      {
-        "id": "Slayer",
-        "reason": "Om Härolden väljer Friherrens värd så kastas värden ut. "
+{
+        "id": "poppygrower",
+        "reason": "Om Lillprinsen och Odlaren är i rådet så vaknar Kumpanerna en och en tills någon väljer att ta hand om Lillprinsen."
+      },
+{
+        "id": "psychopath",
+        "reason": "Om Förtryckaren tar hand om Lillprinsen så avsätts och förvisas den."
+      },
+{
+        "id": "magician",
+        "reason": "Om Infiltratören är i rådet så väljer berättaren vilken Kumpan som tar hand om Lillprinsen."
+      },
+{
+        "id": "scarletwoman",
+        "reason": "Om Lillprinsen förvisas när minst 5 spelare lever så tar Hertiginnan hand om Lillprinsen resten av spelet."
+      },
+{
+        "id": "vizier",
+        "reason": "Om Inkvisitorn tar hand om Lillprinsen så avsätts och förvisas den."
+      }
+    ]
+  },
+{
+     "id": "lleech",
+     "hatred": [
+{
+        "id": "mastermind",
+        "reason": "Om Skuggmästaren är i rådet och Grevens värd avsätts och förvisas så stannar Greven i rådet men förlorar sin förmåga."
+      },
+{
+        "id": "slayer",
+        "reason": "Om Konstapeln väljer Grevens värd så förvisas värden."
+      }
+    ]
+  },
+{
+     "id": "riot",
+     "hatred": [
+{
+        "id": "atheist",
+        "reason": "Om berättaren nomineras under kravallerna måste spelarna rösta. Om berättaren döms avslutas spelet, annars nominerar berättaren igen."
+      },
+{
+        "id": "banshee",
+        "reason": "Varje natt* väljer Revolutionären en spelare i rådet (en ny varje natt); blir Svärmodern vald förvisas den och får sin förmåga."
+      },
+{
+        "id": "exorcist",
+        "reason": "Om Revolutionären nominerar och avrättar den Exorcist-valda spelaren så vinner goda laget."
+      },
+{
+        "id": "farmer",
+        "reason": "Varje natt* väljer Revolutionären en spelare i rådet (en ny varje natt); blir Storbonden vald använder den sin förmåga men förvisas inte."
+      },
+{
+        "id": "grandmother",
+        "reason": "Om Revolutionären är i spel och barnbarnet avsätts och förvisas så vinner Bedragarna."
+      },
+{
+        "id": "innkeeper",
+        "reason": "Om Revolutionären nominerar och avsätter en spelare skyddad av Gästgivaren så vinner de Lojala."
+      },
+{
+        "id": "king",
+        "reason": "Om Revolutionären är i spel och minst 1 spelare är förvisad så får Kungen veta om en karaktär i rådet varje natt."
+      },
+{
+        "id": "mayor",
+        "reason": "Lagmannen får välja att avsluta revolten. Om den gör det med bara 1 Revolutionär i rådet så vinner de Lojala, annars vinner Bedragarna."
+      },
+{
+        "id": "monk",
+        "reason": "Om Revolutionären nominerar och avsätter en spelare skyddad av Apotekaren så vinner de Lojala."
+      },
+{
+        "id": "ravenskeeper",
+        "reason": "Varje natt* väljer Revolutionären en spelare i rådet (en ny varje natt); blir Fågeltämjaren vald använder den sin förmåga men förvisas inte."
+      },
+{
+        "id": "sage",
+        "reason": "Varje natt* väljer Revolutionären en spelare i rådet (en ny varje natt); blir upplysraren vald använder den sin förmåga men förvisas inte."
+      },
+{
+        "id": "soldier",
+        "reason": "Om Revolutionären nominerar och avsätter Väpnaren så vinner de Lojala."
+      }
+
+    ]
+  },
+{
+     "id": "Vortox",
+     "hatred": [
+{
+        "id": "banshee",
+        "reason": "Om Baronen förvisar Svärmodern så får alla spelare veta att Svärmodern har förvisats."
+      }
+    ]
+  },
+{
+     "id": "Yaggababble",
+     "hatred": [
+{
+        "id": "exorcist",
+        "reason": "Om Läkaren väljer Slottsdåren så kan Slottsdåren inte förvisa någon inatt."
       }
     ]
   }
