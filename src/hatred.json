@@ -214,10 +214,10 @@
      ]
    },
 {
-     "id": "buffin",
+     "id": "boffin",
      "hatred": [
 {
-        "id": "cult Leader",
+        "id": "cultLeader",
         "reason": "Om Högförrädaren har Reseledarens förmåga så kan den inte bli Lojal av den förmågan."
       },
 {
@@ -260,7 +260,7 @@
      "id": "marionette",
      "hatred": [
 {
-        "id": "baloonist",
+        "id": "balloonist",
         "reason": "Om Marionetten tror sig vara Ballongfararen så kanske 1 extra Lantbo har lagts till."
       },
 {
@@ -314,7 +314,7 @@
         "reason": "Om Omröraren gör en Bedragare till Fanbäraren så kan den spelaren inte bli Lojal av sin egen förmåga."
       },
 {
-        "id": "village Idiot",
+        "id": "villageIdiot",
         "reason": "Omröraren skapa en extra Lösdrivare. Detta kanske ändrar vilken av Lösdrivarns som är berusad."
       }
     ]
@@ -531,7 +531,7 @@
     ]
   },
 {
-     "id": "lilmonstra",
+     "id": "lilmonsta",
      "hatred": [
 {
         "id": "hatter",
