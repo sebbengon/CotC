@@ -658,8 +658,8 @@ li.move:not(.from) .player .overlay svg.move {
     display: block;
   }
   svg {
-    height: 60%;
-    width: 60%;
+    height: 80%;
+    width: 80%;
     position: absolute;
     stroke: white;
     stroke-width: 15px;
