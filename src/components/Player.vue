@@ -143,9 +143,9 @@
               <font-awesome-icon icon="chair" />
               Tom plats
             </li>
-            <li v-if="player.role && player.role.menueopt && player.role.menueopt.includes('spying')">
-            <font-awesome-icon icon="cog" />
-            Visa Kodex
+            <li v-if="session.markedPlayer === player.id" @click="removeMarked()">
+            <font-awesome-icon icon="times" />
+            Rensa Märkning
             </li>
             <template v-if="!session.nomination">
               <li @click="nominatePlayer()">
@@ -325,6 +325,10 @@ export default {
       this.isMenuOpen = false;
       this.$emit("trigger", ["nominatePlayer", player]);
     },
+    removeMarked() {
+      this.$store.commit('session/setMarkedPlayer', -1)
+    },
+    
     cancel() {
       this.$emit("trigger", ["cancel"]);
     },
