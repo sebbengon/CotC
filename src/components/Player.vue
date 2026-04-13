@@ -143,7 +143,7 @@
               <font-awesome-icon icon="chair" />
               Tom plats
             </li>
-            <li @click="removeMarked()">
+            <li v-if="player.marked" @click="removeMarked()">
             <font-awesome-icon icon="times" />
             Rensa Märkning
             </li>

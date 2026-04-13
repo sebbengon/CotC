@@ -927,7 +927,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 32,
-    "otherNightReminder": "Skattmästaren väljer en spelare.  Om den spelaren är en Kumpan, förgifta en Bybogranne. ",
+    "otherNightReminder": "Skattmästaren väljer en spelare.  Om den spelaren är en Kumpan, förgifta en Stadsbogranne. ",
     "reminders": ["Förvisad",
         "Har Förmåga",
         "Förgiftad"],
@@ -1070,7 +1070,7 @@
     "otherNightReminder": "Om spelaren märkt KÄND förvisades idag eller inatt, peka på en ny spelare markerad KÄND.",
     "reminders": ["Känd"],
     "setup": true,
-    "ability": "I början vet du 1 spelare som är Bedragare.  Om den förvisas får du veta en annan Bedragare inatt. [1 Bybo är Bedragare]"
+    "ability": "I början vet du 1 spelare som är Bedragare.  Om den förvisas får du veta en annan Bedragare inatt. [1 Stadsbo är Bedragare]"
   },
 {
     "id": "cannibal",
@@ -1280,7 +1280,7 @@
     "reminders": ["Galen",
         "Har Förmåga"],
     "setup": false,
-    "ability": "I början vet du 1 Bybo som är i spel. Om du är galen om att du är den karaktären får du dess förmåga när den förvisas."
+    "ability": "I början vet du 1 Stadsbo som är i spel. Om du är \u201Cgalen\u201D om att du är den karaktären får du dess förmåga när den förvisas."
   },
 {
     "id": "poppygrower",
@@ -1570,7 +1570,7 @@
     "reminders": ["Galen", "Den andra"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Varje natt väljer du 2 spelare; imorgon är den första galen om att den andra är Bedragare, annars kanske en eller båda förvisas."
+    "ability": "Varje natt väljer du 2 spelare; imorgon är den första \u201Cgalen\u201D om att den andra är Bedragare, annars kanske en eller båda förvisas."
   },
 {
     "id": "marionette",
@@ -1711,7 +1711,7 @@
     "reminders": ["Natt 1", "Natt 2", "Natt 3", "Natt 4" ,"X"],
     "remindersGlobal": [""],
     "setup": false,
-    "ability": "På natt X är alla Bybor förgiftade till skymningen. [X Utbölingar]"
+    "ability": "På natt X är alla Stadsbor förgiftade till skymningen. [X Utbölingar]"
   },
 {
     "id": "alhadikhia",
