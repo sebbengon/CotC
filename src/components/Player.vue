@@ -145,7 +145,7 @@
             </li>
             
             <li
-            @click="clearMarked" v-if="session.markedPlayer === index">
+            @click="clearMarked" v-if="player.marked">
             <font-awesome-icon icon="times" />
             Rensa Märkning
             </li>
@@ -328,6 +328,7 @@ export default {
       this.$emit("trigger", ["nominatePlayer", player]);
     },
     removeMarked() {
+      this.isMenuOpen = false;
       this.$store.commit('session/setMarkedPlayer', -1)
     },
     
