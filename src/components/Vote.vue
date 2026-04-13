@@ -219,7 +219,7 @@ export default {
   align-items: center;
   align-content: center;
   justify-content: center;
-  background: url('../assets/sitt-logo.svg') center center no-repeat;
+  background: url('../assets/cotc-logo.png') center center no-repeat;
   background-size: auto 75%;
   text-align: center;
   text-shadow: 0 1px 2px #000000, 0 -1px 2px #000000, 1px 0 2px #000000, -1px 0 2px #000000;
