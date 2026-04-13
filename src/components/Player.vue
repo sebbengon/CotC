@@ -145,7 +145,7 @@
             </li>
             
             <li
-            @click="clearMarked" v-if="session.markedPlayer === player.id">
+            @click="clearMarked" v-if="session.markedPlayer === player.seat">
             <font-awesome-icon icon="times" />
             Rensa Märkning
             </li>
