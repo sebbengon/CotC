@@ -719,7 +719,7 @@
     "otherNightReminder": "Visa fingersignal",
     "reminders": [],
     "setup": false,
-    "ability": "Varje natt* får du veta hur många spelare i rådet som är Bedragare."
+    "ability": "Varje natt* får du veta hur många förvisade spelare som är Bedragare."
   },
   {
     "id": "savant",
