@@ -143,7 +143,9 @@
               <font-awesome-icon icon="chair" />
               Tom plats
             </li>
-            <li v-if="player.marked" @click="removeMarked()">
+            
+            <li
+            @click="clearMarked" v-if="session.markedPlayer === player.id">
             <font-awesome-icon icon="times" />
             Rensa Märkning
             </li>
