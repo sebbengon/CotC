@@ -187,7 +187,7 @@ ul.editions .edition {
   transition: all 0.3s;
   &:hover {
     opacity: 1;
-    width: 32%;
+    width: 22%;
     color: red;
   }
 }

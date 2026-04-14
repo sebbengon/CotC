@@ -799,7 +799,7 @@
     "otherNightReminder": "Om Högförrädaren förvisade Upplysaren, väck Upplysaren och peka på 2 spelare varav den ena är Högförrädaren.",
     "reminders": [],
     "setup": false,
-    "ability": "Om Högförrädaren förvisar dig får du veta att Högförrädaren är en av 2 spelare."
+    "ability": "Om Högförrädaren förvisar dig får du veta att Högförrädaren är 1 av 2 spelare."
   },
   {
     "id": "mutant",

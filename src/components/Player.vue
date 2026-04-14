@@ -151,12 +151,12 @@
             <font-awesome-icon icon="times" />
             Rensa Märkning
             </li>
-            <template v-if="!session.nomination">
+            !<template v-if="!session.nomination">
               <li @click="nominatePlayer()">
                 <font-awesome-icon icon="hand-point-right" />
                 Nominering
               </li>
-            </template>
+            !</template>
           </template>
           <li
             @click="claimSeat"
