@@ -44,7 +44,7 @@
             }"
             @click="setMarked"
           >
-            Märk för utröstning
+            Märk avsättning
           </div>
           <div class="button" @click="removeMarked">
             Rensa märkning
@@ -175,10 +175,10 @@ export default {
       }
     },
     stop() {
-      clearInterval(this.voteTimer)
-      this.voteTimer = null
       this.$store.commit('session/setVoteInProgress', false)
       this.$store.commit('session/lockVote', 0)
+      clearInterval(this.voteTimer)
+      this.voteTimer = null    
     },
     finish() {
       clearInterval(this.voteTimer)
