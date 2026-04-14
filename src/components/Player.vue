@@ -145,7 +145,7 @@
             </li>
             
             <li
-            @click="clearMarked" v-if="markedPlayer === index">
+            @click="clearMarked">
             <font-awesome-icon icon="times" />
             Rensa Märkning
             </li>
