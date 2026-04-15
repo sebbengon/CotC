@@ -22,10 +22,10 @@
           <font-awesome-icon @mousedown.prevent="setVotingSpeed(500)" icon="plus-circle" />
         </div>
         <div class="button-group">
-          <div class="button townsfolk" v-if="!session.isVoteInProgress" @click="countdown">
+          <div class="button townsfolk" v-if="!session.isVoteInProgress" && !session.nomination @click="countdown">
             Nedräkning
           </div>
-          <div class="button" v-if="!session.isVoteInProgress" @click="start">
+          <div class="button" v-if="!session.isVoteInProgress" && !session.nomination @click="start">
             {{ session.lockedVote ? 'Återställ' : 'Starta' }}
           </div>
           <template v-else>
