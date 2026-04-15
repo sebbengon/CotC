@@ -175,9 +175,9 @@ export default {
       }
     },
     stop() {
-      this.$store.commit('session/setVoteInProgress', false)
-      this.$store.commit('session/lockVote', 0)
       clearInterval(this.voteTimer)
+      this.$store.commit('session/setVoteInProgress', false)
+      this.$store.commit('session/lockVote', 0)    
       this.voteTimer = null    
     },
     finish() {

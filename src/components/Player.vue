@@ -151,12 +151,12 @@
             <font-awesome-icon icon="times" />
             Rensa Märkning
             </li>
-            <!--<template v-if="!session.nomination">-->
-              <li @click="nominatePlayer()">
+            <template v-if="!session.isVoteInProgress">
+              <li v-if="!player.isDead" @click="nominatePlayer()">
                 <font-awesome-icon icon="hand-point-right" />
                 Nominering
               </li>
-            <!--</template>-->
+            </template>
           </template>
           <li
             @click="claimSeat"
@@ -327,6 +327,7 @@ export default {
     },
     nominatePlayer(player) {
       this.isMenuOpen = false;
+      this.$store.commit('session/lockVote', 0)
       this.$emit("trigger", ["nominatePlayer", player]);
     },
     removeMarked() {
