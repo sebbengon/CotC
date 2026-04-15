@@ -113,23 +113,23 @@ export default {
         rolesFirstNight.push(
           {
             id: "evil",
-            name: "Hantlangar info",
+            name: "Kumpaninfo info",
             firstNight: 5,
             team: "minion",
             players: this.players.filter(p => p.role.team === "minion"),
             firstNightReminder:
-              "• Om mer än en Hantlangare, se att alla får ögonkontakt med varandra." +
-              '• Visa kortet "Detta är Troninkräktaren". Peka på Troninkräktaren.'
+              "• Om mer än en Kumpan, se att alla får ögonkontakt med varandra." +
+              '• Visa kortet "Detta är Högförrädaren". Peka på Högförrädaren.'
           },
           {
             id: "evil",
-            name: "Troninkräktarens info & bluffar",
+            name: "HF info & bluffar",
             firstNight: 8,
             team: "demon",
             players: this.players.filter(p => p.role.team === "demon"),
             firstNightReminder:
-              '• Visa kortet "Dessa är dina Hantlangare". Peka på varje Hantlangare.' +
-              "• Visa kortet “Dessa karaktärer är inte i spel”. Visa 3 karaktärmarkörer av lojala " +
+              '• Visa kortet "Dessa är Kumpaner". Peka på varje Kumpan.' +
+              "• Visa kortet “Dessa karaktärer är inte i spel”. Visa 3 karaktärskort av lojala " +
               "karaktärer inte i spel."
           }
         );
