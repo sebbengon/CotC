@@ -1864,13 +1864,13 @@
     "edition": "",
     "team": "traveler",
     "firstNight": 8,
-    "firstNightReminder": "Byråkraten väljer 1 spelare",
+    "firstNightReminder": "Byråkraten väljer en spelare",
     "otherNight": 6,
-    "otherNightReminder": "Byrokraten väljer 1 spelare.",
+    "otherNightReminder": "Byrokraten väljer en spelare.",
     "reminders": ["3 röster"],
     "menueopt": ["votenum"],
     "setup": false,
-    "ability": "Varje natt väljer du 1 spelare (inte dig själv): spelarens röst räknas som 3 röster under morgondagen."
+    "ability": "Varje natt väljer du en spelare (inte dig själv): spelarens röst räknas som tre röster under morgondagen."
   },
   {
     "id": "gunslinger",
@@ -1883,7 +1883,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Varje dag efter att första röstningen räknats kan du välja 1 spelare som röstade, den förvisas direkt."
+    "ability": "Varje dag efter att första röstningen räknats kan du välja en spelare som röstade, den förvisas direkt."
   },
   {
     "id": "scapegoat",
@@ -1896,7 +1896,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Om 1 spelare i ditt lag förvisas kanske du förvisas istället."
+    "ability": "Om en spelare i ditt lag förvisas kanske du förvisas istället."
   },
   {
     "id": "beggar",
@@ -1909,7 +1909,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Du måste använda 1 röstmarkör för att rösta. Om en spelare som inte är kvar i rådet ger dig sin markör får du reda på dess tillhörighet. Du är inte berusad eller förgiftad."
+    "ability": "Du måste använda en röstmarkör för att rösta. Om en spelare som inte är kvar i rådet ger dig sin markör får du reda på dess tillhörighet. Du är inte berusad eller förgiftad."
   },
   {
     "id": "thief",
@@ -1920,10 +1920,10 @@
     "firstNightReminder": "Tjuven väljer en spelare.",
     "otherNight": 8,
     "otherNightReminder": "Tjuven väljer en spelare.",
-    "reminders": ["Negative röst"],
+    "reminders": ["Negativ röst"],
     "menueopt":["votenum"],
     "setup": false,
-    "ability": "Varje natt väljer du 1 spelare (inte dig själv): spelarens röst räknas negativt imorgon."
+    "ability": "Varje natt väljer du en spelare (inte dig själv): spelarens röst räknas negativt imorgon."
   },
 {
     "id": "butcher",
@@ -1945,13 +1945,13 @@
     "edition": "",
     "team": "traveler",
     "firstNight":1,
-    "firstNightReminder": "Återvändaren kanske väljer 1 spelare.",
+    "firstNightReminder": "Återvändaren kanske väljer en spelare.",
     "otherNight": 1,
-    "otherNightReminder": "Återvändaren kanske väljer 1 spelare",
+    "otherNightReminder": "Återvändaren kanske väljer en spelare",
     "reminders": ["Vald", "Ingen förmåga"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "En gång under spelet på natten*, kan du välja 1 förvisad spelare som återfår sin förmåga fram till skymmningen."
+    "ability": "En gång under spelet på natten*, kan du välja en förvisad spelare som återfår sin förmåga fram till skymmningen."
   },
 {
     "id": "deviant",
@@ -1965,7 +1965,7 @@
     "reminders": ["Skojig idag"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Om du var rolig idag kan du inte förvisas genom fördrivning."
+    "ability": "Om du var rolig idag kan du inte fördrivas."
   },
 {
     "id": "barista",
@@ -1979,7 +1979,7 @@
     "reminders": ["Frisk & Nykter"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Varje natt, fram till skymmning, 1) 1 spelare blir frisk och nykter och får sann info, eller 2) den kan använda sin förmåga två gånger. De får veta vad."
+    "ability": "Varje natt, fram till skymmning, 1) en spelare blir frisk och nykter och får sann info, eller 2) den kan använda sin förmåga två gånger. De får veta vad."
   },
 {
     "id": "harlot",
@@ -1993,7 +1993,7 @@
     "reminders": ["Vald"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Varje natt* väljer du 1 spelare i rådet; om den går med på det får du veta dess karaktär, men ni båda kanske förvisas."
+    "ability": "Varje natt* väljer du en spelare i rådet; om den går med på det får du veta dess karaktär, men ni båda kanske förvisas."
   },
 {
     "id": "apprentice",
@@ -2007,7 +2007,7 @@
     "reminders": ["Är Lärlingen"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Din första natt får du 1 Stadsbos förmåga om du är Lojal eller 1 Kumpans förmåga om du är Bedragare."
+    "ability": "Den första natten får du en Stadsbos förmåga om du är Lojal eller en Kumpans förmåga om du är Bedragare."
   },
 {
     "id": "bishop",
@@ -2049,7 +2049,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Varje dag får du välja upp till 3 par spelare som byter plats med varandra. Spelare får inte lämna sina platser för privata samtal."
+    "ability": "Varje dag får du välja upp till tre par spelare som byter plats med varandra. Spelare får inte lämna sina platser för privata samtal."
   },
 {
     "id": "voudon",
@@ -2064,7 +2064,7 @@
     "remindersGlobal": [],
     "menueopt": ["deadvotes"],
     "setup": false,
-    "ability": "Endast du och de förvisade spelarna kan rösta. De behöver inte någon Röstmarkör för att rösta. 50% majoritet är inget krav."
+    "ability": "Endast du och de förvisade spelarna kan rösta. De behöver inte någon röstmarkör för att rösta. 50% majoritet är inget krav."
   },
 {
     "id": "cacklejack",
@@ -2078,7 +2078,7 @@
     "reminders": ["Inte Jag"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Varje dag, välj 1 spelare: en annan spelare byter karaktär i natt."
+    "ability": "Varje dag, välj en spelare: en annan spelare byter karaktär i natt."
   },
 {
     "id": "gangster",
@@ -2092,7 +2092,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "En gång varje dag får du förvisa 1 granne i rådet om din andra granne i rådet går med på det."
+    "ability": "En gång varje dag får du förvisa en granne i rådet om din andra granne i rådet går med på det."
   },
 {
     "id": "gnome",
@@ -2106,6 +2106,6 @@
     "reminders": ["Vän"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Första natten får alla spelare veta 1 spelare med samma tillhörighet som du. Du får förvisa alla som nominerar den spelaren."
+    "ability": "Första natten får alla spelare veta en spelare med samma tillhörighet som du. Du får förvisa alla som nominerar den spelaren."
   }
 ]
