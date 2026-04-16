@@ -896,7 +896,7 @@ li.move:not(.from) .player .overlay svg.move {
   }
 
   &:after {
-    width: 80%;      /* eller 100%, eller px */
+    width: 120%;      /* eller 100%, eller px */
     height: 120%;     /* eller 100%, eller px */
     background-image: url("../assets/icons/x.png");
     opacity: 0;
