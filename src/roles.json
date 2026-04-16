@@ -285,7 +285,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 24,
-    "otherNightReminder": "Hertigen väljer 1 spelare.  Om Hertigen väljer sig själv, ersätt karaktärsbricka från en Kumpan i rådet med en extra Hertigen-bricka. Söv den gamla Hertigen. Väck den nya Hertigen, visa kortet DU ÄR och Hertigens karaktärskort.",
+    "otherNightReminder": "Hertigen väljer 1 spelare.  Om Hertigen väljer sig själv, ersätt karaktärsbricka från en Kumpan i rådet med den extra Hertigen-brickan. Söv den gamla Hertigen. Väck den nya Hertigen, visa kortet DU ÄR och Hertigens karaktärskort.",
     "reminders": ["Förvisad"],
     "setup": false,
     "ability": "Varje natt* förvisar du 1 spelare. Förvisar du dig själv blir en Kumpan Högförrädaren."
