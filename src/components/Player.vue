@@ -850,7 +850,7 @@ li.move:not(.from) .player .overlay svg.move {
 
 /***** Reminder token *****/
 .circle .reminder {
-  background: url("../assets/reminder.svg") center center;
+  background: url("../assets/reminder1.png") center center;
   background-size: 160%;
   width: 50%;
   height: 0;
@@ -896,7 +896,7 @@ li.move:not(.from) .player .overlay svg.move {
   }
 
   &:after {
-    background-image: url("../assets/icons/x.svg");
+    background-image: url("../assets/icons/x.png");
     opacity: 0;
     top: 10%;
   }

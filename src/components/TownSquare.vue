@@ -466,7 +466,7 @@ export default {
   content: ' ';
   opacity: 0;
   transition: opacity 250ms;
-  background-image: url('../assets/icons/x.svg');
+  background-image: url('../assets/icons/x.png');
   z-index: 2;
 }
 
