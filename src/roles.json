@@ -1795,13 +1795,13 @@
     "edition": "",
     "team": "demon",
     "firstNight": 16,
-    "firstNightReminder": "Lleech väljer 1 spelare.",
+    "firstNightReminder": "Lleech väljer en värd.",
     "otherNight": 34,
-    "otherNightReminder": "Lleech väljer 1 spelare.",
+    "otherNightReminder": "Lleech väljer en spelare.",
     "reminders": ["Förvisad",
-        "Förgiftad"],
+        "Värd"],
     "setup": false,
-    "ability": "Varje natt* väljer du 1 spelare; den förvisas. I början väljer du 1 spelare; den förgiftas. Du förvisas om och endast då, när den spelaren blir förvisad."
+    "ability": "Varje natt* väljer du 1 spelare; den förvisas. Första natten väljer du en spelare; den förgiftas. Du förvisas om, och endast då, när den spelaren blir förvisad."
   },
 {
     "id": "lordoftyphon",
