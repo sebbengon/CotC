@@ -1208,7 +1208,7 @@
     "name": "Riddaren",
     "edition": "",
     "team": "townsfolk",
-    "firstNight": 0,
+    "firstNight": 30,
     "firstNightReminder": "Peka på de två spelarna som är markerade med KÄNNER TILL.",
     "otherNight": 0,
     "otherNightReminder": "",
