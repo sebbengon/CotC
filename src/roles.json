@@ -91,7 +91,7 @@
     "otherNightReminder": "Om en spelare avsattes och förvisades idag, visa den spelarens karaktärskort.",
     "reminders": ["Förvisad idag"],
     "setup": false,
-    "ability": "Varje natt*, du får veta vilken spelare som blev avsatt och förvisad idag."
+    "ability": "Varje natt*, du får veta vilken karaktär som blev avsatt och förvisad idag."
   },
   {
     "id": "monk",
