@@ -11,7 +11,7 @@
     "reminders": ["stadsbo",
         "Felaktig"],
     "setup": false,
-    "ability": "Första natten får du veta att 1 av 2 spelare är en viss Stadsbo"
+    "ability": "Första natten får du veta att en av två spelare är en viss Stadsbo"
   },
   {
     "id": "librarian",
@@ -25,7 +25,7 @@
     "reminders": ["Lantbo",
         "Felaktig"],
     "setup": false,
-    "ability": "Första natten får du veta att 1 av 2 spelare är en viss Lantbo. (Eller att ingen är i spel.)"
+    "ability": "Första natten får du veta att en av två spelare är en viss Lantbo (eller att ingen är i spel)."
   },
   {
     "id": "investigator",
@@ -39,7 +39,7 @@
     "reminders": ["Kumpan",
         "Felaktig"],
     "setup": false,
-    "ability": "Första natten får du veta att 1 av 2 spelare är en viss Kumpan."
+    "ability": "Första natten får du veta att en av två spelare är en viss Kumpan."
   },
   {
     "id": "chef",
@@ -52,7 +52,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Första natten får du veta hur många par Bedragare det är."
+    "ability": "Första natten får du veta hur många par Bedragare det finns."
   },
   {
     "id": "empath",
@@ -78,7 +78,7 @@
     "otherNightReminder": "Förvaltaren väljer 2 spelare. Nicka om någon av dem är Högförrädaren (eller märkt VILLOSPÅR).",
     "reminders": ["Villospår"],
     "setup": false,
-    "ability": "Varje natt, välj 2 spelare: du får veta om någon av dessa är Högförrädaren. En Lojal spelare registreras som Högförrädare för dig."
+    "ability": "Varje natt, välj två spelare: du får veta om någon av dem är Högförrädaren. En Lojal spelare registreras som Högförrädare för dig."
   },
   {
     "id": "undertaker",
@@ -88,7 +88,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 55,
-    "otherNightReminder": "Om en spelare avsattes och förvisades idag, visa den spelarens karaktärskort.",
+    "otherNightReminder": "Om en spelare avsattes och förvisades idag, visa Parkmästaren den spelarens karaktärskort.",
     "reminders": ["Förvisad idag"],
     "setup": false,
     "ability": "Varje natt*, du får veta vilken karaktär som blev avsatt och förvisad idag."
@@ -101,10 +101,10 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 12,
-    "otherNightReminder": "Apotekaren väljer 1 spelare.",
+    "otherNightReminder": "Apotekaren väljer en spelare.",
     "reminders": ["Säker"],
     "setup": false,
-    "ability": "Varje natt*, välj 1 spelare (inte dig själv): den är säker mot Högförrädaren i natt."
+    "ability": "Varje natt*, välj en spelare (inte dig själv); den är säker från Högförrädaren i natt."
   },
   {
     "id": "ravenkeeper",
@@ -114,10 +114,10 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 52,
-    "otherNightReminder": "Om Fågeltämkaren förvisades inatt väljer han 1 spelare. Visa den spelarens karaktärskort.",
+    "otherNightReminder": "Om Fågeltämkaren förvisades inatt väljer den en spelare. Visa den spelarens karaktärskort.",
     "reminders": [],
     "setup": false,
-    "ability": "Om du förvisas på natten, vaknar du och väljer 1 spelare: du får veta dess karaktär."
+    "ability": "Om du förvisas på natten, vaknar du och väljer en spelare: du får veta dess karaktär."
   },
   {
     "id": "virgin",
@@ -130,7 +130,7 @@
     "otherNightReminder": "",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "Om den första spelaren som nominerar dig är Stadsbo förvisas den direkt"
+    "ability": "Är den första spelaren som nominerar dig en Stadsbo förvisas den direkt"
   },
   {
     "id": "slayer",
@@ -143,7 +143,7 @@
     "otherNightReminder": "",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång per spel kan du öppet välja 1 spelare, om det är Högförrädaren blir den förvisad"
+    "ability": "En gång under spelet kan du öppet välja en spelare, om det är Högförrädaren blir den förvisad"
   },
   {
     "id": "soldier",
@@ -169,7 +169,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Om det bara är 3 spelare i rådet och ingen avsätts och förvisas vinner ditt lag. Om du förvisas i natt kanske en annan spelare förvisas i stället."
+    "ability": "Om det bara är tre spelare i rådet och ingen avsätts och förvisas vinner ditt lag. Om du förvisas i natt kanske en annan spelare förvisas i stället."
   },
   {
     "id": "butler",
@@ -182,7 +182,7 @@
     "otherNightReminder": "Betjänten väljer 1 spelare.",
     "reminders": ["Herre"],
     "setup": false,
-    "ability": "Varje natt väljer du 1 spelare (inte dig själv); imorgon får du bara rösta om den också röstar."
+    "ability": "Varje natt, välj en spelare (inte dig själv); imorgon får du bara rösta om den också röstar."
   },
   {
     "id": "drunk",
@@ -230,12 +230,12 @@
     "edition": "tb",
     "team": "minion",
     "firstNight": 17,
-    "firstNightReminder": "Förgiftaren väljer 1 spelare.",
+    "firstNightReminder": "Förgiftaren väljer en spelare.",
     "otherNight": 7,
-    "otherNightReminder": "Förgiftaren väljer 1 spelare.",
+    "otherNightReminder": "Förgiftaren väljer en spelare.",
     "reminders": ["Förgiftad"],
     "setup": false,
-    "ability": "Varje natt väljer du 1 spelare, den blir förgiftad i natt och imorgon."
+    "ability": "Varje natt väljer du en spelare, den blir förgiftad i natt och imorgon."
   },
   {
     "id": "spy",
@@ -249,7 +249,7 @@
     "reminders": [],
     "menueopt": ["spying"],
     "setup": false,
-    "ability": "Varje natt tittar du i Klocktornets Kodex. Du kanske registreras som Lojal, Stadsbo eller Lantbo, även om du är förvisad."
+    "ability": "Varje natt, titta i Klocktornets Kodex. Du kanske registreras som Lojal, Stadsbo eller Lantbo, även om du är förvisad."
   },
   {
     "id": "scarletwoman",
@@ -262,7 +262,7 @@
     "otherNightReminder": "Om Hertiginnan blev Högförrädaren så visa kortet DU ÄR och Högförrädarens karaktärskort.",
     "reminders": ["Är Högförrädaren"],
     "setup": false,
-    "ability": "Om 5 eller fler spelare är kvar i hovet (ej resenärer) och Högförrädaren avsätts och förvisas blir du Högförrädaren."
+    "ability": "Om fem eller fler spelare är kvar i rådet (ej resenärer) och Högförrädaren avsätts och förvisas, blir du Högförrädaren."
   },
   {
     "id": "baron",
@@ -285,10 +285,10 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 24,
-    "otherNightReminder": "Hertigen väljer 1 spelare.  Om Hertigen väljer sig själv, ersätt karaktärsbricka från en Kumpan i rådet med den extra Hertigen-brickan. Söv den gamla Hertigen. Väck den nya Hertigen, visa kortet DU ÄR och Hertigens karaktärskort.",
+    "otherNightReminder": "Hertigen väljer en spelare.  Om Hertigen väljer sig själv, ersätt karaktärsbrickan från en Kumpan i rådet med en extra Hertigen-bricka. Söv den gamla Hertigen. Väck den nya Hertigen, visa kortet DU ÄR och Hertigens karaktärskort.",
     "reminders": ["Förvisad"],
     "setup": false,
-    "ability": "Varje natt* förvisar du 1 spelare. Förvisar du dig själv blir en Kumpan Högförrädaren."
+    "ability": "Varje natt* förvisar du en spelare. Förvisar du dig själv blir en Kumpan Högförrädaren."
   },
   {
     "id": "grandmother",
