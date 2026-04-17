@@ -366,6 +366,54 @@ export default {
   }
 }
 
+/* Nytt */
+@media (max-width: 768px) {
+  .circle {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: auto;
+    padding: 20px 0;
+
+    scroll-snap-type: x mandatory;   /* enable snapping */
+    scroll-behavior: smooth;         /* smooth scrolling */
+    -webkit-overflow-scrolling: touch;
+
+    /* optional: hide scrollbar */
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .circle > li {
+    position: relative;
+    left: auto;
+    height: auto;
+    transform: none !important;
+    pointer-events: auto;
+
+    flex: 0 0 75vw;                  /* each player takes ~75% of screen */
+    scroll-snap-align: center;       /* snap to center */
+    scroll-snap-stop: always;        /* force snapping */
+
+    margin-right: 20px;
+  }
+
+  .circle > li > .player,
+  .circle > li > .reminder {
+    width: 100%;
+    margin: 0;
+    transform: none !important;
+  }
+
+  /* disable circle transforms */
+  .circle > li > * {
+    transform: none !important;
+  }
+}
+
 /***** Godfather bluffs / Fabled *******/
 #townsquare > .bluffs,
 #townsquare > .fabled {
