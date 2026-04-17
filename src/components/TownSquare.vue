@@ -366,12 +366,6 @@ export default {
     @include on-circle($item-count: $i);
   }
 }
-@media (max-width: 768px) {
-  .circle[class*="size-"] > li {
-    transform: none !important;
-  }
-}
-
 
 /***** Godfather bluffs / Fabled *******/
 #townsquare > .bluffs,
