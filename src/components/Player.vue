@@ -236,6 +236,10 @@ export default {
       return indexAdjusted < session.lockedVote - 1;
     },
     zoom: function() {
+       if (window.innerWidth < 768) {
+       return { width: "80px" }; // fast storlek för mobil
+    }
+
       const unit = window.innerWidth > window.innerHeight ? "vh" : "vw";
       if (this.players.length < 7) {
         return { width: 18 + this.grimoire.zoom + unit };

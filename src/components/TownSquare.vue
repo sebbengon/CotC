@@ -13,6 +13,7 @@
         <font-awesome-icon icon="users" />
       </span>
     </transition>
+  <div class="mobile-scroll">
     <ul class="circle" :class="['size-' + players.length]">
       <Player
         v-for="(player, index) in players"
@@ -27,7 +28,7 @@
         }"
       ></Player>
     </ul>
-
+  </div>
     <div id="toggle-grimoire">
       <li @click="toggleGrimoire" v-if="players.length">
         <template v-if="!grimoire.isPublic">Göm</template>
@@ -644,5 +645,47 @@ export default {
   border-bottom: 0;
   border-radius: 10px 0 0 0;
   padding: 15px 25px 25px 15px;
+}
+/* MOBIL-LÄGE */
+@media (max-width: 768px) {
+  .mobile-scroll {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .circle {
+    display: flex;
+    flex-direction: row;
+    position: static !important;
+    height: auto;
+    width: max-content;
+  }
+
+  .circle > li {
+    position: relative !important;
+    transform: none !important;
+    left: auto !important;
+    height: auto;
+    flex: 0 0 auto;
+    margin-right: 12px;
+  }
+
+  .circle > li > .player {
+    margin-left: 0 !important;
+    width: 80px; /* justera */
+  }
+
+  .circle > li > .reminder {
+    margin-left: 0 !important;
+  }
+  .mobile-scroll {
+  scroll-snap-type: x mandatory;
+  }
+
+  .circle > li {
+  scroll-snap-align: center;
+}
 }
 </style>
