@@ -366,8 +366,10 @@ export default {
   }
 }
 
-/* Nytt */
+/* Nytt – komplett förbättrad mobilversion */
 @media (max-width: 768px) {
+
+  /* --- SNAP SCROLL --- */
   .circle {
     display: flex;
     flex-direction: row;
@@ -376,11 +378,10 @@ export default {
     height: auto;
     padding: 20px 0;
 
-    scroll-snap-type: x mandatory;   /* enable snapping */
-    scroll-behavior: smooth;         /* smooth scrolling */
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
 
-    /* optional: hide scrollbar */
     scrollbar-width: none;
     &::-webkit-scrollbar {
       display: none;
@@ -394,70 +395,92 @@ export default {
     transform: none !important;
     pointer-events: auto;
 
-    flex: 0 0 75vw;                  /* each player takes ~75% of screen */
-    scroll-snap-align: center;       /* snap to center */
-    scroll-snap-stop: always;        /* force snapping */
+    flex: 0 0 75vw;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 
     margin-right: 20px;
   }
 
-  .circle > li > .player,
-  .circle > li > .reminder {
-    width: 100%;
-    margin: 0;
-    transform: none !important;
-  }
-
-  /* disable circle transforms */
+  /* --- DISABLE ALL CIRCLE TRANSFORMS --- */
   .circle > li > * {
     transform: none !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
   }
+
+  /* --- PLAYER CARD --- */
   .circle > li > .player {
+    width: 70vw;
+    max-width: 350px;
+    margin: 0 auto;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
-    width: 100%;
-    margin: 0 auto;
   }
 
+  /* --- NAME TAG --- */
   .player .name {
     position: relative !important;
-    transform: none !important;
-    margin-top: 10px;
-    font-size: 4vw;
+    width: auto !important;
+    max-width: 80%;
+    padding: 6px 12px;
+
+    margin-top: 12px;
+
+    font-size: 5vw;
+    line-height: 1.2;
     text-align: center;
-  }
 
-  .player + .reminder {
-    margin-top: 10px;
-    margin-left: 0 !important;
-    width: 40% !important;
     transform: none !important;
   }
 
+  /* --- REMINDERS --- */
+  .player + .reminder {
+    margin-top: 12px;
+    width: 30vw !important;
+    max-width: 120px;
+
+    margin-left: 0 !important;
+    transform: none !important;
+  }
+
+  /* --- MENU (OPEN DOWNWARD) --- */
   .player > .menu {
     position: absolute;
-    top: 110%;
+    top: 105%;
     left: 50%;
     transform: translateX(-50%);
-    width: max-content;
+
+    width: 80vw;
+    max-width: 350px;
+
+    font-size: 4vw;
 
     &:before {
       display: none;
     }
   }
 
+  .player > .menu button,
+  .player > .menu li {
+    padding: 10px 14px;
+  }
+
+  /* --- MENU ANIMATION (NO ROTATION) --- */
   .fold-enter-active,
   .fold-leave-active {
     transform-origin: top center !important;
   }
+
   .fold-enter,
   .fold-leave-to {
     transform: perspective(200px) rotateX(-90deg) !important;
   }
 
+  /* --- ABILITY TOOLTIP (CENTERED) --- */
   .ability {
     left: 50% !important;
     transform: translateX(-50%) !important;
