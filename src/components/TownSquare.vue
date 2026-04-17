@@ -13,6 +13,7 @@
         <font-awesome-icon icon="users" />
       </span>
     </transition>
+    <div class="scroll">
     <ul class="circle" :class="['size-' + players.length]">
       <Player
         v-for="(player, index) in players"
@@ -27,6 +28,7 @@
         }"
       ></Player>
     </ul>
+</div>
     <div id="toggle-grimoire">
       <li @click="toggleGrimoire" v-if="players.length">
         <template v-if="!grimoire.isPublic">Göm</template>
@@ -364,7 +366,11 @@ export default {
     @include on-circle($item-count: $i);
   }
 }
-
+@media (max-width: 768px) {
+  .circle[class*="size-"] > li {
+    transform: none !important;
+  }
+}
 
 
 /***** Godfather bluffs / Fabled *******/
@@ -644,5 +650,58 @@ export default {
   border-radius: 10px 0 0 0;
   padding: 15px 25px 25px 15px;
 }
+@media (max-width: 768px) {
+  #townsquare {
+    padding: 0;
+    overflow: hidden;
+  }
 
+  .scroll {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .circle {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: static !important;
+    transform: none !important;
+  }
+
+  .circle > li {
+    flex: 0 0 100vw;         // 🔥 en spelare per “skärm”
+    height: 100%;
+    position: relative !important;
+    left: auto !important;
+    transform: none !important;
+    transform-origin: initial !important;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* stoppar ALL cirkel-rotation */
+  .circle > li > * {
+    transform: none !important;
+  }
+
+  .circle > li > .player {
+    width: 80%;              // justera storlek på token
+    max-width: 300px;
+    margin: 0 auto !important;
+  }
+
+  .circle > li > .reminder {
+    margin-left: 0 !important;
+  }
+}
 </style>
