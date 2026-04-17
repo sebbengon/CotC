@@ -703,5 +703,14 @@ export default {
     transform: none !important;
   }
 }
+@media (max-width: 768px) {
+  .circle .reminder,
+  .circle > li > .reminder,
+  .reminder {
+    display: none !important;
+    pointer-events: none !important;
+    opacity: 0 !important;
+  }
+}
 
 </style>
