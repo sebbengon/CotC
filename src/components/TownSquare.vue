@@ -642,4 +642,66 @@ export default {
   border-radius: 10px 0 0 0;
   padding: 15px 25px 25px 15px;
 }
+/* MOBIL: ersätt cirkeln med horisontell snap-scroll */
+@media (max-width: 768px) {
+  .circle {
+    display: flex !important;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: auto !important;
+    padding: 20px 0;
+
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+
+    /* göm scrollbar */
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .circle > li {
+    /* ta bort cirkelpositionering */
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    height: auto !important;
+    transform: none !important;
+    pointer-events: auto !important;
+
+    /* varje spelare = en slide */
+    flex: 0 0 80vw;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+
+    margin-right: 20px;
+  }
+
+  /* spelaren centrerad */
+  .circle > li > .player {
+    margin: 0 auto !important;
+    width: 100% !important;
+    transform: none !important;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* reminders under spelaren */
+  .circle > li > .reminder {
+    margin: 10px auto 0 !important;
+    width: 40% !important;
+    transform: none !important;
+  }
+
+  /* stäng av alla rotationer från cirkeln */
+  .circle > li > * {
+    transform: none !important;
+  }
+}
+
 </style>
