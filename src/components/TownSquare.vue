@@ -754,5 +754,29 @@ export default {
     left: auto !important;
     margin-right: 0 !important;
   }
+/* Tvinga namnet att centreras och få normal bredd */
+  .player > .name {
+    width: auto !important;
+    max-width: 80vw !important;
+    text-align: center !important;
+    margin: 0 auto 10px auto !important;
+
+    font-size: 4.5vw !important; /* större text på mobil */
+    line-height: 1.2 !important;
+    white-space: nowrap !important;
+  }
+
+  /* Stäng av cirkelns rotationer och konstiga offsets */
+  .circle > li > .player > .name {
+    transform: none !important;
+  }
+
+  /* Se till att .player är centrerad */
+  .player {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
 }
 </style>
