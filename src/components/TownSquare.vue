@@ -366,7 +366,7 @@ export default {
   }
 }
 
-/* Nytt – förbättrad och hårdare mobilversion */
+/* Nytt – mobil override som garanterat syns */
 @media (max-width: 768px) {
 
   /* --- SNAP SCROLL --- */
@@ -504,6 +504,7 @@ export default {
     margin-top: 12px !important;
   }
 }
+
 
 
 /***** Godfather bluffs / Fabled *******/
