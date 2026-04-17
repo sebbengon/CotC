@@ -13,23 +13,20 @@
         <font-awesome-icon icon="users" />
       </span>
     </transition>
-    <div class="scroll">
-    <ul class="circle" :class="['size-' + players.length]">
-  <li v-for="(player, index) in players" :key="index">
-    <Player
-      :player="player"
-      @trigger="handleTrigger(index, $event)"
-      :class="{
-        from: Math.max(swap, move, nominate) === index,
-        swap: swap > -1,
-        move: move > -1,
-        nominate: nominate > -1,
-      }"
-    />
-  </li>
-</ul>
+     <ul class="circle" :class="['size-' + players.length]">
+      <Player
+        v-for="(player, index) in players"
+        :key="index"
+        :player="player"
+        @trigger="handleTrigger(index, $event)"
+        :class="{
+          from: Math.max(swap, move, nominate) === index,
+          swap: swap > -1,
+          move: move > -1,
+          nominate: nominate > -1,
+        }"
+      ></Player>
     </ul>
-</div>
     <div id="toggle-grimoire">
       <li @click="toggleGrimoire" v-if="players.length">
         <template v-if="!grimoire.isPublic">Göm</template>
