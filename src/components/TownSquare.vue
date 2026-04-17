@@ -681,10 +681,9 @@ export default {
     height: 100%;
     position: relative !important;
     left: auto !important;
-    top: auto !important;
     transform: none !important;
     transform-origin: initial !important;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
