@@ -711,6 +711,48 @@ export default {
     pointer-events: none !important;
     opacity: 0 !important;
   }
-}
+  /* Menyn ska ligga under namnet */
+  .player {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
 
+  .player > .name {
+    margin-bottom: 10px !important;
+  }
+
+  /* Menyn centrerad under namnet */
+  .player > .menu {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+
+    margin-top: 10px !important;
+    transform: none !important;
+
+    /* öppna nedåt */
+    width: auto !important;
+    align-self: center !important;
+  }
+
+  /* Pilen/triangeln ska peka uppåt */
+  .player > .menu:before {
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    border-bottom-color: black !important;
+  }
+
+  /* Stäng av alla desktop-regler som tvingar menyn åt sidan */
+  .circle .player > .menu {
+    right: auto !important;
+    left: auto !important;
+    margin-right: 0 !important;
+  }
+}
 </style>
