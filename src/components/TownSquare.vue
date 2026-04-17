@@ -412,6 +412,57 @@ export default {
   .circle > li > * {
     transform: none !important;
   }
+  .circle > li > .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .player .name {
+    position: relative !important;
+    transform: none !important;
+    margin-top: 10px;
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .player + .reminder {
+    margin-top: 10px;
+    margin-left: 0 !important;
+    width: 40% !important;
+    transform: none !important;
+  }
+
+  .player > .menu {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+
+    &:before {
+      display: none;
+    }
+  }
+
+  .fold-enter-active,
+  .fold-leave-active {
+    transform-origin: top center !important;
+  }
+  .fold-enter,
+  .fold-leave-to {
+    transform: perspective(200px) rotateX(-90deg) !important;
+  }
+
+  .ability {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin-top: 10px;
+  }
 }
 
 /***** Godfather bluffs / Fabled *******/
