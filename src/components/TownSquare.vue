@@ -366,17 +366,17 @@ export default {
   }
 }
 
-/* Nytt – komplett förbättrad mobilversion */
+/* Nytt – förbättrad och hårdare mobilversion */
 @media (max-width: 768px) {
 
   /* --- SNAP SCROLL --- */
   .circle {
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    overflow-y: hidden;
-    height: auto;
-    padding: 20px 0;
+    display: flex !important;
+    flex-direction: row !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    height: auto !important;
+    padding: 20px 0 !important;
 
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -389,87 +389,104 @@ export default {
   }
 
   .circle > li {
-    position: relative;
-    left: auto;
-    height: auto;
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    height: auto !important;
+
     transform: none !important;
-    pointer-events: auto;
+    pointer-events: auto !important;
 
-    flex: 0 0 75vw;
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
+    flex: 0 0 80vw !important;
+    scroll-snap-align: center !important;
+    scroll-snap-stop: always !important;
 
-    margin-right: 20px;
+    margin: 0 20px 0 0 !important;
   }
 
-  /* --- DISABLE ALL CIRCLE TRANSFORMS --- */
+  /* --- DISABLE ALL CIRCLE LOGIC --- */
   .circle > li > * {
     transform: none !important;
     left: auto !important;
     right: auto !important;
     top: auto !important;
+    bottom: auto !important;
+    margin: 0 !important;
   }
 
   /* --- PLAYER CARD --- */
   .circle > li > .player {
-    width: 70vw;
-    max-width: 350px;
-    margin: 0 auto;
+    width: 80vw !important;
+    max-width: 360px !important;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+
+    margin: 0 auto !important;
   }
 
-  /* --- NAME TAG --- */
+  /* --- NAME TAG (fixar långsmal text) --- */
   .player .name {
     position: relative !important;
+
     width: auto !important;
-    max-width: 80%;
-    padding: 6px 12px;
+    max-width: 90% !important;
 
-    margin-top: 12px;
+    padding: 8px 14px !important;
+    margin-top: 12px !important;
 
-    font-size: 5vw;
-    line-height: 1.2;
-    text-align: center;
+    font-size: 5.5vw !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
 
     transform: none !important;
+    white-space: normal !important;
   }
 
-  /* --- REMINDERS --- */
+  /* --- REMINDERS (fixar huller om buller) --- */
   .player + .reminder {
-    margin-top: 12px;
-    width: 30vw !important;
-    max-width: 120px;
+    position: relative !important;
 
-    margin-left: 0 !important;
+    width: 28vw !important;
+    max-width: 120px !important;
+    height: auto !important;
+
+    margin: 14px auto 0 auto !important;
+
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+
     transform: none !important;
   }
 
-  /* --- MENU (OPEN DOWNWARD) --- */
+  /* --- MENU (fixar extremt liten meny) --- */
   .player > .menu {
-    position: absolute;
-    top: 105%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: absolute !important;
+    top: 110% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
 
-    width: 80vw;
-    max-width: 350px;
+    width: 85vw !important;
+    max-width: 360px !important;
 
-    font-size: 4vw;
+    font-size: 4.5vw !important;
+    padding: 10px 0 !important;
 
     &:before {
-      display: none;
+      display: none !important;
     }
   }
 
   .player > .menu button,
   .player > .menu li {
-    padding: 10px 14px;
+    padding: 12px 16px !important;
+    font-size: 4.5vw !important;
   }
 
-  /* --- MENU ANIMATION (NO ROTATION) --- */
+  /* --- MENU ANIMATION --- */
   .fold-enter-active,
   .fold-leave-active {
     transform-origin: top center !important;
@@ -480,13 +497,14 @@ export default {
     transform: perspective(200px) rotateX(-90deg) !important;
   }
 
-  /* --- ABILITY TOOLTIP (CENTERED) --- */
+  /* --- ABILITY TOOLTIP --- */
   .ability {
     left: 50% !important;
     transform: translateX(-50%) !important;
-    margin-top: 10px;
+    margin-top: 12px !important;
   }
 }
+
 
 /***** Godfather bluffs / Fabled *******/
 #townsquare > .bluffs,
