@@ -829,14 +829,14 @@
   },
   {
     "id": "barber",
-    "name": "Bildhuggaren",
+    "name": "Barberaren",
     "edition": "snv",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 40,
-    "otherNightReminder": "Om Bildhuggaren förvisades idag eller inatt, visa Högförrädaren kortet DU VALDES AV och Bildhuggarens karaktärskort. Om Högförrädaren väljer 2 spelare, väck dem en i taget. Visa kortet DU ÄR och deras nya karaktärskort.",
-    "reminders": ["Avbild"],
+    "otherNightReminder": "Om Barberaren förvisades idag eller inatt, visa Högförrädaren kortet DU VALDES AV och Barberarens karaktärskort. Om Högförrädaren väljer 2 spelare, väck dem en i taget. Visa kortet DU ÄR och deras nya karaktärskort.",
+    "reminders": ["Ny frisyr"],
     "setup": false,
     "ability": "Om du förvisades idag eller i natt får Högförrädaren välja 2 spelare (inte en annan Högförrädare) som byter karaktär med varandra."
   },
@@ -1927,7 +1927,7 @@
   },
 {
     "id": "butcher",
-    "name": "Mominatorn",
+    "name": "Nominatorn",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
