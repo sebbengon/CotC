@@ -541,7 +541,7 @@
     "firstNightReminder": "Advokaten väljer 1 spelare i rådet.",
     "otherNight": 13,
     "otherNightReminder": "Advokaten väljer en annan spelare i rådet än natten innan.",
-    "reminders": ["Vörvisas inte"],
+    "reminders": ["Förvisas inte"],
     "setup": false,
     "ability": "Varje natt väljer du 1 spelare i rådet (inte samma som förra); om den avsätts imorgon förvisas den inte."
   },
@@ -1866,7 +1866,7 @@
     "firstNight": 8,
     "firstNightReminder": "Byråkraten väljer en spelare",
     "otherNight": 6,
-    "otherNightReminder": "Byrokraten väljer en spelare.",
+    "otherNightReminder": "Byråkraten väljer en spelare.",
     "reminders": ["3 röster"],
     "menueopt": ["votenum"],
     "setup": false,
@@ -1874,7 +1874,7 @@
   },
   {
     "id": "gunslinger",
-    "name": "Väktaren",
+    "name": "Utkastaren",
     "edition": "",
     "team": "traveler",
     "firstNight": 1,
@@ -1887,7 +1887,7 @@
   },
   {
     "id": "scapegoat",
-    "name": "Syndabocken",
+    "name": "Budbäraren",
     "edition": "",
     "team": "traveler",
     "firstNight": 0,
@@ -1927,7 +1927,7 @@
   },
 {
     "id": "butcher",
-    "name": "Nämndemannen",
+    "name": "Mominatorn",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
@@ -1955,7 +1955,7 @@
   },
 {
     "id": "deviant",
-    "name": "Skojaren",
+    "name": "Lustigkurren",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
@@ -2025,7 +2025,7 @@
   },
 {
     "id": "judge",
-    "name": "Rådsdomare",
+    "name": "Rådsdomaren",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
@@ -2039,7 +2039,7 @@
   },
 {
     "id": "matron",
-    "name": "Magistern",
+    "name": "Abbedissan",
     "edition": "",
     "team": "traveler",
     "firstNight":0,
@@ -2096,7 +2096,7 @@
   },
 {
     "id": "gnome",
-    "name": "Livvakten",
+    "name": "Beskyddaren",
     "edition": "",
     "team": "traveler",
     "firstNight":1,
