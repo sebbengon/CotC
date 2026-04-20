@@ -96,7 +96,7 @@
         class="has-vote"
         v-if="player.isDead && !player.isVoteless"
         @click="updatePlayer('isVoteless', true)"
-        title="Ghost vote"
+        title="Last vote"
       />
 
       <!-- On block icon -->
