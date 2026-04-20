@@ -1016,7 +1016,7 @@
   },
 {
     "id": "atheist",
-    "name": "Forskaren",
+    "name": "Källkritikern",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
@@ -1026,7 +1026,7 @@
     "reminders": [],
     "menueopt":["stseat"],
     "setup": true,
-    "ability": "Berättaren kan bryta mot reglerna, och om berättaren avsätts och förvisas vinner de Lojala,  även om du är förvisad. [Inga Bedragare]"
+    "ability": "Du förstår att hot om Högförrädare och sånt bara är påhitt. Berättaren kan bryta mot reglerna och om Berättaren avsätts och förvisas vinner de Lojala,  även om du är förvisad. [Inga Bedragare]"
   },
 {
     "id": "balloonist",
