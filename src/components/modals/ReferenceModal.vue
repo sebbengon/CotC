@@ -208,7 +208,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import '../../vars.scss';
 
 .toggle {
@@ -419,21 +419,16 @@ ul {
     margin: 12mm;
   }
 
-  /* Dölj app + modal */
-  :deep(.modal),
-  :deep(.toggle),
-  :deep(.close) {
+  .modal,
+  .toggle,
+  .close {
     display: none !important;
   }
 
-  /* Visa print-layout */
-  :deep(.print-sheet) {
+  .print-sheet {
     display: block !important;
-    position: static;
     width: 100%;
   }
-
-  /* ===== layout ===== */
 
   .columns {
     column-count: 2;
@@ -449,7 +444,6 @@ ul {
     display: flex;
     gap: 6px;
     margin-bottom: 4px;
-    break-inside: avoid;
   }
 
   .icon {
