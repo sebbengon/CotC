@@ -537,7 +537,7 @@ export default {
     right: 120%;
     background: linear-gradient(to right, $townsfolk 0%, rgba(0, 0, 0, 0.5) 20%);
     &:before {
-      content: 'Första Natt';
+      content: 'Första';
     }
     &:after {
       border-left-color: $townsfolk;
@@ -550,7 +550,7 @@ export default {
     left: 120%;
     background: linear-gradient(to right, $demon 0%, rgba(0, 0, 0, 0.5) 20%);
     &:before {
-      content: 'Övrig Natt';
+      content: 'Övriga';
     }
     &:after {
       right: 100%;

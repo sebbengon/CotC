@@ -16,7 +16,7 @@
     </ul>
     <div class="button-group" v-if="playerIndex >= 0 && otherTravelers.size && !session.isSpectator">
       <span class="button" :class="{ townsfolk: tab === 'editionRoles' }" @click="tab = 'editionRoles'"
-        >Utgåvans roller</span
+        >Karaktärer i Manus</span
       >
       <span class="button" :class="{ townsfolk: tab === 'otherTravelers' }" @click="tab = 'otherTravelers'"
         >Resenärer</span

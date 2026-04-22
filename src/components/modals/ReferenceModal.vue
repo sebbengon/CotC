@@ -1,6 +1,7 @@
 <template>
   <Modal class="characters" @close="toggleModal('reference')" v-if="modals.reference && roles.size">
     <font-awesome-icon @click="toggleModal('nightOrder')" icon="cloud-moon" class="toggle" title="Show Night Order" />
+    <font-awesome-icon @click="printReference" icon="print" class="toggle print" title="Skriv ut" />
     <h3>
       Karaktärsreferens
       <font-awesome-icon icon="address-card" />
@@ -137,6 +138,9 @@ export default {
   },
   methods: {
     ...mapMutations(['toggleModal']),
+    printReference() {
+      window.print()
+  }
   },
 }
 </script>
@@ -147,6 +151,14 @@ export default {
 .toggle {
   position: absolute;
   left: 20px;
+  top: 15px;
+  cursor: pointer;
+  &:hover {
+    color: red;
+  }
+}
+.toggle.print {
+  left: 60px; /* flytta den åt höger */
   top: 15px;
   cursor: pointer;
   &:hover {
@@ -334,4 +346,77 @@ ul {
 #townsquare.public ~ .characters .modal .player {
   display: none;
 }
+/* ============================================
+   PRINT LAYOUT — A4, två kolumner, jinx separat
+   ============================================ */
+@media print {
+  /* Modal → full A4 */
+  .modal {
+    position: static !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    box-shadow: none !important;
+    background: white !important;
+    overflow: visible !important;
+    padding: 15mm !important;
+  }
+
+  /* Dölj UI-element */
+  .toggle,
+  .close {
+    display: none !important;
+  }
+
+  /* ============================
+     HUVUDSIDAN: två kolumner
+     ============================ */
+  .characters .modal {
+    column-count: 2;
+    column-gap: 20mm;
+  }
+
+  /* Team-blocken ska inte brytas mitt i */
+  .team {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 10mm;
+  }
+
+  /* ============================
+     JINX → egen A4-sida
+     ============================ */
+  .team.jinxed {
+    column-count: 1 !important; /* En kolumn på jinx-sidan */
+    page-break-before: always;
+    page-break-after: always;
+  }
+
+  .team.jinxed ul,
+  .team.jinxed li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* ============================
+     Ikoner & text anpassning
+     ============================ */
+  ul li .icon {
+    width: 5vh !important;
+    height: auto !important;
+  }
+
+  ul li .name {
+    font-size: 90% !important;
+  }
+
+  ul li .ability {
+    font-size: 80% !important;
+  }
+
+  ul li .player {
+    font-size: 70% !important;
+  }
+}
+
 </style>
