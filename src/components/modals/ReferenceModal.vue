@@ -413,41 +413,28 @@ ul {
 }
 
 @media print {
+
   @page {
     size: A4;
     margin: 12mm;
   }
 
-  body * {
-    visibility: hidden;
+  /* Dölj app + modal */
+  :deep(.modal),
+  :deep(.toggle),
+  :deep(.close) {
+    display: none !important;
   }
 
-  .print-sheet,
-  .print-sheet * {
-    visibility: visible;
+  /* Visa print-layout */
+  :deep(.print-sheet) {
+    display: block !important;
+    position: static;
+    width: 100%;
   }
 
-  .print-sheet {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 210mm;
-  }
+  /* ===== layout ===== */
 
-  /* ===== TYPO ===== */
-  h1 {
-    font-size: 18pt;
-    margin-bottom: 10mm;
-  }
-
-  h2 {
-    font-size: 12pt;
-    margin-top: 6mm;
-    margin-bottom: 3mm;
-  }
-
-  /* ===== TWO COLUMNS ===== */
   .columns {
     column-count: 2;
     column-gap: 12mm;
@@ -458,7 +445,6 @@ ul {
     margin-bottom: 6mm;
   }
 
-  /* ===== ROLE ===== */
   .role-row {
     display: flex;
     gap: 6px;
@@ -472,29 +458,8 @@ ul {
     object-fit: contain;
   }
 
-  .name {
-    font-weight: bold;
-    font-size: 9pt;
-  }
-
-  .ability {
-    font-size: 8pt;
-  }
-
-  /* ===== JINX PAGE ===== */
   .jinx-page {
     page-break-before: always;
-  }
-
-  .jinx-row {
-    display: flex;
-    gap: 6px;
-    margin-bottom: 6px;
-  }
-
-  .jinx-row img {
-    width: 18px;
-    height: 18px;
   }
 }
 
