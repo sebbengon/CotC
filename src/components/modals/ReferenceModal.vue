@@ -346,72 +346,45 @@ ul {
    PRINT LAYOUT — A4, två kolumner, jinx separat
    ============================================ */
 @media print {
-  /* Modal → full A4 */
-  .modal {
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+
+  :deep(.modal) {
     position: static !important;
+    transform: none !important;
     max-width: 100% !important;
     width: 100% !important;
     height: auto !important;
     box-shadow: none !important;
     background: white !important;
-    overflow: visible !important;
-    padding: 15mm !important;
+    padding: 10mm !important;
   }
 
-  /* Dölj UI-element */
-  .toggle,
-  .close {
+  :deep(.toggle),
+  :deep(.close) {
     display: none !important;
   }
 
-  /* ============================
-     HUVUDSIDAN: två kolumner
-     ============================ */
-  .characters .modal {
+  :deep(.characters .modal) {
     column-count: 2;
-    column-gap: 20mm;
+    column-gap: 15mm;
   }
 
-  /* Team-blocken ska inte brytas mitt i */
-  .team {
-    break-inside: avoid;
-    page-break-inside: avoid;
-    margin-bottom: 10mm;
-  }
-
-  /* ============================
-     JINX → egen A4-sida
-     ============================ */
-  .team.jinxed {
-    column-count: 1 !important; /* En kolumn på jinx-sidan */
-    page-break-before: always;
-    page-break-after: always;
-  }
-
-  .team.jinxed ul,
-  .team.jinxed li {
+  :deep(.team) {
     break-inside: avoid;
     page-break-inside: avoid;
   }
 
-  /* ============================
-     Ikoner & text anpassning
-     ============================ */
-  ul li .icon {
-    width: 5vh !important;
-    height: auto !important;
-  }
-
-  ul li .name {
-    font-size: 90% !important;
-  }
-
-  ul li .ability {
-    font-size: 80% !important;
-  }
-
-  ul li .player {
-    font-size: 70% !important;
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 }
 
