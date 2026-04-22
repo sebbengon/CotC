@@ -1,4 +1,5 @@
 <template>
+<div>
   <Modal class="characters" @close="toggleModal('reference')" v-if="modals.reference && roles.size">
     <font-awesome-icon @click="toggleModal('nightOrder')" icon="cloud-moon" class="toggle" title="Show Night Order" />
     <font-awesome-icon @click="printReference" icon="print" class="toggle print" title="Skriv ut" />
@@ -78,6 +79,68 @@
       </ul>
     </div>
   </Modal>
+<div class="print-sheet">
+  <h1>Karaktärsreferens – {{ edition.name || 'Custom Script' }}</h1>
+
+  <div class="columns">
+    <div
+      v-for="(teamRoles, team) in rolesGrouped"
+      :key="team"
+      class="team"
+      :class="team"
+    >
+      <h2>
+        {{
+          team === 'townsfolk'
+            ? 'Stadsbo'
+            : team === 'outsider'
+            ? 'Lantbo'
+            : team === 'minion'
+            ? 'Kumpan'
+            : team === 'demon'
+            ? 'HF'
+            : ''
+        }}
+      </h2>
+
+      <div
+        v-for="role in teamRoles"
+        :key="role.id"
+        class="role-row"
+      >
+        <img
+          class="icon"
+          :src="
+            role.image && grimoire.isImageOptIn
+              ? role.image
+              : require('../../assets/icons/' + (role.imageAlt || role.id) + '.png')
+          "
+        />
+
+        <div class="text">
+          <div class="name">{{ role.name }}</div>
+          <div class="ability">{{ role.ability }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JINX PAGE -->
+  <div class="jinx-page" v-if="jinxed.length">
+    <h2>Ändringar</h2>
+
+    <div v-for="(jinx, i) in jinxed" :key="i" class="jinx-row">
+      <img :src="require('../../assets/icons/' + jinx.first.id + '.png')" />
+      <img :src="require('../../assets/icons/' + jinx.second.id + '.png')" />
+
+      <div>
+        <strong>{{ jinx.first.name }} & {{ jinx.second.name }}</strong>
+        <div>{{ jinx.reason }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 </template>
 
 <script>
@@ -345,46 +408,93 @@ ul {
 /* ============================================
    PRINT LAYOUT — A4, två kolumner, jinx separat
    ============================================ */
+.print-sheet {
+  display: none;
+}
+
 @media print {
   @page {
     size: A4;
-    margin: 10mm;
+    margin: 12mm;
   }
 
-  html, body {
+  body * {
+    visibility: hidden;
+  }
+
+  .print-sheet,
+  .print-sheet * {
+    visibility: visible;
+  }
+
+  .print-sheet {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 210mm;
-    height: 297mm;
   }
 
-  :deep(.modal) {
-    position: static !important;
-    transform: none !important;
-    max-width: 100% !important;
-    width: 100% !important;
-    height: auto !important;
-    box-shadow: none !important;
-    background: white !important;
-    padding: 10mm !important;
+  /* ===== TYPO ===== */
+  h1 {
+    font-size: 18pt;
+    margin-bottom: 10mm;
   }
 
-  :deep(.toggle),
-  :deep(.close) {
-    display: none !important;
+  h2 {
+    font-size: 12pt;
+    margin-top: 6mm;
+    margin-bottom: 3mm;
   }
 
-  :deep(.characters .modal) {
+  /* ===== TWO COLUMNS ===== */
+  .columns {
     column-count: 2;
-    column-gap: 15mm;
+    column-gap: 12mm;
   }
 
-  :deep(.team) {
+  .team {
     break-inside: avoid;
-    page-break-inside: avoid;
+    margin-bottom: 6mm;
   }
 
-  * {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
+  /* ===== ROLE ===== */
+  .role-row {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 4px;
+    break-inside: avoid;
+  }
+
+  .icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 9pt;
+  }
+
+  .ability {
+    font-size: 8pt;
+  }
+
+  /* ===== JINX PAGE ===== */
+  .jinx-page {
+    page-break-before: always;
+  }
+
+  .jinx-row {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+
+  .jinx-row img {
+    width: 18px;
+    height: 18px;
   }
 }
 
