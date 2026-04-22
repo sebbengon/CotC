@@ -140,8 +140,8 @@ export default {
     ...mapMutations(['toggleModal']),
     printReference() {
       window.print()
-  }
   },
+  }
 }
 </script>
 
