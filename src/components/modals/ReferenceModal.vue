@@ -158,13 +158,8 @@ export default {
   }
 }
 .toggle.print {
-  left: 60px; /* flytta den åt höger */
-  top: 15px;
-  cursor: pointer;
-  &:hover {
-    color: red;
+  left: 55px; /* flytta den åt höger */
   }
-}
 
 h3 {
   margin: 0 40px;
