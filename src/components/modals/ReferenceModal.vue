@@ -153,6 +153,7 @@ export default {
   left: 20px;
   top: 15px;
   cursor: pointer;
+  z-index: 100;
   &:hover {
     color: red;
   }
