@@ -1513,8 +1513,8 @@
     "firstNightReminder": "Väck Förfalskaren och Högförrädaren. Visa dem DU VALDES AV och Förfalskarens karaktärskort, sedan den Lojala käraltärens kort.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [""],
-    "remindersGlobal": [""],
+    "reminders": [],
+    "remindersGlobal": [],
     "setup": false,
     "ability": "Högförrädaren (även om den är berusad/förgiftad) har en Lojal karaktärs förmåga (som inte  är i spel). Ni vet båda vilken."
   },
@@ -1694,8 +1694,8 @@
     "firstNightReminder": "Väck myglaren med andra bedragare",
     "otherNight": 3,
     "otherNightReminder": "Väck myglaren med andra bedragare",
-    "reminders": [""],
-    "remindersGlobal": [""],
+    "reminders": [],
+    "remindersGlobal": [],
     "setup": false,
     "ability": "Du får öppna ögonen på natten. Du vaknar med andra Bedragare."
   },
@@ -1709,7 +1709,7 @@
     "otherNight": 12,
     "otherNightReminder": "Byt ut Förpestarens påminnelse till den aktuella natten. Om det är natt X, märk istället Förpestaren med påminnelsen X",
     "reminders": ["Natt 1", "Natt 2", "Natt 3", "Natt 4" ,"X"],
-    "remindersGlobal": [""],
+    "remindersGlobal": [],
     "setup": false,
     "ability": "På natt X är alla Stadsbor förgiftade till skymningen. [X Lantbor]"
   },
