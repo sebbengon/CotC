@@ -1082,7 +1082,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": ["Förgiftad",
-        "Förvisades idag"],
+        "Förvisades idag", "Är Andrafiolen"],
     "setup": false,
     "ability": "Du har den förmågan som den spelare som sist avsattes och förvisades hade. Om den är Bedragare är du förgiftad tills en Lojal spelare avsätts och förvisas."
   },
