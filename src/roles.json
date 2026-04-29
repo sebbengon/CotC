@@ -1733,14 +1733,14 @@
     "name": "Hovmästaren",
     "edition": "",
     "team": "demon",
-    "firstNight":6,
+    "firstNight":4,
     "firstNightReminder": "Hovmästaren väljer vilka spelare som är vilka Kumpaner. Väck varje Kumpan. Visa kortet DU ÄR och Kumpanens karaktärskort och ge tummen ner.",
     "otherNight": 37,
     "otherNightReminder": "Hovmästaren väljer en spelare.",
     "reminders": ["Förvisad"],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "Varje natt*, välj en spelare: den förvisas. [Du väljer vilka spelare som är vilka Kumpaner. ±? Lantbor]"
+    "ability": "Varje natt*, välj en spelare: den förvisas. [Du väljer vilka spelare som är vilka Kumpaner. -? till +? Lantbor]"
   },
 {
     "id": "legion",
