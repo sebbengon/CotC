@@ -124,7 +124,7 @@
       </div>
     </div>
   </div>
-</div>
+
   <!-- JINX PAGE -->
   <div class="jinx-page" v-if="jinxed.length">
     <h2>Ändringar</h2>
