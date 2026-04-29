@@ -79,6 +79,7 @@
       </ul>
     </div>
   </Modal>
+</div>
 <div class="print-sheet">
   <h1>Karaktärsreferens – {{ edition.name || 'Custom Script' }}</h1>
 
@@ -139,7 +140,6 @@
       </div>
     </div>
   </div>
-</div>
 </div>
 </template>
 
