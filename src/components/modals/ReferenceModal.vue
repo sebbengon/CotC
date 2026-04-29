@@ -79,7 +79,6 @@
       </ul>
     </div>
   </Modal>
-</div>
 <div class="print-sheet">
   <h1>Karaktärsreferens – {{ edition.name || 'Custom Script' }}</h1>
 
@@ -125,7 +124,7 @@
       </div>
     </div>
   </div>
-
+</div>
   <!-- JINX PAGE -->
   <div class="jinx-page" v-if="jinxed.length">
     <h2>Ändringar</h2>
@@ -203,7 +202,7 @@ export default {
     ...mapMutations(['toggleModal']),
     printReference() {
       window.print()
-  },
+  }
   }
 }
 </script>
