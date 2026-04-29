@@ -411,7 +411,7 @@ ul {
 .print-sheet {
   display: none;
 }
-</Style>
+</style>
 <style lang="scss">
 @media print {
 
