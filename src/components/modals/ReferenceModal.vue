@@ -408,11 +408,14 @@ ul {
 /* ============================================
    PRINT LAYOUT — A4, två kolumner, jinx separat
    ============================================ */
+
+</style>
+<style lang="scss">
+
 .print-sheet {
   display: none;
 }
-</style>
-<style lang="scss">
+
 @media print {
 
   @page {
