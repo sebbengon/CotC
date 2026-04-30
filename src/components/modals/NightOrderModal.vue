@@ -111,7 +111,7 @@ export default {
       // add minion / demon infos to night order sheet
       if (this.players.length > 6) {
         rolesFirstNight.push(
-          {
+           {
             id: "evil",
             name: "Kumpaninfo info",
             firstNight: 5,
