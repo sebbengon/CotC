@@ -65,11 +65,12 @@
     "otherNightReminder": "Visa fingersignal.",
     "reminders": [],
     "setup": false,
-    "ability": "Varje natt, du får veta hur många av dina grannar i rådet som är Bedragare."
+    "ability": "Varje natt får du veta hur många av dina grannar i rådet som är Bedragare."
   },
   {
     "id": "fortuneteller",
     "name": "Förvaltaren",
+    "wikiId": "Fortune_Teller",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 38,
@@ -91,7 +92,7 @@
     "otherNightReminder": "Om en spelare avsattes och förvisades idag, visa Parkmästaren den spelarens karaktärskort.",
     "reminders": ["Förvisad idag"],
     "setup": false,
-    "ability": "Varje natt*, du får veta vilken karaktär som blev avsatt och förvisad idag."
+    "ability": "Varje natt* får du veta vilken karaktär som blev avsatt och förvisad idag."
   },
   {
     "id": "monk",
@@ -117,7 +118,7 @@
     "otherNightReminder": "Om Fågeltämjaren förvisades inatt väljer den en spelare. Visa den spelarens karaktärskort.",
     "reminders": [],
     "setup": false,
-    "ability": "Om du förvisas på natten, du vaknar för att välja en spelare: du får veta dess karaktär."
+    "ability": "Om du förvisas på natten* vaknar du, välj en spelare: du får veta dess karaktär."
   },
   {
     "id": "virgin",
@@ -169,7 +170,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Är det bara 3 spelare i rådet och ingen avsätts och förvisas, ditt lag vinner. Om du förvisas på natten, kanske en annan spelare förvisas i stället."
+    "ability": "Är det bara 3 spelare i rådet och ingen blir avsatt och förvisad vinner ditt lag. Om du förvisas på natten, kanske en annan spelare förvisas i stället."
   },
   {
     "id": "butler",
@@ -196,7 +197,7 @@
     "reminders": [],
     "remindersGlobal": ["Är Byfånen"],
     "setup": true,
-    "ability": "Du vet inte att du är Byfånen. Du tror att du är Stadsbo, men det är du inte."
+    "ability": "Du vet inte att du är Byfånen. Du tror att du är en Stadsbo, men det är du inte."
   },
   {
     "id": "recluse",
@@ -222,7 +223,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Blir du avsatt och förvisad förlorar ditt lag."
+    "ability": "Blir du avsatt och förvisad, förlorar ditt lag."
   },
   {
     "id": "poisoner",
@@ -235,7 +236,7 @@
     "otherNightReminder": "Förgiftaren väljer en spelare.",
     "reminders": ["Förgiftad"],
     "setup": false,
-    "ability": "Varje natt, välj en spelare: den blir förgiftad i natt och imorgon."
+    "ability": "Varje natt, välj en spelare: den blir förgiftad fram till skymmningen."
   },
   {
     "id": "spy",
@@ -249,11 +250,12 @@
     "reminders": [],
     "menueopt": ["spying"],
     "setup": false,
-    "ability": "Varje natt, dtitta i Klocktornets Kodex. Du kanske registreras som Lojal, Stadsbo eller Lantbo, även om du är förvisad."
+    "ability": "Varje natt, titta i Klocktornets Kodex. Du kanske registreras som Lojal, Stadsbo eller Lantbo, även om du är förvisad."
   },
   {
     "id": "scarletwoman",
     "name": "Hertiginnan",
+    "wikiId": "Scarlet_Woman",
     "edition": "tb",
     "team": "minion",
     "firstNight": 0,
@@ -262,7 +264,7 @@
     "otherNightReminder": "Om Hertiginnan blev Högförrädaren så visa kortet DU ÄR och Högförrädarens karaktärskort.",
     "reminders": ["Är Högförrädaren"],
     "setup": false,
-    "ability": "Är det 5 eller fler spelare (ej resenärer) i rådet och Högförrädaren förvisas, du blir Högförrädaren."
+    "ability": "Är det 5 eller fler spelare (ej resenärer) i rådet och Högförrädaren förvisas, blir du Högförrädaren."
   },
   {
     "id": "baron",
@@ -288,7 +290,7 @@
     "otherNightReminder": "Hertigen väljer en spelare.  Om Hertigen väljer sig själv, ersätt karaktärsbrickan från en Kumpan i rådet med en extra Hertigen-bricka. Söv den gamla Hertigen. Väck den nya Hertigen, visa kortet DU ÄR och Hertigens karaktärskort.",
     "reminders": ["Förvisad"],
     "setup": false,
-    "ability": "Varje natt*, välj en spelare: den förvisas. Om du Förvisar dig själv, en Kumpan blir Hertigen."
+    "ability": "Varje natt*, välj en spelare: den förvisas. Förvisar du dig själv blir en Kumpan Hertigen."
   },
   {
     "id": "grandmother",
@@ -327,7 +329,7 @@
     "otherNightReminder": "Hushållerskan väljer 2 spelare i rådet. Visa fingersignal.",
     "reminders": [],
     "setup": false,
-    "ability": "Varje natt väljer du 2 spelare i rådet (inte dig själv); du får veta hur många som vaknade i natt på grund av sin förmåga."
+    "ability": "Varje natt, välj 2 spelare i rådet (inte dig själv): du får veta hur många som vaknade i natt på grund av sin förmåga."
   },
   {
     "id": "exorcist",
@@ -340,7 +342,7 @@
     "otherNightReminder": "Läkaren väljer en spelare.  Söv Läkaren. Om Läkaren valde Högförrädaren, väck Högförrädaren, visa kortet DU VALDES AV och Läkarens karaktärskort. Peka på Läkaren.",
     "reminders": ["Vald"],
     "setup": false,
-    "ability": "Varje natt* väljer du en spelare (inte samma som förra); om du väljer Högförrädaren vaknar den inte i natt, men får veta vem du är."
+    "ability": "Varje natt*, välj en spelare (inte samma som förra): om du väljer Högförrädaren vaknar den inte i natt, men får veta vem du är."
   },
   {
     "id": "innkeeper",
@@ -354,7 +356,7 @@
     "reminders": ["Säker",
         "Berusad"],
     "setup": false,
-    "ability": "Varje natt* väljer du 2 spelare; de kan inte förvisas i natt, men den ena är berusad till skymningen."
+    "ability": "Varje natt*, välj 2 spelare: de kan inte förvisas i natt, men den ena är berusad fram till skymningen."
   },
   {
     "id": "gambler",
@@ -367,7 +369,7 @@
     "otherNightReminder": "Domaren väljer en spelare och en karaktär.",
     "reminders": ["Förvisad"],
     "setup": false,
-    "ability": "Varje natt* väljer du en spelare och gissar spelarens karaktär; om du gissar fel förvisas du."
+    "ability": "Varje natt*, välj en spelare och gissa dess karaktär: gissar du fel förvisas du."
   },
   {
     "id": "gossip",
@@ -380,7 +382,7 @@
     "otherNightReminder": "Om Skvallraren talade sanning så förvisas en spelare.",
     "reminders": ["Förvisad"],
     "setup": false,
-    "ability": "Varje dag får du öppet påstå något. I natt förvisas en spelare om påståendet är sant."
+    "ability": "Varje dag får du öppet påstå något. I natt förvisas en spelare om påståendet var sant."
   },
   {
     "id": "courtier",
@@ -396,7 +398,7 @@
         "Berusad 1",
         "Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet, på natten, får du välja en karaktär; spelaren med karaktären, om någon, är berusad i tre dygn."
+    "ability": "En gång under spelet på natten, välj en karaktär: spelaren med karaktären, om någon, är berusad i tre dygn."
   },
   {
     "id": "professor",
@@ -410,7 +412,7 @@
     "reminders": ["Återinsatt",
         "Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet, på natten*, kan du välja en förvisad spelare; om du väljer en Stadsbo återinsätts den i rådet."
+    "ability": "En gång under spelet på natten*, välj en förvisad spelare: är det en Stadsbo återinsätts den i rådet."
   },
   {
     "id": "minstrel",
@@ -423,11 +425,12 @@
     "otherNightReminder": "",
     "reminders": ["Alla är berusade"],
     "setup": false,
-    "ability": "När en Kumpan blir avsatt och förvisas blir alla andra spelare (utom Resenärer) berusade fram till skymningen imorgon."
+    "ability": "När en Kumpan blir avsatt och förvisad blir alla andra spelare (ej Resenärer) berusade fram till skymningen imorgon."
   },
   {
     "id": "tealady",
     "name": "Värdinnan",
+    "wikiId": "Tea_Lady",
     "edition": "bmr",
     "team": "townsfolk",
     "firstNight": 0,
@@ -462,7 +465,7 @@
     "otherNightReminder": "",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "Första gången du förvisas, du förvisas inte."
+    "ability": "Första gången du blir förvisad, förvisas du inte."
   },
   {
     "id": "tinker",
@@ -475,7 +478,7 @@
     "otherNightReminder": "Trädfällaren kanske förvisas.",
     "reminders": ["Förvisad"],
     "setup": false,
-    "ability": "Du kanske förvisas när som helst."
+    "ability": "Du kanske blir förvisad när som helst."
   },
   {
     "id": "moonchild",
@@ -488,7 +491,7 @@
     "otherNightReminder": "Om Tiggaren valde en Lojal spelare så förvisas den valda spelaren.",
     "reminders": ["Förvisad"],
     "setup": false,
-    "ability": "När du får veta att du har förvisats, välj öppet en spelare i rådet. Om spelaren är lojal förvisas den i natt."
+    "ability": "När du får veta att du har förvisats, välj öppet en spelare i rådet: är den Lojal förvisas den i natt."
   },
   {
     "id": "goon",
@@ -501,7 +504,7 @@
     "otherNightReminder": "",
     "reminders": ["Berusad"],
     "setup": false,
-    "ability": "Varje natt blir den första spelaren som väljer dig med sin förmåga berusad fram till skymningen. Du får den tillhörigheten som spelaren har."
+    "ability": "Varje natt, den första spelaren som väljer dig med sin förmåga blir berusad fram till skymningen. Du får samma tillhörighet som den spelaren."
   },
   {
     "id": "lunatic",
@@ -509,7 +512,7 @@
     "edition": "bmr",
     "team": "outsider",
     "firstNight": 8,
-    "firstNightReminder": "Om det är 7 eller fler spelare så väck Galningen. Visa kortet DET HÄR ÄR KUMPANER och peka på några spelare. Visa kortet DE HÄR KARAKTÄRERNA ÄR INTE I SPEL och visa tre Lojala karaktärskort. Söv Galningen. Väck Högförrädaren. Visa kortet DU ÄR och Högförrädarens karaktärskort. Visa kortet DEN HÄR SPELAREN ÄR, Galningens karaktärskort, och peka på Galningen.",
+    "firstNightReminder": "Om det är 7 eller fler spelare så väck Galningen. Visa kortet DESSA ÄR KUMPANER och peka på några spelare. Visa kortet DESSA KARAKTÄRER ÄR INTE I SPEL och visa tre Lojala karaktärskort. Söv Galningen. Väck Högförrädaren. Visa kortet DU ÄR och Högförrädarens karaktärskort. Visa kortet DEN HÄR SPELAREN ÄR, Galningens karaktärskort, och peka på Galningen.",
     "otherNight": 20,
     "otherNightReminder": "Gör det som krävs för att simulera Högförrädarens förmåga. Söv Galningen. Väck Högförrädaren. Visa Galningens karaktärskort och peka på Galningen och därefter Galningens val.",
     "reminders": ["Vald 1",
@@ -535,6 +538,7 @@
   {
     "id": "devilsadvocate",
     "name": "Advokaten",
+    "wikiId": "Devils_Advocate",
     "edition": "bmr",
     "team": "minion",
     "firstNight": 22,
@@ -543,7 +547,7 @@
     "otherNightReminder": "Advokaten väljer en annan spelare i rådet än natten innan.",
     "reminders": ["Förvisas inte"],
     "setup": false,
-    "ability": "Varje natt väljer du en spelare i rådet (inte samma som förra); om den avsätts imorgon förvisas den inte."
+    "ability": "Varje natt, välj en spelare i rådet (inte samma som förra): om den blir avsatt i morgon förvisas den inte."
   },
   {
     "id": "assassin",
@@ -557,7 +561,7 @@
     "reminders": ["Förvisad",
         "Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet, på natten*, kan du välja en spelare; den förvisas, även om den av någon anledning inte kunde förvisas."
+    "ability": "En gång under spelet på natten*, välj en spelare: den förvisas, även om den av någon anledning inte kunde förvisas."
   },
   {
     "id": "mastermind",
@@ -570,7 +574,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Om Högförrädaren avsätts och förvisas (så spelet slutar) pågår spelet en dag till. Om en spelare avsätts och förvisas denna dag förlorar dess lag."
+    "ability": "Om Högförrädaren blir avsatt och förvisad (så spelet skulle sluta), pågår spelet en dag till. Om en spelare då blir avsatt och förvisad förlorar dess lag."
   },
   {
     "id": "zombuul",
@@ -584,7 +588,7 @@
     "reminders": ["Förvisades idag",
         "Förvisad", "I Rådet"],
     "setup": false,
-    "ability": "Varje natt*, om ingen förvisade idag, välj en spelare, den förvisas. Första gången du avsätts är du kvar men registreras som förvisad"
+    "ability": "Varje natt*, om ingen förvisades idag, välj en spelare: den förvisas. Första gången du blir avsatt är du kvar i rådet men registreras som förvisad"
   },
   {
     "id": "pukka",
@@ -598,7 +602,7 @@
     "reminders": ["Förgiftad",
         "Förvisad"],
     "setup": false,
-    "ability": "Varje natt väljer du en spelare; som är förgiftad. Senast förgiftade spelaren förvisas och blir sedan frisk."
+    "ability": "Varje natt, välj en spelare: den är förgiftad. Senast förgiftade spelaren förvisas och blir sedan frisk."
   },
   {
     "id": "shabaloth",
@@ -612,7 +616,7 @@
     "reminders": ["Förvisad",
         "Återinsatt"],
     "setup": false,
-    "ability": "Varje natt * väljer du 2 spelare; de förvisas. en av de förvisade spelare du valde igår natt kanske återinsätts i rådet."
+    "ability": "Varje natt*, välj 2 spelare: de förvisas. En av de förvisade spelare du valde igår natt kanske blir återinsatt i rådet."
   },
   {
     "id": "po",
@@ -626,7 +630,7 @@
     "reminders": ["Förvisad",
         "Förvisa 3X"],
     "setup": false,
-    "ability": "Varje natt* får du välja en spelare som förvisas. Om du inte valde någon förra natten väljer du 3 spelare i natt."
+    "ability": "Varje natt* får du välja en spelare: den förvisas. Om du inte valde någon förra natten, välj 3 spelare i natt."
   },
   {
     "id": "clockmaker",
@@ -639,7 +643,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Första natten får du veta hur många steg det är från Högförädaren till närmsta Kumpan"
+    "ability": "Första natten får du veta hur många steg det är från Högförädaren till närmsta Kumpan."
   },
   {
     "id": "dreamer",
@@ -652,11 +656,12 @@
     "otherNightReminder": "Båtsmannen pekar på en spelare. Visa karaktärskortet av en Lojal och en Bedragare, varav den ena är den valda spelarens karaktär.",
     "reminders": [],
     "setup": false,
-    "ability": "Varje natt väljer du en spelare (inte dig själv eller Resenärer); du får veta en karaktär för en Lojal och en Bedragare som den kan vara."
+    "ability": "Varje natt, välje en spelare (inte dig själv eller Resenärer): du får veta 2 karaktärer, en Lojal och en Bedragare, var av den ena är korrekt."
   },
   {
     "id": "snakecharmer",
     "name": "Ormtjusaren",
+    "wikiId": "Snake_Charmer",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 20,
@@ -665,7 +670,7 @@
     "otherNightReminder": "Ormtjusaren väljer en spelare. Om den spelaren är Högförrädaren: Visa kortet DU ÄR och Högförrädarens karaktärskort. Visa tummen ner. Byt plats på Ormtjusarens och Högförrädarens karaktärsbrickor. Söv den före detta Ormtjusaren. Väck den före detta Högförrädaren. Visa kortet DU ÄR och Ormtjusarens karaktärskort. Visa tummen upp.",
     "reminders": ["Förgiftad"],
     "setup": false,
-    "ability": "Varje natt väljer du en spelare i rådet; en vald Högförrädare byter karaktär och tillhörighet med dig och blir förgiftad."
+    "ability": "Varje natt, välj en spelare i rådet: en vald Högförrädare byter karaktär och tillhörighet med dig och blir förgiftad."
   },
   {
     "id": "mathematician",
@@ -678,7 +683,7 @@
     "otherNightReminder": "Visa fingersignal",
     "reminders": ["Onormal"],
     "setup": false,
-    "ability": "Varje natt får du veta hur många spelares förmågor som fungerat onormalt sedan gryningen p.g.a. andra spelares förmågor."
+    "ability": "Varje natt får du veta hur många spelares förmågor som fungerat onormalt sedan gryningen på grund av andra spelares förmågor."
   },
   {
     "id": "flowergirl",
@@ -732,7 +737,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Varje dag får du prata med berättaren privat för att få 2 påståenden: 1 är sant och 1 är falskt."
+    "ability": "Varje dag, prata med berättaren privat för att få ett sant och ett falskt påstående."
   },
   {
     "id": "seamstress",
@@ -745,7 +750,7 @@
     "otherNightReminder": "Sömmerskan kanske väljer 2 spelare. Nicka eller skaka på huvudet.",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång per spel, på natten, kan du välja 2 spelare (inte dig själv); du får veta om de har samma tillhörighet."
+    "ability": "En gång under spelet, på natten, välj 2 spelare (inte dig själv): du får veta om de har samma tillhörighet."
   },
   {
     "id": "philosopher",
@@ -760,7 +765,7 @@
     "remindersGlobal": ["Berusad",
         "Är Filosofen"],
     "setup": false,
-    "ability": "En gång per spel, på natten, kan du välja en lojal karaktär; du får dess förmåga. Om karaktären är i spel blir spelaren med den karaktärenen berusad."
+    "ability": "En gång under spelet, på natten, välj en lojal karaktär: du får dess förmåga. Är karaktären i spel blir den spelaren berusad."
   },
   {
     "id": "artist",
@@ -773,7 +778,7 @@
     "otherNightReminder": "",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång per spel, på dagen, kan du privat ställa en ja/nej-fråga till berättaren."
+    "ability": "En gång under spelet, på dagen, ställ privat en ja- eller nej-fråga till berättaren."
   },
   {
     "id": "juggler",
@@ -786,7 +791,7 @@
     "otherNightReminder": "Visa fingersignal",
     "reminders": ["Korrekt"],
     "setup": false,
-    "ability": "Din första dag kan du öppet gissa upp till 5 spelares karaktärer. Den natten får du veta hur många rätt du hade."
+    "ability": "Första dagen kan du öppet gissa upp till 5 spelares karaktärer. På natten får du veta hur många rätt du hade."
   },
   {
     "id": "sage",
@@ -799,7 +804,7 @@
     "otherNightReminder": "Om Högförrädaren förvisade Upplysaren, väck Upplysaren och peka på 2 spelare varav den ena är Högförrädaren.",
     "reminders": [],
     "setup": false,
-    "ability": "Om Högförrädaren förvisar dig får du veta att Högförrädaren är 1 av 2 spelare."
+    "ability": "Om Högförrädaren förvisar dig: du får veta att Högförrädaren är 1 av 2 spelare."
   },
   {
     "id": "mutant",
@@ -825,7 +830,7 @@
     "otherNightReminder": "Om Bruden förvisades blev en spelare berusad direkt. Om du inte har markerat någon spelare än så gör det nu.",
     "reminders": ["Berusad"],
     "setup": false,
-    "ability": "När du blir förvisad blir en spelare berusad för resten av spelet."
+    "ability": "När du blir förvisad, blir en spelare berusad resten av spelet."
   },
   {
     "id": "barber",
@@ -838,7 +843,7 @@
     "otherNightReminder": "Om Barberaren förvisades idag eller inatt, visa Högförrädaren kortet DU VALDES AV och Barberarens karaktärskort. Om Högförrädaren väljer 2 spelare, väck dem en i taget. Visa kortet DU ÄR och deras nya karaktärskort.",
     "reminders": ["Ny frisyr"],
     "setup": false,
-    "ability": "Om du förvisades idag eller i natt får Högförrädaren välja 2 spelare (inte en annan Högförrädare) som byter karaktär med varandra."
+    "ability": "När du förvisas får Högförrädaren välja 2 spelare i natt (inte en annan Högförrädare): de byter karaktär med varandra."
   },
   {
     "id": "klutz",
@@ -851,11 +856,12 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "När du får veta att du förvisats väljer du öppet en spelare i rådet; om den är Bedragare förlorar ditt lag."
+    "ability": "När du får veta att du har förvisats, välj öppet en spelare i rådet: om den är Bedragare förlorar ditt lag."
   },
   {
     "id": "eviltwin",
     "name": "Usla Tvillingen",
+    "wikiId": "Evil_Twin",
     "edition": "snv",
     "team": "minion",
     "firstNight": 23,
@@ -877,7 +883,7 @@
     "otherNightReminder": "Baronessan väljer en spelare.",
     "reminders": ["Hållhake"],
     "setup": false,
-    "ability": "Varje natt väljer du en spelare; om den nominerar imorgon förvisas den. Med bara tre spelare i rådet förlorar du denna förmåga"
+    "ability": "Varje natt, välj en spelare: om den nominerar imorgon förvisas den. Med bara 3 spelare i rådet förlorar du denna förmåga"
   },
   {
     "id": "cerenovus",
@@ -890,11 +896,12 @@
     "otherNightReminder": "Konspiratören väljer en spelare och en karaktär. Söv Konspiratören. Väck den valda spelaren. Visa kortet DU VALDES AV, Konspiratörens karaktärskort och sedan den valda karaktärskortet.",
     "reminders": ["Galen"],
     "setup": false,
-    "ability": "Varje natt väljer du en spelare och en Lojal karaktär; den är \u201Cgalen\u201D om att den är den karaktären imorgon, annars kanske den avsätts."
+    "ability": "Varje natt, välj en spelare och en Lojal karaktär: den är \u201Cgalen\u201D om att den är den karaktären imorgon, annars kanske den avsätts."
   },
   {
     "id": "pithag",
     "name": "Omröraren",
+    "wikiId": "Pit-Hag",
     "edition": "snv",
     "team": "minion",
     "firstNight": 0,
@@ -903,21 +910,22 @@
     "otherNightReminder": "Omröraren väljer en spelare och en karaktär. Söv Omröraren. Om den valda karaktären inte är i spel: Väck den valda spelaren. Visa kortet DU ÄR och det nya karaktärskortet.",
     "reminders": [],
     "setup": false,
-    "ability": "Varje natt* väljer du en spelare och en karaktär som den spelaren blir (om den inte är i spel). Om en Högförrädare väljs förvisas en spelare."
+    "ability": "Varje natt*, välj en spelare och en karaktär: spelaren blir den karaktären om den inte är i spel. Om en Högförrädare väljs förvisas en spelare."
   },
   {
     "id": "fanggu",
     "name": "Kammarherren",
+    "wikiId": "Fang_Gu",
     "edition": "snv",
     "team": "demon",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 25,
-    "otherNightReminder": "Kammarherren väljer en spelare.  Om den valde spelaren är en Lantbo (endast en gång), byt ut Lantbons bricka mot den andra Kammarherren-brickan. Söv Kammarherren. Väck den valda spelaren. Visa kortet DU ÄR och Kammarherrens karaktärskort samt tummen ner.",
+    "otherNight": 29,
+    "otherNightReminder": "Kammarherren väljer en spelare. Om den valde spelaren är en Lantbo (endast en gång), byt ut Lantbons bricka mot den andra Kammarherren-brickan. Söv Kammarherren. Väck den valda spelaren. Visa kortet DU ÄR och Kammarherrens karaktärskort samt tummen ner.",
     "reminders": ["Förvisad",
         "En gång"],
     "setup": true,
-    "ability": "Varje natt*, välj en spelare: den förvisas. Första Lantbon som du förvisar blir Kammarherren. Du förvisas. [+1 Lantbo]"
+    "ability": "Varje natt*, välj en spelare: den förvisas. Första Lantbon du förvisar blir Kammarherren och du förvisas. [+1 Lantbo]"
   },
   {
     "id": "vigormortis",
@@ -927,16 +935,17 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 32,
-    "otherNightReminder": "Skattmästaren väljer en spelare.  Om den spelaren är en Kumpan, förgifta en Stadsbogranne. ",
+    "otherNightReminder": "Skattmästaren väljer en spelare. Om den spelaren är en Kumpan, förgifta en Stadsbogranne. ",
     "reminders": ["Förvisad",
         "Har Förmåga",
         "Förgiftad"],
     "setup": true,
-    "ability": "Varje natt* väljer du en spelare som förvisas. Kumpaner du förvisar behåller sin förmåga och förgiftar en Stadsbogranne. [−1 Lantbo]"
+    "ability": "Varje natt*, välj en spelare: den förvisas. Kumpaner du förvisar behåller sin förmåga och förgiftar en Stadsbogranne. [−1 Lantbo]"
   },
   {
     "id": "nodashii",
     "name": "Kaniken",
+    "wikiId": "No_Dashii",
     "edition": "snv",
     "team": "demon",
     "firstNight": 0,
@@ -946,7 +955,7 @@
     "reminders": ["Förvisad",
         "Förgiftad"],
     "setup": false,
-    "ability": "Varje natt* väljer du en spelare som förvisas. Dina 2 Stadsbogrannar är förgiftade."
+    "ability": "Varje natt*, välj en spelare: den förvisas. Dina 2 Stadsbogrannar är förgiftade."
   },
   {
     "id": "vortox",
@@ -959,7 +968,7 @@
     "otherNightReminder": "Baronen väljer en spelare",
     "reminders": ["Förvisad"],
     "setup": false,
-    "ability": "Varje natt* väljer du en spelare som förvisas. Stadsbors förmågor ger falsk info. Om ingen avsätts under en dag vinner Bedragarna."
+    "ability": "Varje natt*, välj en spelare: den förvisas. Stadsbors förmågor ger falsk info. Om ingen avsätts under en dag vinner Bedragarna."
   },
   {
     "id": "acrobat",
@@ -972,7 +981,7 @@
     "otherNightReminder": "Akrobaten väljer en spelare",
     "reminders": ["Förvisad"],
     "setup": false,
-    "ability": "Varje natt* väljer du en spelare; du förvisas om den är eller blir berusad eller förgiftad i natt."
+    "ability": "Varje natt*, välj en spelare: du förvisas om den är (eller blir) berusad eller förgiftad i natt."
   },
  {
     "id": "alchemist",
@@ -999,7 +1008,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Varje dag kan du öppet gissa vilka spelare som är Kumpan(er) och Högförrädare(n). Om du har rätt vinner de Lojala."
+    "ability": "Varje dag, gissa öppet vilka spelare som är Kumpan(er) och Högförrädare(n). Om du har rätt vinner de Lojala."
   },
 {
     "id": "amnesiac",
@@ -1012,7 +1021,7 @@
     "otherNightReminder": "Gör det som behövs för studentens förmåga",
     "reminders": ["?"],
     "setup": false,
-    "ability": "Du vet inte vad din förmåga är. Varje dag kan du privat gissa den; du får veta hur nära du är."
+    "ability": "Du vet inte vad din förmåga är. Varje dag, gissa den privat: du får veta hur nära du är."
   },
 {
     "id": "atheist",
@@ -1057,11 +1066,12 @@
     "reminders": ["Har Förmåga"],
     "menueopt": ["dblvote"],
     "setup": false,
-    "ability": "Om Högförrädaren förvisar dig får alla veta det. Därefter får du nominera 2 gånger per dag och rösta 2 gånger per nominering."
+    "ability": "Om Högförrädaren förvisar dig får alla veta det: du får nominera 2 gånger per dag och rösta 2 gånger per nominering."
   },
 {
     "id": "bountyhunter",
     "name": "Slaktaren",
+    "wikiId": "Bounty_Hunter",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 46,
@@ -1070,7 +1080,7 @@
     "otherNightReminder": "Om spelaren märkt KÄND förvisades idag eller inatt, peka på en ny spelare markerad KÄND.",
     "reminders": ["Känd"],
     "setup": true,
-    "ability": "I början vet du en spelare som är Bedragare. Om den förvisas får du veta en annan Bedragare inatt. [1 Stadsbo är Bedragare]"
+    "ability": "Första natten får du veta en spelare som är Bedragare. Om den förvisas får du veta en annan Bedragare inatt. [en Stadsbo är Bedragare]"
   },
 {
     "id": "cannibal",
@@ -1082,9 +1092,10 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": ["Förgiftad",
-        "Förvisades idag", "Är Andrafiolen"],
+        "Förvisades idag"],
+    "remindersGlobal": ["Är Andrafiolen"],
     "setup": false,
-    "ability": "Du har den förmågan som den spelare som sist avsattes och förvisades hade. Om den är Bedragare är du förgiftad tills en Lojal spelare avsätts och förvisas."
+    "ability": "Du har den senast avsatte och förvisade spelarens förmåga. Är den Bedragare är du förgiftad tills en Lojal spelare blir avsatt och förvisad."
   },
 {
     "id": "choirboy",
@@ -1102,6 +1113,7 @@
  {
     "id": "cultleader",
     "name": "Reseledaren",
+    "wikiId": "Cult_Leader",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 48,
@@ -1123,7 +1135,7 @@
     "otherNightReminder": "Ingenjören kanske väljer Kumpaner eller en Högförrrädare. Söv Ingenjören. Väck berörda spelare en i taget, visa kortet DU ÄR och den nya karaktären. ",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet, på natten, kan du välja vilka Kumpaner eller vilken Högförrädare som är i spel."
+    "ability": "En gång under spelet, på natten: välj vilka Kumpaner eller vilken Högförrädare som är i spel."
   },
 {
     "id": "farmer",
@@ -1149,7 +1161,7 @@
     "otherNightReminder": "",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet, på dagen, kan du be Berättaren om tips för att hjälpa ditt lag att vinna."
+    "ability": "En gång under spelet, på dagen: be Berättaren om tips för att hjälpa ditt lag att vinna."
   },
 {
     "id": "general",
@@ -1162,17 +1174,18 @@
     "otherNightReminder": "Ge en tumsignal.",
     "reminders": ["Ner", "Upp", "Osäker"],
     "setup": false,
-    "ability": "Varje natt får du veta vilket lag som berättaren tror har övertaget: de Lojala, Bedragarna eller osäkert."
+    "ability": "Varje natt får du veta vilket lag som berättaren tror har övertaget - de Lojala, Bedragarna eller osäkert."
   },
 {
     "id": "highpriestess",
     "name": "Munken",
-    "edition": "49",
+    "wikiId": "High_Priestress",
+    "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 68,
-    "otherNightReminder": "",
+    "otherNightReminder": "Peka på en spelare",
     "reminders": [],
     "setup": false,
     "ability": "Varje natt får du veta vilken spelare berättaren tycker att du främst borde prata med."
@@ -1188,7 +1201,7 @@
     "otherNightReminder": "Jägaren kanske väljer en spelare.  Söv Jägaren. Om Jägaren pekade på Damen så väck Damen, visa kortet DU ÄR och spelarens nya karaktärskort.",
     "reminders": ["Ingen Förmåga"],
     "setup": true,
-    "ability": "En gång under spelet, på natten, kan du välja en spelare i rådet; om du väljer Damen blir den en Stadsbo som inte är i spel. [+Damen]"
+    "ability": "En gång under spelet, på natten, välj en spelare i rådet: om du väljer Damen blir den en Stadsbo som inte är i spel. [+Damen]"
   },
 {
     "id": "king",
@@ -1201,7 +1214,7 @@
     "otherNightReminder": "Om minst lika många spelare är förvisade som i rådet, visa ett karaktärskort från en spelare i rådet.",
     "reminders": [],
     "setup": false,
-    "ability": "Varje natt med minst lika många förvisade som spelare i rådet får du veta en karaktär i rådet. Högförrädaren vet att du är Kungens Hand."
+    "ability": "Varje natt, med lika många eller fler förvisade som spelare i rådet, får du veta en karaktär i rådet. Högförrädaren vet att du är Kungens Hand."
   },
 {
     "id": "knight",
@@ -1227,7 +1240,7 @@
     "otherNightReminder": "Spåraren väljer en spelare. ",
     "reminders": ["Förvisad", "Villospår"],
     "setup": false,
-    "ability": "Varje natt* väljer du en spelare i rådet; om spelaren är Lojal förvisas den och Högförrädaren förvisar inte inatt. En Lojal spelare registreras som Bedragare."
+    "ability": "Varje natt*, välj en spelare i rådet: om spelaren är Lojal förvisas den och Högförrädaren förvisar inte inatt. En Lojal spelare registreras som Bedragare."
   },
 {
     "id": "magician",
@@ -1240,7 +1253,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Högförrädaren tror att du är en Kumpan. Kumpanerna tror att du är en Högförrädare."
+    "ability": "Högförrädaren tror att du är en Kumpan. Kumpanerna tror att du är Högförrädaren."
   },
  {
     "id": "nightwatchman",
@@ -1253,7 +1266,7 @@
     "otherNightReminder": "Nattvakten kanske väljer en spelare. Söv nattvakten. Väck den valdede. Visa kortet DEN HÄR SPELAREN ÄR och Nattvaktens karaktärskort, och peka sedan på Nattvakten.",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "En gång under spelet, på natten, kan du välja en spelare; den får veta att du är Nattvakten."
+    "ability": "En gång under spelet, på natten, välj en spelare: den får veta att du är Nattvakten."
   },
 {
     "id": "noble",
@@ -1266,7 +1279,7 @@
     "otherNightReminder": "",
     "reminders": ["Känd"],
     "setup": false,
-    "ability": "I början vet du 3 spelare, varav exakt 1 är Bedragare."
+    "ability": "Första natten får du veta 3 spelare, varav exakt 1 är Bedragare."
   },
 {
     "id": "pixie",
@@ -1280,11 +1293,12 @@
     "reminders": ["Galen",
         "Har Förmåga"],
     "setup": false,
-    "ability": "I början vet du en Stadsbo som är i spel. Om du är \u201Cgalen\u201D om att du är den karaktären får du dess förmåga när den förvisas."
+    "ability": "Första natten får du veta en Stadsbo som är i spel. Om du är \u201Cgalen\u201D om att du är den karaktären får du dess förmåga när den förvisas."
   },
 {
     "id": "poppygrower",
     "name": "Odlaren",
+    "wikiId": "Poppy_Grower",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 4,
@@ -1306,7 +1320,7 @@
     "otherNightReminder": "Prästen väljer en spelare.  Söv Prästen. Om Prästen valde en Kumpan: Väck Kumpanen. Visa kortet DENNA KARAKTÄR VALDE DIG och Prästens karaktärskort.",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "Varje natt väljer du en spelare; om du väljer en Kumpan får den veta det. Valda Kumpaner har ingen förmåga."
+    "ability": "Varje natt, välj en spelare: om du väljer en Kumpan får den veta det. Valda Kumpaner har ingen förmåga."
   },
 {
     "id": "princess",
@@ -1319,7 +1333,7 @@
     "otherNightReminder": "Om det var Prinsessans första dag och spelaren nominerade den spelare som förvisades idag så vaknar Högförrädaren som vanligt, men ingen förvisas av Högförrädarens förmåga.",
     "reminders": ["Ingen Förmåga"],
     "setup": false,
-    "ability": "Om du nominerade och avsatte en spelare din första dag kan Högförrädaren inte förvisa någon den natten"
+    "ability": "Om du nominerade en spelare, som blev avsatt, din första dag kan Högförrädaren inte förvisa någon nästa natt"
   },
 {
     "id": "shugenja",
@@ -1350,6 +1364,7 @@
 {
     "id": "villageidiot",
     "name": "Lösdrivaren",
+    "wikiId": "Village_Idiot",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 44,
@@ -1358,7 +1373,7 @@
     "otherNightReminder": "",
     "reminders": ["Berusad"],
     "setup": true,
-    "ability": "Varje natt väljer du en spelare; du får veta dess tillhörighet. [+0 till +2 extra Lösdrivare. En av de extra är berusad.]"
+    "ability": "Varje natt, välj en spelare: du får veta dess tillhörighet. [+0 till +2 extra Lösdrivare. En av de extra är berusad.]"
   },
 {
     "id": "damsel",
@@ -1397,7 +1412,7 @@
     "otherNightReminder": "",
     "reminders": ["Hattbyte i natt"],
     "setup": false,
-    "ability": "Om du förvisas får Kumpanerna och Högförrädaren välja nya Kumpaner och Högförrädare att vara."
+    "ability": "När du förvisas får Kumpanerna och Högförrädaren välja nya karaktärer (bedragare) att vara."
   },
 {
     "id": "heretic",
@@ -1436,17 +1451,18 @@
     "otherNightReminder": "",
     "reminders": ["Vän"],
     "setup": false,
-    "ability": "Den första natten väljer du en spelare (inte dig själv); du får du samma tillhörighet (du vet inte vilken), även om du är berusad eller förgiftad."
+    "ability": "Den första natten väljer du en spelare (inte dig själv): du får du samma tillhörighet (du vet inte vilken), även om du är berusad eller förgiftad."
   },
 {
     "id": "plaguedoctor",
     "name": "Pestläkaren",
+    "wikiId": "Plague_Doktor",
     "edition": "",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 45,
-    "otherNightReminder": "",
+    "otherNightReminder": "Om Pestläkaren förvisades får Berättaren en Kumpanförmåga. Om du inte gjort det än så gör det nu.",
     "reminders": ["Berättaren har Förmåga"],
     "setup": false,
     "ability": "När du förvisas får Berättaren en Kumpanförmåga."
@@ -1462,7 +1478,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Om du är mest ansvarig för att ditt lag förlorade byter du lag och vinner, även om du är förvisad."
+    "ability": "Är du mest ansvarig för att ditt lag förlorade byter du lag och vinner, även om du är förvisad."
   },
 {
     "id": "puzzlemaster",
@@ -1502,7 +1518,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Om det finns minst 5 spelare i rådet måste du alltid rösta för avsättning."
+    "ability": "Finns det 5 eller fler spelare i rådet måste du alltid rösta för att avsätta."
   },
 {
     "id": "boffin",
@@ -1541,9 +1557,9 @@
     "firstNightReminder": "Orosstiftaren väljer en spelare.  Meddela att Orosstiftaren har valt en spelare.",
     "otherNight": 17,
     "otherNightReminder": "Orosstiftaren väljer en spelare.  Om den valda spelaren är en annan än igår så meddela att Orosstftaren har valt en spelare.",
-    "reminders": ["Fear"],
+    "reminders": ["Orolig"],
     "setup": false,
-    "ability": "Varje natt väljer du en spelare; om du nominerar och avsätter den så förlorar spelarens lag. Alla vet om du väljer en ny spelare."
+    "ability": "Varje natt, välj en spelare: om du nominerar och avsätter den, förlorar spelarens lag. Alla vet om du väljer en ny spelare."
   },
 {
     "id": "goblin",
@@ -1556,7 +1572,7 @@
     "otherNightReminder": "",
     "reminders": ["Påstått"],
     "setup": false,
-    "ability": "Om du öppet säger att du är Oäktingen när du nomineras, och därefter avsätts och förvisas, så vinner ditt lag."
+    "ability": "Om du öppet säger att du är Oäktingen när du nomineras, och avsätts och förvisas, så vinner ditt lag."
   },
   {
     "id": "harpy",
@@ -1570,7 +1586,7 @@
     "reminders": ["Galen", "Den andra"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Varje natt väljer du 2 spelare; imorgon är den första \u201Cgalen\u201D om att den andra är Bedragare, annars kanske en eller båda förvisas."
+    "ability": "Varje natt, välj 2 spelare: imorgon är den första \u201Cgalen\u201D om att den andra är Bedragare, annars kanske en eller båda förvisas."
   },
 {
     "id": "marionette",
@@ -1603,6 +1619,7 @@
 {
     "id": "organgrinder",
     "name": "Förblindaren",
+    "wikiId": "Organ_Grinder",
     "edition": "",
     "team": "minion",
     "firstNight": 25,
@@ -1613,7 +1630,7 @@
     "remindersGlobal": [],
     "menueopt": ["bldvote"],
     "setup": false,
-    "ability": "Alla spelare blundar vid röstning och resultatet är hemligt. Varje natt väljer du om du ska vara berusad till skymningen."
+    "ability": "Alla spelare blundar vid omröstning och resultatet är hemligt. Varje natt väljer du om du ska vara berusad fram till skymningen."
   },
 {
     "id": "psychopath",
@@ -1626,7 +1643,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Varje dag innan nomineringar får du öppet välja en spelare; den Förvisas. Om du avsätts förvisas du bara om du förlorar sten-sax-påse."
+    "ability": "Varje dag innan några nomineringar, får du öppet välja en spelare: den Förvisas. Om du avsätts förvisas du endast om du förlorar sten-sax-påse."
   },
 {
     "id": "summoner",
@@ -1640,7 +1657,7 @@
     "reminders": ["Natt 1", "Natt 2", "Natt 3"],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "Du får 3 bluffar. Natt 3 väljer du en spelare; den blir Högförrädaren som du väljer. [Ingen Högförrädare]"
+    "ability": "Du får 3 bluffar. Natt 3 väljer du en spelare: den blir en Högförrädare som du väljer. [Ingen Högförrädare]"
   },
 {
     "id": "vizier",
@@ -1654,7 +1671,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Alla vet att du är Inkvisitorn. Du kan inte förvisas på dagen. Om någon Lojal röstade får du välja att avsätta någon direkt."
+    "ability": "Alla vet att du är Inkvisitorn. Du kan inte förvisas på dagen. Om en Lojal röstade får du avsätta någon direkt."
   },
   {
     "id": "widow",
@@ -1669,7 +1686,7 @@
     "remindersGlobal": ["Känd"],
     "menueopt": ["spying"],
     "setup": false,
-    "ability": "Din första natt ser du Klockrådets Kodex och väljer en spelare; den är förgiftad. En Lojal spelare vet att Svarta Änkan är i spel."
+    "ability": "Första natten, tittar du i Klockrådets Kodex, välje en spelare: den är förgiftad. En Lojal spelare vet att Svarta Änkan är i spel."
   },
 {
     "id": "wizard",
@@ -1683,7 +1700,7 @@
     "reminders": ["Ingen förmåga"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "En gång under spel får du önska dig något. Om önskan uppfylls kanske den får en kostnad och ger en ledtråd om sin natur."
+    "ability": "En gång under spelet får du önska dig något. Om önskan uppfylls kanske den får en kostnad och ger en ledtråd om sin natur."
   },
 {
     "id": "wraith",
@@ -1716,6 +1733,7 @@
 {
     "id": "alhadikhia",
     "name": "Rådgivaren",
+    "wikiId": "Al-Hadikhia",
     "edition": "",
     "team": "demon",
     "firstNight": 0,
@@ -1726,7 +1744,7 @@
         "Förvisning",
         "I Rådet"],
     "setup": false,
-    "ability": "Varje natt* får du välja 3 spelare (alla spelare vet vilka); de väljer tyst att vara kvar i rådet eller förvisas, men om alla väljer att vara i rådet förvisas alla tre."
+    "ability": "Varje natt*, du får välja 3 spelare (alla spelare vet vilka): de väljer tyst att vara kvar i rådet eller förvisas, om alla väljer att vara kvar i rådet, förvisas alla tre."
   },
 {
     "id": "kazali",
@@ -1735,7 +1753,7 @@
     "team": "demon",
     "firstNight":4,
     "firstNightReminder": "Hovmästaren väljer vilka spelare som är vilka Kumpaner. Väck varje Kumpan. Visa kortet DU ÄR och Kumpanens karaktärskort och ge tummen ner.",
-    "otherNight": 26,
+    "otherNight": 37,
     "otherNightReminder": "Hovmästaren väljer en spelare.",
     "reminders": ["Förvisad"],
     "remindersGlobal": [],
@@ -1754,7 +1772,7 @@
     "reminders": ["Förvisad",
         "På väg att förvisas"],
     "setup": true,
-    "ability": "Varje natt* kanske en spelare förvisas. Röstar bara Bedragare avsätts ingen. Du registreras också som Kumpan. [De flesta är Pöbelhopen]"
+    "ability": "Varje natt*, kanske en spelare förvisas. Röstar bara Bedragare avsätts ingen. Du registreras också som Kumpan. [De flesta är Pöbelhopen]"
   },
 {
     "id": "leviathan",
@@ -1772,22 +1790,23 @@
         "Dag 5",
         "Lojal Förvisad"],
     "setup": false,
-    "ability": "Om mer än 1 Lojal spelare förvisas vinner Bedragarna. Alla vet att du är i spel. Efter dag 5 vinner Bedragarna."
+    "ability": "Om mer än en Lojal spelare avsätts och förvisas vinner Bedragarna. Alla vet att du är i spel. Efter dag 5 vinner Bedragarna."
   },
 {
     "id": "lilmonsta",
     "name": "Lillprinsen",
+    "wikiId": "Lil'%20Monsta",
     "edition": "",
     "team": "demon",
     "firstNight": 15,
-    "firstNightReminder": "Väck Kumpanerna. De väljer en spelare. Söv Kumpanerna. Väck den valda spelaren. Visa kortet DU ÄR och Lillprinsen karaktärskort.",
+    "firstNightReminder": "Väck Kumpanerna. De väljer en spelare. Söv Kumpanerna. Väck den valda spelaren. Visa kortet DU ÄR och Lillprinsens karaktärskort.",
     "otherNight": 35,
-    "otherNightReminder": "Väck Kumpanerna. De väljer en spelare. Söv Kumpanerna. Väck den valda spelaren. Visa kortet DU ÄR och Lillmonstrets karaktärskort. 1 spelare kanske förvisas. ",
+    "otherNightReminder": "Väck Kumpanerna. De väljer en spelare. Söv Kumpanerna. Väck den valda spelaren. Visa kortet DU ÄR och Lillprinsens karaktärskort. en spelare kanske förvisas. ",
     "reminders": [],
     "remindersGlobal": ["Barnvakt",
         "Förvisad"],
     "setup": true,
-    "ability": "Varje natt väljer Kumpanerna vem som vaktar Lillprinsen och är då Högförrädaren. Varje natt* kanske 1 spelare förvisas. [+1 Kumpan]"
+    "ability": "Varje natt väljer Kumpanerna vem som vaktar Lillprinsen och är då Högförrädaren. Varje natt* kanske en spelare förvisas. [+1 Kumpan]"
   },
 {
     "id": "lleech",
@@ -1801,11 +1820,12 @@
     "reminders": ["Förvisad",
         "Värd"],
     "setup": false,
-    "ability": "Varje natt* väljer du en spelare; den förvisas. Första natten väljer du en spelare; den förgiftas. Du förvisas om, och endast då, när den spelaren blir förvisad."
+    "ability": "Varje natt*, välj en spelare: den förvisas. Första natten väljer du en spelare: den förgiftas. Du förvisas, och endast då, när den spelaren blir förvisad."
   },
 {
     "id": "lordoftyphon",
     "name": "Storprinsen",
+    "wikiId": "Lord_of_Typhone",
     "edition": "",
     "team": "demon",
     "firstNight":5,
@@ -1815,7 +1835,7 @@
     "reminders": ["Förvisad"],
     "remindersGlobal": [],
     "setup": true,
-    "ability": "Varje natt* väljer du en spelare; den Förvisas. [Bedragarna sitter på rad; du är inte ytterst. +1 Kumpan. ±? Lantbor]"
+    "ability": "Varje natt*, välj en spelare: den Förvisas. [Bedragarna sitter på rad: du är inte ytterst. +1 Kumpan. ±? Lantbor]"
   },
  {
     "id": "ojo",
@@ -1825,11 +1845,11 @@
     "firstNight":0,
     "firstNightReminder": "",
     "otherNight": 26,
-    "otherNightReminder": "",
+    "otherNightReminder": "Hovstallaren väljer en karaktär",
     "reminders": ["Förvisad"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Varje natt* väljer du en karaktär; den förvisas. Om karaktären inte är i spel väljer berättaren vem som förvisas."
+    "ability": "Varje natt*, välj en karaktär: den förvisas. Om karaktären inte är i spel väljer berättaren vem som förvisas."
   },
   {
     "id": "riot",
@@ -1842,7 +1862,7 @@
     "otherNightReminder": "Ändra Revolutionärens påminnelse till den aktuella dagen.  Om det är natt 3 får du väcka Kumpanerna. Visa kortet DU ÄR och Revolutionärens karaktärskort",
     "reminders": ["Dag 1", "Dag 2", "Dag 3"],
     "setup": true,
-    "ability": "Dag 3 blir Kumpaner till Revolutionärer. Nominerade spelare förvisas men nominerar då direkt en spelare i rådet. Detta måste hända"
+    "ability": "Dag 3 blir alla Kumpaner Revolutionärer. Nominerade spelare förvisas men nominerar då direkt en annan spelare i rådet. Detta måste hända"
   },
 {
     "id": "yaggababble",
@@ -1856,7 +1876,7 @@
     "reminders": ["Förvisad"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "I början vet du en hemlig fras. För varje gång du sa det öppet idag kanske en spelare förvisas."
+    "ability": "Första natten får du veta en hemlig fras. För varje gång du öppet sa frasen idag kanske en spelare förvisas."
   },
 {
     "id": "bureaucrat",
@@ -1870,7 +1890,7 @@
     "reminders": ["3 röster"],
     "menueopt": ["votenum"],
     "setup": false,
-    "ability": "Varje natt väljer du en spelare (inte dig själv): spelarens röst räknas som tre röster under morgondagen."
+    "ability": "Varje natt, välj en spelare (inte dig själv): spelarens röst räknas som tre röster under morgondagen."
   },
   {
     "id": "gunslinger",
@@ -1883,7 +1903,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Varje dag efter att första röstningen räknats kan du välja en spelare som röstade, den förvisas direkt."
+    "ability": "Varje dag, efter att första omröstningen räknats kan du välja en spelare som röstade: den förvisas direkt."
   },
   {
     "id": "scapegoat",
@@ -1896,7 +1916,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Om en spelare i ditt lag förvisas kanske du förvisas istället."
+    "ability": "Om en spelare i ditt lag förvisas kanske du fördrivs istället."
   },
   {
     "id": "beggar",
@@ -1923,7 +1943,7 @@
     "reminders": ["Negativ röst"],
     "menueopt":["votenum"],
     "setup": false,
-    "ability": "Varje natt väljer du en spelare (inte dig själv): spelarens röst räknas negativt imorgon."
+    "ability": "Varje natt, välj en spelare (inte dig själv): spelarens röst räknas negativt imorgon."
   },
 {
     "id": "butcher",
@@ -1942,6 +1962,7 @@
 {
     "id": "bonecollector",
     "name": "Återvändaren",
+    "wikiId": "Bone_Collector",
     "edition": "",
     "team": "traveler",
     "firstNight":1,
@@ -1951,7 +1972,7 @@
     "reminders": ["Vald", "Ingen förmåga"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "En gång under spelet på natten*, kan du välja en förvisad spelare som återfår sin förmåga fram till skymmningen."
+    "ability": "En gång under spelet, på natten*, välj en förvisad spelare: den återfår sin förmåga fram till skymmningen."
   },
 {
     "id": "deviant",
@@ -1979,7 +2000,7 @@
     "reminders": ["Frisk & Nykter"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Varje natt, fram till skymmning, 1) en spelare blir frisk och nykter och får sann info, eller 2) den kan använda sin förmåga 2 gånger. De får veta vad."
+    "ability": "Varje natt, fram till skymmningen, 1) en spelare blir frisk och nykter och får sann info, eller 2) den kan använda sin förmåga 2 gånger. De får veta vad."
   },
 {
     "id": "harlot",
@@ -1993,7 +2014,7 @@
     "reminders": ["Vald"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Varje natt* väljer du en spelare i rådet; om den går med på det får du veta dess karaktär, men ni båda kanske förvisas."
+    "ability": "Varje natt*, välj en spelare i rådet: om den går med på det får du veta dess karaktär, men ni båda kanske förvisas."
   },
 {
     "id": "apprentice",
@@ -2007,7 +2028,7 @@
     "reminders": ["Är Lärlingen"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Den första natten får du en Stadsbos förmåga om du är Lojal eller en Kumpans förmåga om du är Bedragare."
+    "ability": "Den första natten får du, en Stadsbos förmåga om du är Lojal, eller en Kumpans förmåga om du är Bedragare."
   },
 {
     "id": "bishop",
@@ -2035,7 +2056,7 @@
     "reminders": ["Ingen förmåga"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "En gång under spelet, när någon annan nominerat, får du bestämma om sepelaren blir avsatt eller inte."
+    "ability": "En gång under spelet, när någon annan nominerat, bestämm om sepelaren blir avsatt eller inte."
   },
 {
     "id": "matron",
@@ -2049,7 +2070,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Varje dag får du välja upp till tre par spelare som byter plats med varandra. Spelare får inte lämna sina platser för privata samtal."
+    "ability": "Varje dag får du välja upp till tre par spelare: de byter plats med varandra. Spelare får inte lämna sina platser för privata samtal."
   },
 {
     "id": "voudon",
@@ -2064,7 +2085,7 @@
     "remindersGlobal": [],
     "menueopt": ["deadvotes"],
     "setup": false,
-    "ability": "Endast du och de förvisade spelarna kan rösta. De behöver inte någon röstmarkör för att rösta. 50% majoritet är inget krav."
+    "ability": "Endast du och de förvisade spelarna kan rösta. De behöver inte någon röstmarkör. 50% majoritet är inget krav."
   },
 {
     "id": "cacklejack",
@@ -2092,7 +2113,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "En gång varje dag får du förvisa en granne i rådet om din andra granne i rådet går med på det."
+    "ability": "En gång varje dag får du förvisa en granne i rådet, om din andra granne i rådet går med på det."
   },
 {
     "id": "gnome",
