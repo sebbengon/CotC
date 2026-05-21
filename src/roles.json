@@ -1686,7 +1686,7 @@
     "remindersGlobal": ["Känd"],
     "menueopt": ["spying"],
     "setup": false,
-    "ability": "Första natten, titta i Klockrådets Kodex, välje en spelare: den är förgiftad. En Lojal spelare vet att Svarta Änkan är i spel."
+    "ability": "Första natten, titta i Klockrådets Kodex, välj en spelare: den är förgiftad. En Lojal spelare vet att Svarta Änkan är i spel."
   },
 {
     "id": "wizard",
