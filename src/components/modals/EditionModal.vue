@@ -35,7 +35,7 @@
       För att spela med custom karaktärer, läs
       <a href="https://github.com/bra1n/townsquare#custom-characters" target="_blank">the documentation</a>
       om hur man skriver en custom karaktärs definitionsfil.
-      <b>Only ladda endast upp JSON filer från tillförlitliga källor!</b>
+      <b>Ladda endast upp JSON filer från tillförlitliga källor!</b>
       <h3>Några populära manus:</h3>
       <ul class="scripts">
         <li v-for="(script, index) in scripts" :key="index" @click="handleURL(script[1])">
@@ -90,6 +90,10 @@ export default {
         [
           'Vigormortis High School (Teensyville)',
           'https://gist.githubusercontent.com/bra1n/1f65bd4a999524719d5dabe98c3c2d27/raw/22bbec6bf56a51a7459e5ae41ed47e41971c5445/VigormortisHighSchool.json',
+        ],
+        [
+          'Twisted Brewing',
+          'https://gist.githubusercontent.com/sebbengon/37a1b49d1172a6dafaeccd7f153095db/raw/ace2c25305b37b0f7ca81fbb3e6e49075dfd7d07/TwistedBrewing.json',
         ],
       ],
     }
